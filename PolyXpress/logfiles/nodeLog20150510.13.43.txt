@@ -1,0 +1,80 @@
+mhlog: [Sun May 10 2015 08:11:00 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun May 10 2015 08:11:01 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun May 10 2015 08:11:01 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun May 10 2015 08:11:01 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun May 10 2015 08:11:01 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m113.841 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m46.566 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m51.028 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m54.530 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:07 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m62.270 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m60.042 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m42.780 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m18.774 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:08 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m7.253 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m20.889 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [32m200 [0m25.912 ms - 48939[0m
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m16.609 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m14.664 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m14.566 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m18.980 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m18.468 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m5.347 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m10.569 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:09 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/user/self [32m200 [0m19.627 ms - 872[0m
+mhlog: [Sun May 10 2015 08:11:15 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/story/recent [36m304 [0m37.011 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:17 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:17 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:17 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Sun May 10 2015 08:11:17 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Sun May 10 2015 08:11:17 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+mhlog: [Sun May 10 2015 08:11:17 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m52.113 ms - -[0m
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m111.778 ms - 898[0m
+[0mGET /peAPI/story/recent [36m304 [0m55.339 ms - -[0m
+mhlog: [Sun May 10 2015 08:11:23 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:23 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"completed","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+[0mPOST /peAPI/feed [32m200 [0m39.432 ms - 171[0m
+mhlog: [Sun May 10 2015 08:11:23 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+mhlog: [Sun May 10 2015 08:11:24 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:24 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun May 10 2015 08:11:24 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+[0mPOST /peAPI/feed [32m200 [0m60.913 ms - 173[0m
+mhlog: [Sun May 10 2015 08:11:24 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+mhlog: [Sun May 10 2015 08:11:24 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m66.989 ms - 872[0m

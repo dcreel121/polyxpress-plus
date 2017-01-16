@@ -1,0 +1,545 @@
+/**
+ * @module peDS
+ *
+ * @requires peDM
+ * @requires mhLog
+ *
+ * @description  Handles all communication with PolyXpress Server.  This is
+ * the controller for the remote data Model, but serves as the "remote" data
+ * model for the client web app.  Clear as mud?
+ *
+ * @summary Communicates with server for peDesigner.
+ *
+ * @copyright Michael Haungs, 2012
+ * @license MIT
+ *
+ * @author Michael Haungs
+ */
+
+// Begin Module Header
+(function(container) {
+// End Module Header
+
+    /** @alias module:peDS */
+    var peDS = {};  // Exported Container and test container
+    peDS.test = {};
+
+    // Assigning exports like this allows dependency injection (aka var sample = require("./sample.js")(app);)
+    container.exports = function(testpeDM, config) {
+
+        /*
+         * Configuration
+         */
+        "use strict";  // EMCAScript 5 pragma to catch more javascript errors
+        var mhLog = config.mhLog;
+
+        /*
+         * Imports
+         */
+        var peDM = testpeDM ? testpeDM : require("./peDesignerModel")(config);
+
+        // Store author data here upon retrieval.  This prevents a circular link in inject and
+        // probably is cleaner code?
+        var authorData;
+
+        /*
+         ************ Public methods *************
+         */
+
+        /**
+         * Check to see if the user has already been authorized (logged in)
+         * @param {function} setCheckAuthCallback
+         * @returns {undefined}
+         */
+        peDS.checkAuth = function(setCheckAuthCallback) {
+            mhLog.log(mhLog.LEVEL.DEBUG, "Inside checkAuth");
+
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                if (request.status === 200) {
+                    var authData = JSON.parse(request.responseText);
+
+                    mhLog.log(mhLog.LEVEL.DEBUG, "checkAuth: " + JSON.stringify(authData));
+                    setCheckAuthCallback(authData);
+                    return;
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Checking user authorization failed with error code: " + request.status);
+                }
+            };
+
+            request.open("GET", "/peAPI/user/checkAuth");
+            request.send(null);
+        };
+
+        /**
+         * Sends a new story to server for addition to the database.
+         * @param {Story} storyData
+         * @param {Author} authorData
+         * @param {function} storyDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitNewStory = function(storyData, authorData, storyDisplayCallback) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var story = JSON.parse(request.responseText);
+                        peDM.storyMap.push(story);
+                        // Update locally, not needed on server
+                        // because story updates automatically remove story
+                        // from all previous authors and adds story to all
+                        // new authors....this is a waste of cycles when
+                        // there were no author changes.
+                        authorData.authorList.push(story._id);
+                        storyDisplayCallback(story._id);  /* added id for testing */
+                    }
+                    else {
+                        displayError("Failed to create story");
+                    }
+                }
+            };
+
+            request.open("POST", "/peAPI/story");
+            request.setRequestHeader("Content-Type", "application/json");
+
+            request.send(JSON.stringify(storyData));
+        };
+
+        /**
+         * Sends a new chapter to server for addition to the database.
+         * @param {Chapter} chapterData
+         * @param {function} chapterDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitNewChapter = function(chapterData, chapterDisplayCallback) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var chapter = JSON.parse(request.responseText);
+                        peDM.chapterMap.push(chapter);
+                        chapterDisplayCallback(chapter._id);  /* added id for testing */
+                    }
+                    else {
+                        //displayCreateStoryError();
+                    }
+                }
+            };
+
+            request.open("POST", "/peAPI/chapter");
+            request.setRequestHeader("Content-Type", "application/json");
+
+            request.send(JSON.stringify(chapterData));
+        };
+
+        /**
+         * Sends a new event to server for addition to the database.
+         * @param {Event} eventData
+         * @param {function} eventDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitNewEvent = function(eventData, eventDisplayCallback) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var event = JSON.parse(request.responseText);
+                        peDM.eventMap.push(event);
+                        eventDisplayCallback(event._id);  /* added id for testing */
+                    }
+                    else {
+                        //displayCreateStoryError();
+                    }
+                }
+            };
+
+            request.open("POST", "/peAPI/event");
+            request.setRequestHeader("Content-Type", "application/json");
+
+            request.send(JSON.stringify(eventData));
+        };
+
+        /**
+         * Sends a story to server for updating in the database.
+         * @param {String} storyID
+         * @param {Story} storyData
+         * @param {function} storyDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitUpdateStory = function(storyID, storyData, storyDisplayCallback) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var story = JSON.parse(request.responseText);
+                        peDM.updateStory(story);
+                        storyDisplayCallback();
+                    }
+                    else {
+                        //displayUpdateError(request.responseText);
+                    }
+                }
+            };
+
+            request.open("PUT", "/peAPI/story/" + storyID);
+            request.setRequestHeader("Content-Type", "application/json");
+
+            request.send(JSON.stringify(storyData));
+        };
+
+        /**
+         * Sends a chapter to server for updating in the database.
+         * @param {String} chapterID
+         * @param {Chapter} chapterData
+         * @param {function} chapterDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitUpdateChapter = function(chapterID, chapterData, chapterDisplayCallback) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var chapter = JSON.parse(request.responseText);
+                        peDM.updateChapter(chapter);
+                        chapterDisplayCallback();
+                    }
+                    else {
+                        //displayUpdateError(request.responseText);
+                    }
+                }
+            };
+
+            request.open("PUT", "/peAPI/chapter/" + chapterID);
+            request.setRequestHeader("Content-Type", "application/json");
+
+            request.send(JSON.stringify(chapterData));
+        };
+
+        /**
+         * Sends an event to server for updating in the database.
+         * @param {String} eventID
+         * @param {Event} eventData
+         * @param {function} eventDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitUpdateEvent = function(eventID, eventData, eventDisplayCallback) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var event = JSON.parse(request.responseText);
+                        peDM.updateEvent(event);
+                        eventDisplayCallback();
+                    }
+                    else {
+                        //displayUpdateError(request.responseText);
+                    }
+                }
+            };
+
+            request.open("PUT", "/peAPI/event/" + eventID);
+            request.setRequestHeader("Content-Type", "application/json");
+
+            request.send(JSON.stringify(eventData));
+        };
+
+        /**
+         * Sends the id of a story that needs to be removed from the database.
+         * @param {String} storyID
+         * @param {Author Object} authorData
+         * @param {function} storyDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitDeleteStory = function(storyID, authorData, storyDisplayCallback) {
+            var request = new XMLHttpRequest();
+
+            request.onload = function() {
+                var storyID;
+                if (request.status === 200) {
+                    storyID = JSON.parse(request.responseText);
+                    peDM.deleteStory(storyID._id);  // Delete story from local cache
+                    // update author information locally
+                    // don't need to update on server because story deletes
+                    // remove story from entire DB.
+                    authorData.authorList.splice(authorData.authorList.indexOf(storyID), 1);
+                    storyDisplayCallback();
+                }
+                else {
+                    //displayDeleteByError();
+                }
+            };
+
+            request.open("DELETE", "/peAPI/story/" + storyID);
+            request.send(null);
+        };
+
+        /**
+         * Sends the id of a chapter that needs to be removed from the database.
+         * @param {String} chapterID
+         * @param {function} chapterDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitDeleteChapter = function(chapterID, chapterDisplayCallback) {
+            var request = new XMLHttpRequest();
+
+            request.onload = function() {
+                var chapterID;
+                if (request.status === 200) {
+                    chapterID = JSON.parse(request.responseText);
+                    peDM.deleteChapter(chapterID._id);
+                    chapterDisplayCallback();
+                }
+                else {
+                    //displayDeleteByError();
+                }
+            };
+
+            request.open("DELETE", "/peAPI/chapter/" + chapterID);
+            request.send(null);
+        };
+
+        /**
+         * Sends the id of an event that needs to be removed from the database.
+         * @param {String} eventID
+         * @param {function} eventDisplayCallback
+         * @returns {undefined}
+         */
+        peDS.submitDeleteEvent = function(eventID, eventDisplayCallback) {
+            var request = new XMLHttpRequest();
+
+            request.onload = function() {
+                var eventID;
+                if (request.status === 200) {
+                    eventID = JSON.parse(request.responseText);
+                    peDM.deleteEvent(eventID._id);
+                    eventDisplayCallback();
+                }
+                else {
+                    //displayDeleteByError();
+                }
+            };
+
+            request.open("DELETE", "/peAPI/event/" + eventID);
+            request.send(null);
+        };
+
+        /**
+         * Look up author in DB by Name or facebook username
+         * @param {String} authorSearchText
+         * @param {Function} setAuthorSearchCallback
+         * @returns {undefined}
+         */
+        peDS.authorSearch = function(authorSearchText, setAuthorSearchCallback) {
+            if (authorSearchText) {
+                getAuthorByName(authorSearchText, setAuthorSearchCallback);
+            }
+        };
+
+        /**
+         * updateAuthor:  Updates author information (author list in DB)
+         * @param {Object} author
+         */
+        peDS.updateAuthor = function(author) {
+            updateAuthorInformation(author);
+        };
+
+        /**
+         * Retrieves all data (user, stories, chapters, and events)
+         * associated with logged in user.
+         * @param {function} setAuthorCallback : display author information on main menu
+         * @returns {undefined}
+         */
+        peDS.getAuthorData = function(setAuthorCallback) {
+            mhLog.log(mhLog.LEVEL.DEBUG, "Inside server getAuthorData");
+            getAuthorInformation(setAuthorCallback,
+                    getAllStories.bind(undefined,
+                            getAllChapters.bind(undefined,
+                                    getAllEvents.bind(undefined,
+                                            function() {
+                                                mhLog.log(mhLog.LEVEL.DEBUG, "Events all done");
+                                            }))));
+        };
+
+        /*
+         ************ Private methods *************
+         */
+
+        function getAuthorByName(authorSearchText, setAuthorSearchCallback) {
+            console.log("getAuthorByName.");
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                var authors;
+                console.log("getAuthorByname..onload.");
+                if (request.status === 200) {
+                    if (request.responseText) {
+                        // request.responseText could be null if not found
+                        authors = JSON.parse(request.responseText);
+                        if (authors) {
+                            setAuthorSearchCallback(authors);
+                            //mhLog.log(mhLog.LEVEL.DEBUG, request.responseText);
+                        }
+                    } else {
+                        alert("Author does not exist.  Try again.");
+                    }
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Error searching for author.");
+                    alert("Error occurred trying to find author.");
+                }
+            };
+            //FIXME:  What if authorSearchText has spaces or special characters?
+            request.open("GET", "/peAPI/author/search/" + authorSearchText);
+            request.send(null);
+        }
+
+        function updateAuthorInformation(author) {
+            var request = new XMLHttpRequest();
+            request.onreadystatechange = function() {
+                if (request.readyState === 4) {
+                    if (request.status === 200) {
+                        var user = JSON.parse(request.responseText);
+                        mhLog.log(mhLog.LEVEL.DEBUG, "Successful Author Update." + user);
+                    }
+                    else {
+                        mhLog.log(mhLog.LEVEL.PRODUCTION, "Error:  Author Update failed");
+                    }
+                }
+            };
+            request.open("PUT", "/peAPI/user/" + author._id);
+            request.setRequestHeader("Content-Type", "application/json");
+            request.send(JSON.stringify(author));
+        }
+
+        /**
+         * Retrieves logged in user's account data
+         * @param {function} setAuthorCallback : display author information on main menu
+         * @param {function} next : next callback function to invoke
+         * @returns {undefined}
+         */
+        function getAuthorInformation(setAuthorCallback, next) {
+            mhLog.log(mhLog.LEVEL.DEBUG, "Inside getAuthorInformation");
+
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                if (request.status === 200) {
+                    authorData = JSON.parse(request.responseText);
+                    mhLog.log(mhLog.LEVEL.DEBUG, "getAuthorInformation: " + request.responseText);
+                    setAuthorCallback(authorData);
+                    next();
+                    return;
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Getting author data failed with error code: " + request.status);
+                }
+            };
+
+            request.open("GET", "/peAPI/user/self");
+            request.send(null);
+        }
+
+        /**
+         * Retrieve all stories from database
+         * @param {function} next
+         */
+        function getAllStories(next) {
+            mhLog.log(mhLog.LEVEL.DEBUG, "Inside getAllStories");
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                var stories;
+                if (request.status === 200) {
+                    stories = JSON.parse(request.responseText);
+                    peDM.populateStoryMap(stories);
+                    next();
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Error retrieving user stories.");
+                }
+            };
+
+            request.open("GET", "/peAPI/story/id/" + authorData._id);
+            request.send(null);
+
+        }
+
+        /**
+         * Retrieve all chapters from the database.
+         * @param {function} next
+         */
+        function getAllChapters(next) {
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                var chapters;
+                if (request.status === 200) {
+                    chapters = JSON.parse(request.responseText);
+                    peDM.populateChapterMap(chapters);
+                    next();
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Error retrieving user chapters.");
+                }
+            };
+
+            request.open("GET", "/peAPI/chapter/id/" + authorData._id);
+            request.send(null);
+
+        }
+
+        /**
+         * Retrieve all events from database.
+         * @param {function} next
+         */
+        function getAllEvents(next) {
+            var request = new XMLHttpRequest();
+            request.onload = function() {
+                var events;
+                if (request.status === 200) {
+                    events = JSON.parse(request.responseText);
+                    peDM.populateEventMap(events);
+                    next();
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Error retrieving user events.");
+                }
+            };
+
+            request.open("GET", "/peAPI/event/id/" + authorData._id);
+            request.send(null);
+
+        }
+
+        /**
+         * Display an error message using "alert()".
+         * @param {String} msg
+         */
+        function displayError(msg) {
+            alert("Error:\n" + msg);
+        }
+
+        // Export to other modules
+        return peDS;
+    };
+// Begin Module Footer
+})(getGlobalContainer());
+// End Module Footer
+
+/*
+ * If this is in a browser, then need to create/use a global variable
+ * to hold module exports.  If this is in Node, use module.exports.
+ * @returns {Object}
+ */
+function getGlobalContainer() {
+    var container;
+    if (typeof module !== 'undefined') {
+        // We are using commmonJS (probably in Node or using inject.js)
+        container = module;
+    } else {
+        if (typeof window !== 'undefined') {
+            // In a browser, use a global variable
+            window.exports = window.exports || {};
+            container = window;
+        }
+    }
+
+    return container;
+}

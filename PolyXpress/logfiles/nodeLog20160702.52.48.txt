@@ -1,0 +1,97 @@
+mhlog: [Sat Jul 02 2016 22:38:30 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sat Jul 02 2016 22:38:30 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sat Jul 02 2016 22:38:30 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sat Jul 02 2016 22:38:30 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sat Jul 02 2016 22:38:31 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sat Jul 02 2016 22:38:49 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/story/recent [36m304 [0m150.545 ms - -[0m
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m197.973 ms - 809[0m
+Error: null
+Story: { title: 'Cayucos',
+  overview: 'This is a story of a girl, who cried a river to drown the whole world.... actually she just cried a lot while trying to finish her thesis. Heh. But she\'ll finish it regardless of the tears!&nbsp;',
+  image: 'https://a2.muscache.com/im/pictures/70607714/22fb48eb_original.jpg?aki_policy=x_large',
+  proximity: { lat: '35.449570', lng: '-120.900373', range: '100' },
+  _id: 577204b0323812c3195a9cd1,
+  __v: 0,
+  lock: false,
+  modified: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  created: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  chapterList: [ 5772031d323812c3195a9cd0 ],
+  keywords: [ 'cayucos' ],
+  test: false,
+  publish: true,
+  authors: [ 57720161323812c3195a9ccd ] }
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 found
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 published
+[0mGET /peAPI/story/577204b0323812c3195a9cd1 [36m304 [0m79.598 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m88.825 ms - -[0m
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Chapter 5772031d323812c3195a9cd0 found
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Session ["5772031d323812c3195a9cd0"]
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Marking chapter 5772031d323812c3195a9cd0 completed
+[0mGET /peAPI/chapter/5772031d323812c3195a9cd0 [36m304 [0m55.066 ms - -[0m
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Chapter 5772031d323812c3195a9cd0 found
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Session ["5772031d323812c3195a9cd0"]
+mhlog: [Sat Jul 02 2016 22:38:52 GMT-0700 (PDT)] Message: Marking chapter 5772031d323812c3195a9cd0 completed
+[0mGET /peAPI/chapter/5772031d323812c3195a9cd0 [36m304 [0m17.656 ms - -[0m
+mhlog: [Sat Jul 02 2016 22:38:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:55 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc","created":"2016-06-28T17:15:38.588Z"}]
+[0mPOST /peAPI/feed [32m200 [0m34.453 ms - 267[0m
+mhlog: [Sat Jul 02 2016 22:38:55 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 22:38:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:57 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m87.250 ms - 783[0m
+mhlog: [Sat Jul 02 2016 22:38:57 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:38:57 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"started","city":"San Luis Obispo County, US","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc","created":"2016-06-28T17:15:38.588Z"}]
+[0mPOST /peAPI/feed [32m200 [0m21.456 ms - 269[0m
+mhlog: [Sat Jul 02 2016 22:38:57 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 22:38:59 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/comments/chapter/5772031d323812c3195a9cd0 [32m200 [0m156.245 ms - 3087[0m
+mhlog: [Sat Jul 02 2016 22:39:05 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:39:05 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698,1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 22:39:05 GMT-0700 (PDT)] Message: found 2 for 6 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698,1741666656121556,1724989191122837,1741774559445698 [36m304 [0m50.738 ms - -[0m
+mhlog: [Sat Jul 02 2016 22:39:12 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:39:12 GMT-0700 (PDT)] Message: Message 5778a500daeb45cd4a10b6e3 for event 5772020e323812c3195a9cce created.
+[0mPOST /peAPI/message [32m200 [0m57.444 ms - 209[0m
+mhlog: [Sat Jul 02 2016 22:39:12 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 22:39:12 GMT-0700 (PDT)] Message: recieved these ids as params: 57720042323812c3195a9ccc,5772020e323812c3195a9cce
+TypeError: Object #<Promise> has no method 'limit'
+    at /Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:196:12
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:267:22
+    at param (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:340:14)
+    at param (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:400:3)
+    at next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:261:10)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:78:12)
+    at trim_prefix (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:302:13)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:270:7
+    at Function.proto.process_params (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:321:12)
+    at next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:261:10)
+    at SendStream.error (/Users/dcreel121/Thesis3/PolyXpress/node_modules/serve-static/index.js:107:7)
+[0mGET /peAPI/message/conversations/57720042323812c3195a9ccc,5772020e323812c3195a9cce [31m500 [0m20.742 ms - 1951[0m
+mhlog: [Sat Jul 02 2016 22:39:12 GMT-0700 (PDT)] Message: found 5 messages.
+
+http.js:690
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:690:11)
+    at ServerResponse.header (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/response.js:695:10)
+    at ServerResponse.send (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/response.js:146:12)
+    at ServerResponse.json (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/response.js:235:15)
+    at ServerResponse.send (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/response.js:134:21)
+    at /Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:191:28
+    at Query.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/query.js:2181:28)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/kareem/index.js:259:21
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/kareem/index.js:127:16
+    at process._tickCallback (node.js:442:13)

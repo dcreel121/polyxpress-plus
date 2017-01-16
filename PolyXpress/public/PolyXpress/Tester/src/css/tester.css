@@ -1,0 +1,33 @@
+/* 
+    Document   : tester
+    Created on : Jun 12, 2013, 4:44:16 PM
+    Author     : mhaungs
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.sidebar-nav {
+    padding: 9px 0;
+}
+video, img, canvas {
+    border-style: solid;
+    border-width: thin;
+}
+video {
+    display: none;
+}
+#screenshot, .videostream {
+    width: 307px;
+    height: 250px;
+}
+#screenshot {
+    vertical-align: top;
+}

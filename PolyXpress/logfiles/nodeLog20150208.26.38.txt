@@ -1,0 +1,42 @@
+mhlog: [Sun Feb 08 2015 17:25:44 GMT-0800 (PST)] Message: Running locally
+mhlog: [Sun Feb 08 2015 17:25:44 GMT-0800 (PST)] Message: fbAppId = 429736030454648
+mhlog: [Sun Feb 08 2015 17:25:44 GMT-0800 (PST)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Feb 08 2015 17:25:44 GMT-0800 (PST)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Feb 08 2015 17:25:44 GMT-0800 (PST)] Message: Running on port: 3500
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m49.542 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m25.995 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m26.305 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m29.013 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m34.456 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m36.422 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m35.997 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:00 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m18.506 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m8.026 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m7.998 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m12.338 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m13.305 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m13.370 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m10.716 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m9.895 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m5.194 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m9.829 ms - -[0m
+mhlog: [Sun Feb 08 2015 17:26:01 GMT-0800 (PST)] Message: Inside deserialize: 54a9985f90aa9a2e14aa7ce8
+[0mGET /peAPI/user/self [36m304 [0m8.275 ms - -[0m

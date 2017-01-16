@@ -1,0 +1,19 @@
+mhlog: [Thu Jun 30 2016 13:38:33 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Thu Jun 30 2016 13:38:34 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Thu Jun 30 2016 13:38:34 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Thu Jun 30 2016 13:38:34 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+
+/Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:162
+        return models.UserModel.find({facebook.id: {$in: fb_ids}}, function (e
+                                              ^
+SyntaxError: Unexpected token .
+    at Module._compile (module.js:439:25)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/app.js:49:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)

@@ -1,0 +1,66 @@
+mhlog: [Tue Jul 05 2016 20:59:46 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Tue Jul 05 2016 20:59:47 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Tue Jul 05 2016 20:59:47 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Tue Jul 05 2016 20:59:47 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Tue Jul 05 2016 20:59:47 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m52.229 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:52 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m68.220 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m179.284 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m180.399 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m188.396 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m198.549 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:53 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m203.655 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m23.417 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:53 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m9.677 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m17.109 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m19.183 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m36.352 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m38.270 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m40.591 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m43.516 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m12.828 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m12.060 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m21.515 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m10.153 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:54 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /peAPI/user/self [36m304 [0m18.750 ms - -[0m
+mhlog: [Tue Jul 05 2016 20:59:57 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 20:59:57 GMT-0700 (PDT)] Message: getting unread messages for user 5774326d5e13e87c2f8c6afa
+[0mGET /peAPI/message/for/5774326d5e13e87c2f8c6afa [31m500 [0m23.643 ms - 1924[0m
+ReferenceError: userId is not defined
+    at /Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:227:64
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/route.js:110:13)
+    at Route.dispatch (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/route.js:91:3)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:267:22
+    at param (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:340:14)
+    at param (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:356:14)
+    at Function.proto.process_params (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:400:3)
+    at next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:261:10)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:78:12)
+    at trim_prefix (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:302:13)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:270:7
+    at Function.proto.process_params (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:321:12)
+    at next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:261:10)
+    at SendStream.error (/Users/dcreel121/Thesis3/PolyXpress/node_modules/serve-static/index.js:107:7)

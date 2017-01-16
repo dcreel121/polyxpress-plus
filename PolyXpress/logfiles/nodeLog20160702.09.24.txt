@@ -1,0 +1,5 @@
+mhlog: [Sat Jul 02 2016 18:05:28 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sat Jul 02 2016 18:05:28 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sat Jul 02 2016 18:05:28 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sat Jul 02 2016 18:05:28 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sat Jul 02 2016 18:05:29 GMT-0700 (PDT)] Message: Running on port: 3500

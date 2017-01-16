@@ -1,0 +1,50 @@
+mhlog: [Tue Jul 05 2016 21:03:43 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Tue Jul 05 2016 21:03:44 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Tue Jul 05 2016 21:03:44 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Tue Jul 05 2016 21:03:44 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Tue Jul 05 2016 21:03:44 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m46.885 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m74.396 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m104.378 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m115.260 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:49 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m128.762 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m135.625 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m142.248 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m41.967 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m13.387 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m17.931 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m22.864 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m39.743 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m46.616 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m46.601 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m49.576 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m12.680 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m15.998 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:50 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m17.112 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:51 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:51 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m10.364 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:51 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+[0mGET /peAPI/user/self [36m304 [0m26.861 ms - -[0m
+mhlog: [Tue Jul 05 2016 21:03:53 GMT-0700 (PDT)] Message: Inside deserialize: 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:53 GMT-0700 (PDT)] Message: getting unread messages for user 5774326d5e13e87c2f8c6afa
+mhlog: [Tue Jul 05 2016 21:03:53 GMT-0700 (PDT)] Message: found 9 messages.
+[0mGET /peAPI/message/for/5774326d5e13e87c2f8c6afa [32m200 [0m123.735 ms - 13182[0m

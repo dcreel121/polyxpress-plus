@@ -1,0 +1,79 @@
+mhlog: [Thu May 21 2015 21:17:09 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Thu May 21 2015 21:17:09 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Thu May 21 2015 21:17:09 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Thu May 21 2015 21:17:09 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Thu May 21 2015 21:17:09 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m86.183 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m48.989 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m29.894 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m51.891 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m50.839 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:23 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m70.983 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m76.854 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m31.237 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m6.591 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m12.913 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m12.544 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m13.000 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m13.778 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m11.995 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m9.118 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m8.710 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.734 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m11.162 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:24 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /peAPI/user/self [36m304 [0m12.851 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:25 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Thu May 21 2015 21:17:25 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Thu May 21 2015 21:17:25 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m51.500 ms - -[0m
+mhlog: [Thu May 21 2015 21:17:27 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Thu May 21 2015 21:17:27 GMT-0700 (PDT)] Message: Finding feeds wtih user 100006983192490
+
+/Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:66
+                }).limit(50);
+                   ^
+TypeError: Object #<Promise> has no method 'limit'
+    at Promise.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:66:20)
+    at Promise.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mpromise/lib/promise.js:177:8)
+    at Promise.emit (events.js:95:17)
+    at Promise.emit (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mpromise/lib/promise.js:84:38)
+    at Promise.fulfill (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mpromise/lib/promise.js:97:20)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/query.js:1400:13
+    at model.Document.init (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/document.js:250:11)
+    at completeOne (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/query.js:1398:10)
+    at Object.cb (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/query.js:1155:11)
+    at Object._onImmediate (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mquery/lib/utils.js:137:16)

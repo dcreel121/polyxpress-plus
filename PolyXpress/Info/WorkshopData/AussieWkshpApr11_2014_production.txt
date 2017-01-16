@@ -1,0 +1,280 @@
+Getting files for app [1;36mpx[0m in org [1;36mmhaungs-org[0m / space [1;36mproduction[0m as [1;36mmhaungs@calpoly.edu[0m...
+[1;32mOK[0m
+
+mhlog: Message: Running in cloud.
+mhlog: Message: mongourl = mongodb://CloudFoundry_593m7tmv_1qj3ps5g_n1e1d8fp:WGRdYXQMgOgWtFIwSm_Ep5pRegNsNQCB@ds061288.mongolab.com:61288/CloudFoundry_593m7tmv_1qj3ps5g
+mhlog: Message: mongodb = peDevDB
+mhlog: Message: Space = production
+mhlog: Message: Production
+mhlog: Message: author = 52c70d7cc88e661f00000002
+mhlog: Message: stories = { __v: 1,
+  _id: 533360be7dae3f1f00000004,
+  image: '',
+  music: '',
+  overview: 'Delete remove',
+  title: 'Test Story',
+  version: 'DelMe',
+  modified: Tue Apr 01 2014 06:15:17 GMT+0000 (UTC),
+  created: Wed Mar 26 2014 23:20:30 GMT+0000 (UTC),
+  chapterList: [ 533a58fcfab0961f00000007 ],
+  keywords: [ 'delme' ],
+  test: false,
+  publish: true,
+  authors: [ 52c70d7cc88e661f00000002 ] },{ title: 'sdsdsdsds',
+  version: 'sdsdsdsd',
+  overview: 'sdsdsds',
+  image: '',
+  music: '',
+  _id: 5346c6a3b7a49d1f00000002,
+  __v: 0,
+  modified: Thu Apr 10 2014 16:28:19 GMT+0000 (UTC),
+  created: Thu Apr 10 2014 16:28:19 GMT+0000 (UTC),
+  chapterList: [ 533a58fcfab0961f00000007 ],
+  keywords: [ 'sdsdsds' ],
+  test: true,
+  publish: false,
+  authors: [ 52c70d7cc88e661f00000002 ] }
+Error: null
+Story: { __v: 0,
+  _id: 5338a4c58aeb881f00000005,
+  image: '',
+  music: '',
+  overview: 'How to trek to find indigenous treasures ',
+  title: 'Trekking in the Jungles of South America',
+  version: '1',
+  modified: Sun Mar 30 2014 23:53:15 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 23:12:05 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 5338a3ae2a0d781f00000008 ] }
+mhlog: Message: Story 5338a4c58aeb881f00000005 found
+mhlog: Message: Story 5338a4c58aeb881f00000005 published
+mhlog: Message: Chapter 533a58fcfab0961f00000007 found
+mhlog: Message: Logging out:  Cookies:{"connect.sid":"s:idGEfrX8i7yUj7tKhFw4upZ3.kDn1/wXNfa9AA/rx8xEn83NtG1Cz3PGdZzIh7bIer18","peLoginRedirect":"/PolyXpress/Author/peDesignerMain.html#mainMenu","peLogoutRedirect":"/PolyXpress/Author/peDesignerMain.html"}
+mhlog: Message: Facebook User Data:  {"id":"574989025","education":[{"concentration":[{"id":"107786229244841","name":"Animation"}],"school":{"id":"264080691484","name":"QUT Creative Industries"},"type":"College","year":{"id":"105576766163075","name":"2015"}}],"email":"hza520@msn.com","first_name":"Sho","gender":"male","hometown":{"id":"110765362279102","name":"Taipei, Taiwan"},"last_name":"Chang","link":"https://www.facebook.com/sho.chang.1","location":{"id":"102146663160831","name":"Brisbane, Queensland, Australia"},"locale":"zh_TW","name":"Sho Chang","timezone":10,"updated_time":"2014-04-09T12:28:15+0000","username":"sho.chang.1","verified":true,"work":[{"employer":{"id":"571980412820272","name":"BEST Fashion Brisbane"},"location":{"id":"102146663160831","name":"Brisbane, Queensland, Australia"},"position":{"id":"115749788475372","name":"Area Sales Manager"},"start_date":"0000-00"}]}
+mhlog: Message: oauth2: peLoginRedirect: /PolyXpress/Author/peDesignerMain.html#mainMenu
+mhlog: Message: oauth2: cookies: {"connect.sid":"s:idGEfrX8i7yUj7tKhFw4upZ3.kDn1/wXNfa9AA/rx8xEn83NtG1Cz3PGdZzIh7bIer18","peLoginRedirect":"/PolyXpress/Author/peDesignerMain.html#mainMenu","peLogoutRedirect":"/PolyXpress/Author/peDesignerMain.html"}
+mhlog: Message: Facebook Existing User Data:  {"id":"574989025","education":[{"concentration":[{"id":"107786229244841","name":"Animation"}],"school":{"id":"264080691484","name":"QUT Creative Industries"},"type":"College","year":{"id":"105576766163075","name":"2015"}}],"email":"hza520@msn.com","first_name":"Sho","gender":"male","hometown":{"id":"110765362279102","name":"Taipei, Taiwan"},"last_name":"Chang","link":"https://www.facebook.com/sho.chang.1","location":{"id":"102146663160831","name":"Brisbane, Queensland, Australia"},"locale":"zh_TW","name":"Sho Chang","timezone":10,"updated_time":"2014-04-09T12:28:15+0000","username":"sho.chang.1","verified":true,"work":[{"employer":{"id":"571980412820272","name":"BEST Fashion Brisbane"},"location":{"id":"102146663160831","name":"Brisbane, Queensland, Australia"},"position":{"id":"115749788475372","name":"Area Sales Manager"},"start_date":"0000-00"}]}
+mhlog: Message: User already exists
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+Error: null
+Story: { __v: 1,
+  _id: 533360be7dae3f1f00000004,
+  image: '',
+  music: '',
+  overview: 'Delete remove',
+  title: 'Test Story',
+  version: 'DelMe',
+  modified: Tue Apr 01 2014 06:15:17 GMT+0000 (UTC),
+  created: Wed Mar 26 2014 23:20:30 GMT+0000 (UTC),
+  chapterList: [ 533a58fcfab0961f00000007 ],
+  keywords: [ 'delme' ],
+  test: false,
+  publish: true,
+  authors: [ 52c70d7cc88e661f00000002 ] }
+mhlog: Message: Story 533360be7dae3f1f00000004 found
+mhlog: Message: Story 533360be7dae3f1f00000004 published
+mhlog: Message: Event 533a5969fab0961f00000008 found
+Error: null
+Story: { __v: 0,
+  _id: 533890e28aeb881f00000004,
+  image: 'http://en.m.wikipedia.org/wiki/File:QRPassenger_Suburban_Multiple_Unit_265.JPG',
+  music: '',
+  overview: '',
+  title: 'Beenleigh Train Line ',
+  version: '',
+  modified: Mon Apr 07 2014 00:15:04 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 21:47:14 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 53388acf2a0d781f00000004 ] }
+mhlog: Message: Story 533890e28aeb881f00000004 found
+mhlog: Message: Story 533890e28aeb881f00000004 published
+mhlog: Message: Chapter 533a58fcfab0961f00000007 found
+mhlog: Message: Event 533a5969fab0961f00000008 found
+mhlog: Message: Event 533a5969fab0961f00000008 found
+mhlog: Message: Event 533a5969fab0961f00000008 found
+Error: null
+Story: { __v: 1,
+  _id: 533360be7dae3f1f00000004,
+  image: '',
+  music: '',
+  overview: 'Delete remove',
+  title: 'Test Story',
+  version: 'DelMe',
+  modified: Tue Apr 01 2014 06:15:17 GMT+0000 (UTC),
+  created: Wed Mar 26 2014 23:20:30 GMT+0000 (UTC),
+  chapterList: [ 533a58fcfab0961f00000007 ],
+  keywords: [ 'delme' ],
+  test: false,
+  publish: true,
+  authors: [ 52c70d7cc88e661f00000002 ] }
+mhlog: Message: Story 533360be7dae3f1f00000004 found
+mhlog: Message: Story 533360be7dae3f1f00000004 published
+Error: null
+Story: { __v: 0,
+  _id: 5338a4c58aeb881f00000005,
+  image: '',
+  music: '',
+  overview: 'How to trek to find indigenous treasures ',
+  title: 'Trekking in the Jungles of South America',
+  version: '1',
+  modified: Sun Mar 30 2014 23:53:15 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 23:12:05 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 5338a3ae2a0d781f00000008 ] }
+mhlog: Message: Story 5338a4c58aeb881f00000005 found
+mhlog: Message: Story 5338a4c58aeb881f00000005 published
+mhlog: Message: Event 533a5969fab0961f00000008 found
+Error: null
+Story: { __v: 1,
+  _id: 5341e4ec82b8131f00000007,
+  image: '',
+  music: '',
+  overview: 'A QUT student wakes up in a dumpster with no memory realising something horrific happened to her. Help the girl in the yellow dress and assist the police in solving the crime ',
+  title: 'Girl In The Yellow Dress',
+  version: '1',
+  modified: Sun Apr 06 2014 23:41:35 GMT+0000 (UTC),
+  created: Sun Apr 06 2014 23:36:12 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [ 'Yellow', '', 'dress', '', 'girl' ],
+  test: false,
+  publish: true,
+  authors: [ 5338260e2a0d781f00000002 ] }
+mhlog: Message: Story 5341e4ec82b8131f00000007 found
+mhlog: Message: Story 5341e4ec82b8131f00000007 published
+Error: null
+Story: { __v: 1,
+  _id: 533360be7dae3f1f00000004,
+  image: '',
+  music: '',
+  overview: 'Delete remove',
+  title: 'Test Story',
+  version: 'DelMe',
+  modified: Tue Apr 01 2014 06:15:17 GMT+0000 (UTC),
+  created: Wed Mar 26 2014 23:20:30 GMT+0000 (UTC),
+  chapterList: [ 533a58fcfab0961f00000007 ],
+  keywords: [ 'delme' ],
+  test: false,
+  publish: true,
+  authors: [ 52c70d7cc88e661f00000002 ] }
+mhlog: Message: Story 533360be7dae3f1f00000004 found
+mhlog: Message: Story 533360be7dae3f1f00000004 published
+mhlog: Message: User 5338ab872a0d781f0000000a updated
+mhlog: Message: User 5338ab872a0d781f0000000a updated
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+mhlog: Message: author = 5338ab872a0d781f0000000a
+mhlog: Message: stories = 
+Error: null
+Story: { __v: 0,
+  _id: 533890e28aeb881f00000004,
+  image: 'http://en.m.wikipedia.org/wiki/File:QRPassenger_Suburban_Multiple_Unit_265.JPG',
+  music: '',
+  overview: '',
+  title: 'Beenleigh Train Line ',
+  version: '',
+  modified: Mon Apr 07 2014 00:15:04 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 21:47:14 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 53388acf2a0d781f00000004 ] }
+mhlog: Message: Story 533890e28aeb881f00000004 found
+mhlog: Message: Story 533890e28aeb881f00000004 published
+Error: null
+Story: { __v: 0,
+  _id: 5338a4c58aeb881f00000005,
+  image: '',
+  music: '',
+  overview: 'How to trek to find indigenous treasures ',
+  title: 'Trekking in the Jungles of South America',
+  version: '1',
+  modified: Sun Mar 30 2014 23:53:15 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 23:12:05 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 5338a3ae2a0d781f00000008 ] }
+mhlog: Message: Story 5338a4c58aeb881f00000005 found
+mhlog: Message: Story 5338a4c58aeb881f00000005 published
+Error: null
+Story: { __v: 1,
+  _id: 5341e4ec82b8131f00000007,
+  image: '',
+  music: '',
+  overview: 'A QUT student wakes up in a dumpster with no memory realising something horrific happened to her. Help the girl in the yellow dress and assist the police in solving the crime ',
+  title: 'Girl In The Yellow Dress',
+  version: '1',
+  modified: Sun Apr 06 2014 23:41:35 GMT+0000 (UTC),
+  created: Sun Apr 06 2014 23:36:12 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [ 'Yellow', '', 'dress', '', 'girl' ],
+  test: false,
+  publish: true,
+  authors: [ 5338260e2a0d781f00000002 ] }
+mhlog: Message: Story 5341e4ec82b8131f00000007 found
+mhlog: Message: Story 5341e4ec82b8131f00000007 published
+Error: null
+Story: { __v: 0,
+  _id: 533890e28aeb881f00000004,
+  image: 'http://en.m.wikipedia.org/wiki/File:QRPassenger_Suburban_Multiple_Unit_265.JPG',
+  music: '',
+  overview: '',
+  title: 'Beenleigh Train Line ',
+  version: '',
+  modified: Mon Apr 07 2014 00:15:04 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 21:47:14 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 53388acf2a0d781f00000004 ] }
+mhlog: Message: Story 533890e28aeb881f00000004 found
+mhlog: Message: Story 533890e28aeb881f00000004 published
+Error: null
+Story: { __v: 0,
+  _id: 5338a4c58aeb881f00000005,
+  image: '',
+  music: '',
+  overview: 'How to trek to find indigenous treasures ',
+  title: 'Trekking in the Jungles of South America',
+  version: '1',
+  modified: Sun Mar 30 2014 23:53:15 GMT+0000 (UTC),
+  created: Sun Mar 30 2014 23:12:05 GMT+0000 (UTC),
+  chapterList: [],
+  keywords: [],
+  test: false,
+  publish: true,
+  authors: [ 5338a3ae2a0d781f00000008 ] }
+mhlog: Message: Story 5338a4c58aeb881f00000005 found
+mhlog: Message: Story 5338a4c58aeb881f00000005 published
+

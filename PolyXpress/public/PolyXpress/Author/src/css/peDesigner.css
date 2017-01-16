@@ -1,0 +1,75 @@
+/*
+ * peDesigner CSS
+ *
+ * Description: Style sheet
+ *
+ * Copyright: 2012
+ * License: MIT
+ *
+ * Initial Author: Michael Haungs
+ */
+
+/* Global Elements */
+
+root {
+    display: block;
+}
+
+h2 {
+    text-align: center
+}
+
+/* Classes */
+
+.peCenter {
+    text-align: center
+}
+
+.shortList {
+    overflow: hidden;
+}
+
+.contained {
+    border: solid black;
+    width: 100%;
+    height: 300px;
+    overflow: scroll;
+}
+
+.containedList {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: #ddd;
+    width: 90%;
+    height: 300px;
+    overflow: scroll;
+}
+
+.mapContainer {
+    padding: 1em;
+}
+
+.wideTextArea{
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+/* Individual Elements */
+
+#accountDisplayContainer {
+    text-align: center
+}
+
+:required {
+    color: #006dcc;
+}
+
+/*:read-only {
+    color: #006dcc;
+}*/
+
+:invalid {
+    color: red;
+}

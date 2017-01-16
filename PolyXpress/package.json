@@ -1,0 +1,54 @@
+{
+  "name": "PolyXpressServer",
+  "version": "0.1.0",
+  "description": "Server implementation for PolyXpress",
+  "main": "app.js",
+  "command": "node app.js",
+  "private": "true",
+  "engines": {
+    "node": "~0.10.32"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "cf-runtime": "*",
+    "connect-mongo": "^0.4.1",
+    "cookie-parser": "^1.3.3",
+    "errorhandler": "^1.2.0",
+    "express": "^4.9.5",
+    "express-session": "^1.8.2",
+    "method-override": "^2.2.0",
+    "mhlog": "git://github.com/mhaungs/mhlog.git",
+    "mongodb": "^1.4.17",
+    "mongoose": "latest",
+    "morgan": "^1.3.2",
+    "newrelic": "^1.4.0",
+    "passport": "^0.2.1",
+    "passport-facebook": "^1.0.3",
+    "passport-google-oauth": "^0.1.5",
+    "passport-twitter": "^1.0.2",
+    "serve-favicon": "^2.1.5",
+    "serve-static": "^1.6.3"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-grunt": "latest",
+    "grunt-shell": "latest"
+  },
+  "scripts": {
+    "start": "scripts/start.sh",
+    "stop": "scripts/stop.sh",
+    "test": "ls"
+  },
+  "repository": "",
+  "keywords": [
+    "polyxpress",
+    "server",
+    "node",
+    "express",
+    "mongodb"
+  ],
+  "author": "Michael Haungs",
+  "license": "MIT"
+}

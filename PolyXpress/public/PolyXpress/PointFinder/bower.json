@@ -1,0 +1,10 @@
+{
+    "name": "PointFinder",
+    "version": "0.1.3",
+    "dependencies": {
+        "mhLog": "git@github.com:mhaungs/mhlog.git",
+        "mhGeo": "git@github.com:mhaungs/mhGeo.git",
+        "inject": "latest"
+    },
+    "devDependencies": {}
+}

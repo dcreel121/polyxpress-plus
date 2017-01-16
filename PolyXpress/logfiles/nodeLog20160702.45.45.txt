@@ -1,0 +1,474 @@
+mhlog: [Sat Jul 02 2016 17:01:58 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sat Jul 02 2016 17:01:58 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sat Jul 02 2016 17:01:58 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sat Jul 02 2016 17:01:58 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sat Jul 02 2016 17:01:58 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/pePlayer.html [32m200 [0m57.587 ms - 29058[0m
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m128.410 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m121.471 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m144.680 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m159.009 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:39 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m186.585 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m231.243 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m117.449 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:40 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m37.143 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m8.551 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m18.786 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [32m200 [0m27.048 ms - 57883[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m75.500 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m81.490 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m50.762 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [32m200 [0m61.301 ms - 13059[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m21.759 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m23.697 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m9.556 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m18.039 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:41 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/user/self [32m200 [0m16.220 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:02:42 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/story/recent [36m304 [0m35.853 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+Error: null
+Story: { title: 'Cayucos',
+  overview: 'This is a story of a girl, who cried a river to drown the whole world.... actually she just cried a lot while trying to finish her thesis. Heh. But she\'ll finish it regardless of the tears!&nbsp;',
+  image: 'https://a2.muscache.com/im/pictures/70607714/22fb48eb_original.jpg?aki_policy=x_large',
+  proximity: { lat: '35.449570', lng: '-120.900373', range: '100' },
+  _id: 577204b0323812c3195a9cd1,
+  __v: 0,
+  lock: false,
+  modified: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  created: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  chapterList: [ 5772031d323812c3195a9cd0 ],
+  keywords: [ 'cayucos' ],
+  test: false,
+  publish: true,
+  authors: [ 57720161323812c3195a9ccd ] }
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 found
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 published
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m163.565 ms - 748[0m
+[0mGET /peAPI/story/577204b0323812c3195a9cd1 [36m304 [0m110.128 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m127.262 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Chapter 5772031d323812c3195a9cd0 found
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Session ["5772031d323812c3195a9cd0"]
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Marking chapter 5772031d323812c3195a9cd0 completed
+[0mGET /peAPI/chapter/5772031d323812c3195a9cd0 [36m304 [0m40.269 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Event 5772020e323812c3195a9cce found
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Session ["5772020e323812c3195a9cce"]
+mhlog: [Sat Jul 02 2016 17:02:47 GMT-0700 (PDT)] Message: Marking event 5772020e323812c3195a9cce completed
+[0mGET /peAPI/event/5772020e323812c3195a9cce [36m304 [0m21.463 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:02:50 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:50 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m20.424 ms - 267[0m
+mhlog: [Sat Jul 02 2016 17:02:50 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:02:51 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:51 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m20.062 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:02:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:52 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"started","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m47.353 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:02:52 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:02:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:56 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m13.516 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:02:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:02:56 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+mhlog: [Sat Jul 02 2016 17:02:56 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+[0mPOST /peAPI/feed [32m200 [0m19.548 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:03:00 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/comments/chapter/5772031d323812c3195a9cd0 [32m200 [0m23.386 ms - 2965[0m
+mhlog: [Sat Jul 02 2016 17:03:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:03:13 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:03:13 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m62.911 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:03:52 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:03:52 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:03:52 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m25.612 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:04:51 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:04:51 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:04:51 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m28.905 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:14 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/pePlayer.html [32m200 [0m43.450 ms - 29073[0m
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m84.643 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m89.785 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m71.519 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m97.584 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m116.757 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m103.257 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m53.785 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:16 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m19.933 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m5.477 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m7.563 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m7.335 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m11.907 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m14.479 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m14.876 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m13.889 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m6.569 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m6.153 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.351 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m5.958 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:07:17 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/user/self [32m200 [0m10.554 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/pePlayer.html [32m200 [0m5.208 ms - 29077[0m
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m56.902 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m59.352 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:56 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m72.429 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m70.432 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m70.597 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m64.808 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m30.675 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:57 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m6.715 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:57 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:57 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m13.752 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m12.324 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m19.960 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m18.617 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m24.447 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [32m200 [0m28.080 ms - 13059[0m
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m6.026 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m7.225 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m4.119 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m5.434 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/user/self [36m304 [0m9.687 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:08:59 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/story/recent [36m304 [0m39.618 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+Error: null
+Story: { title: 'Cayucos',
+  overview: 'This is a story of a girl, who cried a river to drown the whole world.... actually she just cried a lot while trying to finish her thesis. Heh. But she\'ll finish it regardless of the tears!&nbsp;',
+  image: 'https://a2.muscache.com/im/pictures/70607714/22fb48eb_original.jpg?aki_policy=x_large',
+  proximity: { lat: '35.449570', lng: '-120.900373', range: '100' },
+  _id: 577204b0323812c3195a9cd1,
+  __v: 0,
+  lock: false,
+  modified: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  created: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  chapterList: [ 5772031d323812c3195a9cd0 ],
+  keywords: [ 'cayucos' ],
+  test: false,
+  publish: true,
+  authors: [ 57720161323812c3195a9ccd ] }
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 found
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 published
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m57.423 ms - 748[0m
+[0mGET /peAPI/story/577204b0323812c3195a9cd1 [36m304 [0m55.755 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m63.096 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Chapter 5772031d323812c3195a9cd0 found
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Session ["5772031d323812c3195a9cd0"]
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Marking chapter 5772031d323812c3195a9cd0 completed
+[0mGET /peAPI/chapter/5772031d323812c3195a9cd0 [36m304 [0m10.891 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Event 5772020e323812c3195a9cce found
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Session ["5772020e323812c3195a9cce"]
+mhlog: [Sat Jul 02 2016 17:09:01 GMT-0700 (PDT)] Message: Marking event 5772020e323812c3195a9cce completed
+[0mGET /peAPI/event/5772020e323812c3195a9cce [36m304 [0m31.192 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:09:05 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:05 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m13.493 ms - 267[0m
+mhlog: [Sat Jul 02 2016 17:09:05 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:09:06 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:06 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m16.791 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:09:06 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:06 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"started","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m32.855 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:09:06 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:09:10 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:10 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m25.899 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:09:10 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:10 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+mhlog: [Sat Jul 02 2016 17:09:10 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+[0mPOST /peAPI/feed [32m200 [0m21.179 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:09:14 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/comments/chapter/5772031d323812c3195a9cd0 [32m200 [0m17.088 ms - 2965[0m
+mhlog: [Sat Jul 02 2016 17:09:31 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:31 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:09:31 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m13.252 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:09:42 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:09:42 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:09:42 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m26.417 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:53 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/pePlayer.html [32m200 [0m5.221 ms - 29074[0m
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m6.540 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m36.782 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m51.135 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m89.675 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m98.259 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m98.555 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m95.969 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m4.026 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:54 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m14.900 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m9.837 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m9.769 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m11.011 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m13.780 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m26.170 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [32m200 [0m27.709 ms - 13161[0m
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m7.838 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m7.575 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.891 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m15.674 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:11:55 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/user/self [32m200 [0m12.250 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:11:58 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/story/recent [36m304 [0m30.664 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+Error: null
+Story: { title: 'Cayucos',
+  overview: 'This is a story of a girl, who cried a river to drown the whole world.... actually she just cried a lot while trying to finish her thesis. Heh. But she\'ll finish it regardless of the tears!&nbsp;',
+  image: 'https://a2.muscache.com/im/pictures/70607714/22fb48eb_original.jpg?aki_policy=x_large',
+  proximity: { lat: '35.449570', lng: '-120.900373', range: '100' },
+  _id: 577204b0323812c3195a9cd1,
+  __v: 0,
+  lock: false,
+  modified: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  created: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  chapterList: [ 5772031d323812c3195a9cd0 ],
+  keywords: [ 'cayucos' ],
+  test: false,
+  publish: true,
+  authors: [ 57720161323812c3195a9ccd ] }
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 found
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 published
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m71.411 ms - 748[0m
+[0mGET /peAPI/story/577204b0323812c3195a9cd1 [36m304 [0m75.633 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m70.478 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Chapter 5772031d323812c3195a9cd0 found
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Session ["5772031d323812c3195a9cd0"]
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Marking chapter 5772031d323812c3195a9cd0 completed
+[0mGET /peAPI/chapter/5772031d323812c3195a9cd0 [36m304 [0m12.037 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Event 5772020e323812c3195a9cce found
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Session ["5772020e323812c3195a9cce"]
+mhlog: [Sat Jul 02 2016 17:12:00 GMT-0700 (PDT)] Message: Marking event 5772020e323812c3195a9cce completed
+[0mGET /peAPI/event/5772020e323812c3195a9cce [36m304 [0m13.305 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:12:04 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:04 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m10.360 ms - 267[0m
+mhlog: [Sat Jul 02 2016 17:12:04 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:12:05 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:05 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m11.533 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:12:05 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:05 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"started","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m16.290 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:12:05 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:12:09 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:09 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m9.335 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:12:09 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:09 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+mhlog: [Sat Jul 02 2016 17:12:09 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+[0mPOST /peAPI/feed [32m200 [0m12.381 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:12:12 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/comments/chapter/5772031d323812c3195a9cd0 [32m200 [0m13.358 ms - 2965[0m
+mhlog: [Sat Jul 02 2016 17:12:20 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:20 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:12:20 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m39.240 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:12:34 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:12:34 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:12:34 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m30.593 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m4.471 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m54.541 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:13 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m86.188 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m88.221 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m97.295 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m99.322 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m59.915 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m58.241 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:14 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m5.194 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m3.661 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m30.935 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m30.749 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m13.816 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m10.741 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m12.961 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [32m200 [0m14.886 ms - 13460[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m10.310 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m10.512 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.812 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m3.951 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:15 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/user/self [32m200 [0m6.461 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:18:19 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/story/recent [36m304 [0m32.515 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m84.240 ms - 748[0m
+Error: null
+Story: { title: 'Cayucos',
+  overview: 'This is a story of a girl, who cried a river to drown the whole world.... actually she just cried a lot while trying to finish her thesis. Heh. But she\'ll finish it regardless of the tears!&nbsp;',
+  image: 'https://a2.muscache.com/im/pictures/70607714/22fb48eb_original.jpg?aki_policy=x_large',
+  proximity: { lat: '35.449570', lng: '-120.900373', range: '100' },
+  _id: 577204b0323812c3195a9cd1,
+  __v: 0,
+  lock: false,
+  modified: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  created: Mon Jun 27 2016 22:01:36 GMT-0700 (PDT),
+  chapterList: [ 5772031d323812c3195a9cd0 ],
+  keywords: [ 'cayucos' ],
+  test: false,
+  publish: true,
+  authors: [ 57720161323812c3195a9ccd ] }
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 found
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Story 577204b0323812c3195a9cd1 published
+[0mGET /peAPI/story/577204b0323812c3195a9cd1 [36m304 [0m103.805 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m139.123 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Chapter 5772031d323812c3195a9cd0 found
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Session ["5772031d323812c3195a9cd0"]
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Marking chapter 5772031d323812c3195a9cd0 completed
+[0mGET /peAPI/chapter/5772031d323812c3195a9cd0 [36m304 [0m36.873 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Event 5772020e323812c3195a9cce found
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Session ["5772020e323812c3195a9cce"]
+mhlog: [Sat Jul 02 2016 17:18:22 GMT-0700 (PDT)] Message: Marking event 5772020e323812c3195a9cce completed
+[0mGET /peAPI/event/5772020e323812c3195a9cce [36m304 [0m11.270 ms - -[0m
+mhlog: [Sat Jul 02 2016 17:18:26 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:26 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m14.337 ms - 267[0m
+mhlog: [Sat Jul 02 2016 17:18:26 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:18:27 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:27 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m13.017 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:18:28 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:28 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"started","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+[0mPOST /peAPI/feed [32m200 [0m13.934 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:18:28 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+mhlog: [Sat Jul 02 2016 17:18:32 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:32 GMT-0700 (PDT)] Message: User 57720042323812c3195a9ccc updated
+[0mPUT /peAPI/user/57720042323812c3195a9ccc [32m200 [0m8.833 ms - 722[0m
+mhlog: [Sat Jul 02 2016 17:18:32 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:32 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"5772b0ba323812c3195a9cd2","action":"completed","city":"San Luis Obispo County, US","created":"2016-06-28T17:15:38.588Z","facebookId":1734603170161785,"location":[-120.900373,35.44957],"story":"577204b0323812c3195a9cd1","user":"57720042323812c3195a9ccc"}]
+mhlog: [Sat Jul 02 2016 17:18:32 GMT-0700 (PDT)] Message: Feed user:57720042323812c3195a9ccc & story: 577204b0323812c3195a9cd1 created
+[0mPOST /peAPI/feed [32m200 [0m22.510 ms - 269[0m
+mhlog: [Sat Jul 02 2016 17:18:35 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+[0mGET /peAPI/comments/chapter/5772031d323812c3195a9cd0 [32m200 [0m13.061 ms - 2965[0m
+mhlog: [Sat Jul 02 2016 17:18:50 GMT-0700 (PDT)] Message: Inside deserialize: 57720042323812c3195a9ccc
+mhlog: [Sat Jul 02 2016 17:18:50 GMT-0700 (PDT)] Message: recieved these fb ids as params: 1741666656121556,1724989191122837,1741774559445698
+mhlog: [Sat Jul 02 2016 17:18:50 GMT-0700 (PDT)] Message: found 2 for 3 ids.
+[0mGET /peAPI/user/facebook/friends/1741666656121556,1724989191122837,1741774559445698 [36m304 [0m25.660 ms - -[0m

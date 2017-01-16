@@ -1,0 +1,346 @@
+mhlog: [Mon Jun 20 2016 21:54:19 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Mon Jun 20 2016 21:54:20 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Mon Jun 20 2016 21:54:20 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Mon Jun 20 2016 21:54:20 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Mon Jun 20 2016 21:54:20 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Mon Jun 20 2016 21:54:36 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m48.727 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m50.197 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m30.504 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m52.928 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:37 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m47.928 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m61.877 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m59.958 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m27.986 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m5.610 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m12.494 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m12.066 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m9.597 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m13.107 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m13.394 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m10.550 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m10.434 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.560 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m9.035 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /peAPI/user/self [32m200 [0m34.962 ms - 831[0m
+mhlog: [Mon Jun 20 2016 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+Error: null
+Story: { title: 'Life of Stella',
+  overview: 'This story is about the life of Stella. She is the best dog. She is the cutest dog. She is the ultimate dog!&nbsp;',
+  image: 'https://www.facebook.com/photo.php?fbid=1196921653656739&set=a.297070166975230.92340.100000167469642&type=3&theater',
+  proximity: { lat: '37.374382', lng: '-122.061120', range: '3' },
+  _id: 5638179e9e846d6503501b15,
+  __v: 0,
+  lock: false,
+  modified: Mon Nov 02 2015 18:10:38 GMT-0800 (PST),
+  created: Mon Nov 02 2015 18:10:38 GMT-0800 (PST),
+  chapterList: [ 563817469e846d6503501b14 ],
+  keywords: [ 'Stella,', 'dog' ],
+  test: false,
+  publish: true,
+  authors: [ 5611ad4185972b6507ca3a56 ] }
+mhlog: [Mon Jun 20 2016 21:54:39 GMT-0700 (PDT)] Message: Story 5638179e9e846d6503501b15 found
+mhlog: [Mon Jun 20 2016 21:54:39 GMT-0700 (PDT)] Message: Story 5638179e9e846d6503501b15 published
+[0mGET /peAPI/story/5638179e9e846d6503501b15 [36m304 [0m12.729 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:54:43 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:43 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"started","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+mhlog: [Mon Jun 20 2016 21:54:43 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+[0mPOST /peAPI/feed [32m200 [0m52.789 ms - 257[0m
+mhlog: [Mon Jun 20 2016 21:54:45 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:45 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m35.889 ms - 805[0m
+mhlog: [Mon Jun 20 2016 21:54:45 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:45 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"started","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m39.890 ms - 259[0m
+mhlog: [Mon Jun 20 2016 21:54:45 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+mhlog: [Mon Jun 20 2016 21:54:49 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:49 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m24.815 ms - 805[0m
+mhlog: [Mon Jun 20 2016 21:54:49 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:54:49 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"completed","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+mhlog: [Mon Jun 20 2016 21:54:49 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+[0mPOST /peAPI/feed [32m200 [0m14.910 ms - 259[0m
+mhlog: [Mon Jun 20 2016 21:55:13 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:13 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"completed","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m26.100 ms - 257[0m
+mhlog: [Mon Jun 20 2016 21:55:13 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+mhlog: [Mon Jun 20 2016 21:55:21 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /peAPI/story/recent [36m304 [0m36.720 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+Error: null
+Story: { title: 'Test Story',
+  overview: 'This is just a test story. Not very interesting at all',
+  image: 'https://www.facebook.com/photo.php?fbid=1018737274808512&set=a.297070166975230.92340.100000167469642&type=3&theater',
+  proximity: { lat: '37.374407', lng: '-122.061074', range: '.05' },
+  _id: 5611ae3f85972b6507ca3a5a,
+  __v: 0,
+  lock: false,
+  modified: Sun Oct 04 2015 15:54:55 GMT-0700 (PDT),
+  created: Sun Oct 04 2015 15:54:55 GMT-0700 (PDT),
+  chapterList: [ 5611ae0b85972b6507ca3a59 ],
+  keywords: [ 'test' ],
+  test: false,
+  publish: true,
+  authors: [ 5611ad4185972b6507ca3a56 ] }
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Story 5611ae3f85972b6507ca3a5a found
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Story 5611ae3f85972b6507ca3a5a published
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m74.815 ms - 831[0m
+[0mGET /peAPI/story/5611ae3f85972b6507ca3a5a [36m304 [0m82.941 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m59.449 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Chapter 5611ae0b85972b6507ca3a59 found
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/chapter/5611ae0b85972b6507ca3a59 [32m200 [0m17.187 ms - 555[0m
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Chapter 563817469e846d6503501b14 found
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/chapter/563817469e846d6503501b14 [36m304 [0m10.519 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Event 563816d89e846d6503501b11 found
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/event/563816d89e846d6503501b11 [36m304 [0m27.001 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Event 5611adad85972b6507ca3a57 found
+mhlog: [Mon Jun 20 2016 21:55:25 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/event/5611adad85972b6507ca3a57 [36m304 [0m10.714 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:55:28 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:28 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"57394195d0c90da0052dbf82","action":"completed","city":"Mountain View, CA","created":"2016-05-16T03:42:13.670Z","facebookId":100006983192490,"location":[-122.061074,37.374407],"story":"5611ae3f85972b6507ca3a5a","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m12.314 ms - 258[0m
+mhlog: [Mon Jun 20 2016 21:55:28 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5611ae3f85972b6507ca3a5a created
+mhlog: [Mon Jun 20 2016 21:55:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:38 GMT-0700 (PDT)] Message: User session updated.
+[0mGET /peAPI/comments/chapter/5611ae0b85972b6507ca3a59 [32m200 [0m14.295 ms - 2[0m
+mhlog: [Mon Jun 20 2016 21:55:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:55:48 GMT-0700 (PDT)] Message: ValidationError: Path `chapter` is required., Path `user` is required.
+[0mPOST /peAPI/comments [32m200 [0m9.572 ms - 85[0m
+mhlog: [Mon Jun 20 2016 21:57:18 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m5.958 ms - -[0m
+[0mPUT /peAPI/session/complete/chapter/5611ae0b85972b6507ca3a59 [32m- [0m- ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:18 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m17.589 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m21.437 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m55.904 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m60.637 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m54.530 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m40.559 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m27.937 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m12.110 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m12.806 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m11.139 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m13.632 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m13.647 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m11.648 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m8.024 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m7.781 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m4.847 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m5.825 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:20 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /peAPI/user/self [32m200 [0m11.555 ms - 831[0m
+mhlog: [Mon Jun 20 2016 21:57:21 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+Error: null
+Story: { title: 'Test Story',
+  overview: 'This is just a test story. Not very interesting at all',
+  image: 'https://www.facebook.com/photo.php?fbid=1018737274808512&set=a.297070166975230.92340.100000167469642&type=3&theater',
+  proximity: { lat: '37.374407', lng: '-122.061074', range: '.05' },
+  _id: 5611ae3f85972b6507ca3a5a,
+  __v: 0,
+  lock: false,
+  modified: Sun Oct 04 2015 15:54:55 GMT-0700 (PDT),
+  created: Sun Oct 04 2015 15:54:55 GMT-0700 (PDT),
+  chapterList: [ 5611ae0b85972b6507ca3a59 ],
+  keywords: [ 'test' ],
+  test: false,
+  publish: true,
+  authors: [ 5611ad4185972b6507ca3a56 ] }
+mhlog: [Mon Jun 20 2016 21:57:21 GMT-0700 (PDT)] Message: Story 5611ae3f85972b6507ca3a5a found
+mhlog: [Mon Jun 20 2016 21:57:21 GMT-0700 (PDT)] Message: Story 5611ae3f85972b6507ca3a5a published
+[0mGET /peAPI/story/5611ae3f85972b6507ca3a5a [36m304 [0m10.838 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:25 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:25 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"57394195d0c90da0052dbf82","action":"started","city":"Mountain View, CA","created":"2016-05-16T03:42:13.670Z","facebookId":100006983192490,"location":[-122.061074,37.374407],"story":"5611ae3f85972b6507ca3a5a","user":"5611ae7085972b6507ca3a5b"}]
+mhlog: [Mon Jun 20 2016 21:57:25 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5611ae3f85972b6507ca3a5a created
+[0mPOST /peAPI/feed [32m200 [0m13.154 ms - 258[0m
+mhlog: [Mon Jun 20 2016 21:57:26 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:26 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m16.258 ms - 805[0m
+mhlog: [Mon Jun 20 2016 21:57:27 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:27 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"57394195d0c90da0052dbf82","action":"started","city":"Mountain View, CA","created":"2016-05-16T03:42:13.670Z","facebookId":100006983192490,"location":[-122.061074,37.374407],"story":"5611ae3f85972b6507ca3a5a","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m33.983 ms - 260[0m
+mhlog: [Mon Jun 20 2016 21:57:27 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5611ae3f85972b6507ca3a5a created
+mhlog: [Mon Jun 20 2016 21:57:30 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:30 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m36.750 ms - 805[0m
+mhlog: [Mon Jun 20 2016 21:57:30 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:30 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"57394195d0c90da0052dbf82","action":"completed","city":"Mountain View, CA","created":"2016-05-16T03:42:13.670Z","facebookId":100006983192490,"location":[-122.061074,37.374407],"story":"5611ae3f85972b6507ca3a5a","user":"5611ae7085972b6507ca3a5b"}]
+mhlog: [Mon Jun 20 2016 21:57:30 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5611ae3f85972b6507ca3a5a created
+[0mPOST /peAPI/feed [32m200 [0m29.090 ms - 260[0m
+mhlog: [Mon Jun 20 2016 21:57:46 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /peAPI/story/recent [36m304 [0m27.779 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+Error: null
+Story: { title: 'Life of Stella',
+  overview: 'This story is about the life of Stella. She is the best dog. She is the cutest dog. She is the ultimate dog!&nbsp;',
+  image: 'https://www.facebook.com/photo.php?fbid=1196921653656739&set=a.297070166975230.92340.100000167469642&type=3&theater',
+  proximity: { lat: '37.374382', lng: '-122.061120', range: '3' },
+  _id: 5638179e9e846d6503501b15,
+  __v: 0,
+  lock: false,
+  modified: Mon Nov 02 2015 18:10:38 GMT-0800 (PST),
+  created: Mon Nov 02 2015 18:10:38 GMT-0800 (PST),
+  chapterList: [ 563817469e846d6503501b14 ],
+  keywords: [ 'Stella,', 'dog' ],
+  test: false,
+  publish: true,
+  authors: [ 5611ad4185972b6507ca3a56 ] }
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Story 5638179e9e846d6503501b15 found
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Story 5638179e9e846d6503501b15 published
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mGET /peAPI/story/5638179e9e846d6503501b15 [36m304 [0m89.695 ms - -[0m
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m108.043 ms - 831[0m
+[0mGET /peAPI/story/recent [36m304 [0m109.684 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Chapter 563817469e846d6503501b14 found
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/chapter/563817469e846d6503501b14 [36m304 [0m30.909 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Chapter 5611ae0b85972b6507ca3a59 found
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/chapter/5611ae0b85972b6507ca3a59 [36m304 [0m24.285 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Event 5611adad85972b6507ca3a57 found
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/event/5611adad85972b6507ca3a57 [36m304 [0m12.490 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Event 563816d89e846d6503501b11 found
+mhlog: [Mon Jun 20 2016 21:57:48 GMT-0700 (PDT)] Message: Session undefined
+[0mGET /peAPI/event/563816d89e846d6503501b11 [36m304 [0m6.789 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:57:51 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:57:51 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"started","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+mhlog: [Mon Jun 20 2016 21:57:51 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+[0mPOST /peAPI/feed [32m200 [0m31.861 ms - 257[0m
+mhlog: [Mon Jun 20 2016 21:58:07 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:58:07 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:58:07 GMT-0700 (PDT)] Message: User session updated.
+[0mGET /peAPI/comments/chapter/563817469e846d6503501b14 [36m304 [0m40.648 ms - -[0m
+mhlog: [Mon Jun 20 2016 21:58:19 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 21:58:19 GMT-0700 (PDT)] Message: ValidationError: Path `chapter` is required., Path `user` is required.
+[0mPOST /peAPI/comments [32m200 [0m18.755 ms - 83[0m
+[0mPUT /peAPI/session/complete/chapter/563817469e846d6503501b14 [32m- [0m- ms - -[0m
+mhlog: [Mon Jun 20 2016 22:00:07 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:00:07 GMT-0700 (PDT)] Message: User session updated.
+mhlog: [Mon Jun 20 2016 22:01:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:01:40 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m17.365 ms - 805[0m
+mhlog: [Mon Jun 20 2016 22:01:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:01:40 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"started","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m11.219 ms - 259[0m
+mhlog: [Mon Jun 20 2016 22:01:40 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+mhlog: [Mon Jun 20 2016 22:01:47 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /peAPI/comments/chapter/563817469e846d6503501b14 [36m304 [0m11.362 ms - -[0m
+[0mPUT /peAPI/session/complete/chapter/563817469e846d6503501b14 [32m- [0m- ms - -[0m
+mhlog: [Mon Jun 20 2016 22:02:07 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:02:07 GMT-0700 (PDT)] Message: req.session.completedChapters = DUPLICATE
+mhlog: [Mon Jun 20 2016 22:02:07 GMT-0700 (PDT)] Message: User session updated.
+[0mPUT /peAPI/session/complete/chapter/563817469e846d6503501b14 [32m- [0m- ms - -[0m
+mhlog: [Mon Jun 20 2016 22:04:07 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:04:07 GMT-0700 (PDT)] Message: req.session.completedChapters = DUPLICATE
+mhlog: [Mon Jun 20 2016 22:04:07 GMT-0700 (PDT)] Message: User session updated.
+[0mPUT /peAPI/session/complete/chapter/563817469e846d6503501b14 [32m- [0m- ms - -[0m
+mhlog: [Mon Jun 20 2016 22:08:28 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:28 GMT-0700 (PDT)] Message: ValidationError: Path `chapter` is required., Path `user` is required.
+[0mPOST /peAPI/comments [32m200 [0m10.967 ms - 83[0m
+mhlog: [Mon Jun 20 2016 22:08:38 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+[0mGET /peAPI/story/recent [36m304 [0m78.977 ms - -[0m
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m52.937 ms - 831[0m
+Error: null
+Story: { title: 'Life of Stella',
+  overview: 'This story is about the life of Stella. She is the best dog. She is the cutest dog. She is the ultimate dog!&nbsp;',
+  image: 'https://www.facebook.com/photo.php?fbid=1196921653656739&set=a.297070166975230.92340.100000167469642&type=3&theater',
+  proximity: { lat: '37.374382', lng: '-122.061120', range: '3' },
+  _id: 5638179e9e846d6503501b15,
+  __v: 0,
+  lock: false,
+  modified: Mon Nov 02 2015 18:10:38 GMT-0800 (PST),
+  created: Mon Nov 02 2015 18:10:38 GMT-0800 (PST),
+  chapterList: [ 563817469e846d6503501b14 ],
+  keywords: [ 'Stella,', 'dog' ],
+  test: false,
+  publish: true,
+  authors: [ 5611ad4185972b6507ca3a56 ] }
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Story 5638179e9e846d6503501b15 found
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Story 5638179e9e846d6503501b15 published
+[0mGET /peAPI/story/5638179e9e846d6503501b15 [36m304 [0m76.055 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m74.385 ms - -[0m
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Chapter 563817469e846d6503501b14 found
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Session ["563817469e846d6503501b14"]
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Marking chapter 563817469e846d6503501b14 completed
+[0mGET /peAPI/chapter/563817469e846d6503501b14 [32m200 [0m14.573 ms - 593[0m
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Chapter 563817469e846d6503501b14 found
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Session ["563817469e846d6503501b14"]
+mhlog: [Mon Jun 20 2016 22:08:40 GMT-0700 (PDT)] Message: Marking chapter 563817469e846d6503501b14 completed
+[0mGET /peAPI/chapter/563817469e846d6503501b14 [36m304 [0m43.932 ms - -[0m
+mhlog: [Mon Jun 20 2016 22:08:43 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:43 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"completed","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m56.253 ms - 257[0m
+mhlog: [Mon Jun 20 2016 22:08:43 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+mhlog: [Mon Jun 20 2016 22:08:45 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:45 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m21.869 ms - 805[0m
+mhlog: [Mon Jun 20 2016 22:08:45 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:45 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"started","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+[0mPOST /peAPI/feed [32m200 [0m38.821 ms - 259[0m
+mhlog: [Mon Jun 20 2016 22:08:45 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+mhlog: [Mon Jun 20 2016 22:08:49 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:49 GMT-0700 (PDT)] Message: User 5611ae7085972b6507ca3a5b updated
+[0mPUT /peAPI/user/5611ae7085972b6507ca3a5b [32m200 [0m18.812 ms - 805[0m
+mhlog: [Mon Jun 20 2016 22:08:49 GMT-0700 (PDT)] Message: Inside deserialize: 5611ae7085972b6507ca3a5b
+mhlog: [Mon Jun 20 2016 22:08:49 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"563817d19e846d6503501b16","action":"completed","city":"Mountain View, CA","created":"2015-11-03T02:11:29.915Z","facebookId":100006983192490,"location":[-122.06112,37.374382],"story":"5638179e9e846d6503501b15","user":"5611ae7085972b6507ca3a5b"}]
+mhlog: [Mon Jun 20 2016 22:08:49 GMT-0700 (PDT)] Message: Feed user:5611ae7085972b6507ca3a5b & story: 5638179e9e846d6503501b15 created
+[0mPOST /peAPI/feed [32m200 [0m34.107 ms - 259[0m

@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <title>Poly Xpress Player</title>
+
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="src/lib/css/themes/pxSky.css"/>
+    <link rel="stylesheet" href="src/lib/css/themes/jquery.mobile.icons.min.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile.structure-1.4.4.min.css"/>
+
+    <!--link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css"/-->
+    <link rel="stylesheet" href="src/css/pePlayer.css"/>
+    <link rel="stylesheet" href="src/css/social.css"/>
+
+    <!-- Add Google map api -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCNo4qqqQeHC2J1zEQSA-9sf95pBACZO4&sensor=true"
+            type="text/javascript"></script>
+
+    <!-- Add references for JQuery Mobile -->
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="src/js/customSettings.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+
+    <!-- Add Jquery Mobile/Google map support -->
+    <script src="src/lib/jquery.ui.map.full.min.js" type="text/javascript"></script>
+
+    <!--Using Inject.js for dynamic CommonJS module loading-->
+    <script type="text/javascript" src="src/lib/inject/inject.min.js"></script>
+    <script type="text/javascript">
+        // automate transition between development and production environments
+        var config = {
+            production: false,  // make sure run "uglify" before setting to true!!!
+            mhLog     : null
+        };
+
+        if (config.production) {
+            Inject.setExpires(86400);
+            /* one day in seconds */
+        } else {
+            Inject.reset();
+            Inject.setExpires(-1);
+        }
+        Inject.setModuleRoot(".");
+
+        Inject.addFileRule(/.*/, function (path) {
+            if (config.production) {
+                return path + ".min";
+            } else {
+                return path;
+            }
+        }, {weight: 0});
+
+        window.addEventListener('load', function () {
+            require.run('src/js/pePlayerMain');
+        });
+    </script>
+
+</head>
+
+<body>
+
+<!-- Login View -->
+<div data-role="page" id="login" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed" data-backbtn="false">
+        <h1>PolyXpress Player</h1>
+    </div>
+    <div data-role="content">
+        <center>
+            <p><b>The <i>PolyXpress Player</i> allows you to experience location-based stories on your mobile
+                device.</b></p>
+
+            <div>
+                <p>Click here to learn more.</p>
+                <a href="#instructionView" data-role="button">Instructions</a>
+            </div>
+
+            <div>
+                <p>Click here to start using PolyXpress Player.</p>
+                <a id="loginFBButton" href="/player/auth/facebook" rel="external"
+                   data-role="button">Facebook Login</a>
+                <a id="loginTWButton" href="/player/auth/twitter" rel="external"
+                   data-role="button">Twitter Login</a>
+                <a id="loginGButton" href="/player/auth/google" rel="external"
+                   data-role="button">Google Login</a>
+            </div>
+            <p class="small"><i>(PolyXpress only uses your account for verification and will
+                not access or distribute any private data.)</i></p>
+        </center>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+<!-- Instructions View -->
+<div data-role="page" id="instructionView" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <a href="#login" data-rel="back" data-icon="back">Back</a>
+
+        <h1>PolyXpress</h1>
+    </div>
+    <div data-role="content">
+        <div class="helpText">
+            <p><b>DISCLAIMER: PolyXpress is a research project and is not officially released for public
+                consumption. It may crash, become unresponsive, or have its interface suddenly changed.</b></p>
+
+            <p>The PolyXpress player is a web application that allows you to experience location-based
+                stories on all of your iOS and android devices. It takes you on a journey through real-world
+                locations where you interact with your environment as a multimedia story unfolds.</p>
+
+            <p>Throughout the application, you can access instructions via the "i" icon in the lower left-hand
+                corner.</p>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed"></div>
+</div>
+
+<!-- User Account View -->
+<div data-role="page" id="account" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed" data-backbtn="false">
+        <a href="#authorView" data-icon="back">Back</a>
+
+        <h1>PolyXpress</h1>
+        <a id="logoutButton" href="/player/logout" data-role="button" rel="external">Logout</a>
+    </div>
+    <div data-role="content" id="accountDisplayContainer">
+        <h2>User Account Data</h2>
+
+        <!--div id="accountDisplay">Account Data Unavailable.</div-->
+        <p>PolyXpress ID: <span id="accountDisplay_peid">No PolyXpress ID</span></p>
+
+        <p>Name: <span id="accountDisplay_fname"></span></p>
+
+        <h4>Authentication Management</h4>
+
+        <div>
+            <a id="linkFBButton" rel="external"
+               data-role="button">Link Facebook Account</a>
+            <a id="linkTWButton" rel="external"
+               data-role="button">Link Twitter Account</a>
+            <a id="linkGButton" rel="external"
+               data-role="button">Link Google Account</a>
+        </div>
+
+        <hr>
+        <p>Linking other social network accounts to this account will allow you to logon to
+            PolyXpress using any of them. If you do not link an account and logon to PolyXpress using
+            that unlinked account, you will create a new user.</p>
+        <hr>
+
+    </div>
+</div>
+
+<!-- Main View -->
+<div data-role="page" id="mainView" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <a href="http://mhaungs.github.io/PolyXpress/" rel="external" data-role="button" id="userNameHdr">PX Home</a>
+        <h1 id="title1">PolyXpress</h1>
+        <a href="#account" data-role="button" id="accountBtn">Account</a>            
+    </div>
+
+    <div data-role="content">
+        <img class="profile-picture" src="" id="profilePicture">
+        <div class="userinfo-container">
+            <p class="username-display" id="userName"></p>
+        </div>
+        <p class="clear"></p>
+        <br/>
+
+        <div data-role="collapsible-set">
+            <div data-role="collapsible" data-theme="a" data-content-theme="a">
+                <h2>Reading List</h2>
+                <div class="containedList">
+                    <ul id="storyList" data-split-icon="edit" data-role="listview">
+                    </ul>
+                </div>
+            </div>
+            <div data-role="collapsible" data-theme="a" data-content-theme="a">
+                <h2>Completed Stories</h2>
+                <div class="containedList">
+                    <ul id="completedList" data-split-icon="edit" data-role="listview">
+                    </ul>
+                </div>
+            </div>
+            <div data-role="collapsible" data-theme="a" data-content-theme="a">
+                <h2>Authored Stories</h2>
+                <div class="containedList">
+                    <ul id="authorStoryList" data-split-icon="edit" data-role="listview">
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div data-role="popup" id="editStory" data-theme="a" class="ui-content editPopup">
+            <h3>Remove Story?</h3>
+
+            <div data-role="controlgroup">
+                <a href="#mainView" id="removeStoryButton" data-role="button" data-rel="back"
+                   data-icon="delete">Remove</a>
+                <a href="#mainView" id="markStoryButton" data-role="button" data-rel="back" data-icon="check">Mark as Complete</a-->
+                <a href="" data-role="button" data-rel="back">Cancel</a>
+            </div>
+        </div>
+        <div data-role="popup" id="storyInstructions" data-theme="a" class="ui-content editPopup">
+            <h3>Story Reading Instructions</h3>
+
+            <p>Click on a story in your "Reading" list to experience it. Click on the "Store" tab at the
+                bottom of the screen to add stories to your library. Click on the "User" tab to view stories
+                you have authored.
+            </p>
+            <a href="" data-role="button" data-rel="back">Cancel</a>
+        </div>
+    </div>
+    <div data-role="footer" data-id="mainBar" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#libraryView" data-icon="shop">Store</a></li>
+                <li><a href="#notificationView" data-icon="info">Notifications</a></li>
+                <li><a href="#mainView" data-icon="home" class="ui-btn-active ui-state-persist">Library</a></li>
+                <li><a href="#friendsView" data-icon="user">Friends</a></li>
+                <li><a href="#publicView" data-icon="location">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Notification View --> 
+<div data-role="page" id="notificationView" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <a href="http://localhost:3500/PolyXpress/" rel="external" data-role="button" id="userNameHdr">PX Home</a>
+        <h1>Notifications</h1>
+    </div>
+    <div data-role="content">
+        <h3 id="noNotification">No Notifications</h3>
+        <ul id="notificationFeed" datas-icon="edit" data-theme="d" data-role="listview" data-inset="true"></ul>
+        <div data-role="popup" id="canViewMessagePopup" data-theme="c" data-position-to="window" data-overlay-theme="a" class="ui-content editPopup">
+            <div data-role="controlgroup">
+                <a href="#scrapbookView" id="showEventMessageButton" data-role="button" data-theme="e" data-icon="carat-r">Show Event</a>
+                <a href="#notificationView" id="markMessageSeenButton" data-role="button" data-rel="back" data-icon="check">Mark as Seen</a>
+                <a href="" data-role="button" data-rel="back">Cancel</a>
+            </div>
+        </div>
+        <div data-role="popup" id="noCanViewMessagePopup" data-theme="c" data-position-to="window" data-overlay-theme="a" class="ui-content editPopup">
+            <h3>You need to experience the story to see the message!</h3>
+            <div data-role="controlgroup">
+                <a href="#overviewStory" id="startStoryMessageButton" data-role="button" data-icon="action">Start Story</a>
+                <a href="#notificationView" id="addStoryLibraryButton" data-role="button" data-rel="back" data-icon="plus">Add to Library</a>
+                <a href="" data-role="button" data-rel="back">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div data-role="footer" data-id="mainBar2" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#libraryView" data-icon="shop">Store</a></li>
+                <li><a href="#notificationView" data-icon="info" class="ui-btn-active ui-state-persist">Notifications</a></li>
+                <li><a href="#mainView" data-icon="home">Library</a></li>
+                <li><a href="#friendsView" data-icon="user">Friends</a></li>
+                <li><a href="#publicView" data-icon="location">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Store View -->
+<div data-role="page" id="libraryView" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <a href="http://localhost:3500/PolyXpress/" rel="external" data-role="button" id="userNameHdr">PX Home</a>
+        <h1>Poly Xpress Store</h1>
+        <a id="sbtn" href="#" data-role="button" data-icon="refresh" class="ui-btn-right">Refresh</a>
+    </div>
+
+    <div data-role="content">
+        <h2>Recent Additions</h2>
+        <ul id="recentStories" data-role="listview" data-inset="true" data-icon="plus">
+        </ul>
+        <h2>Keyword Search</h2>
+        <label for="keywordSearch" class="hide">Enter a keyword:</label>
+        <input type="text" id="keywordSearch"
+               placeholder="Enter a keyword..." data-clear-btn-text="Clear Keyword"/>
+        <ul id="keywordStories" data-role="listview" data-inset="true" data-icon="plus">
+        </ul>
+        <div data-role="popup" id="addLibraryStory" data-theme="a" class="ui-content editPopup">
+            <h3>Add to your Reading List?</h3>
+
+            <div data-role="controlgroup">
+                <a href="" id="addLibraryStoryButton" data-role="button" data-rel="back">Yes</a>
+                <a href="" data-role="button" data-rel="back">No</a>
+            </div>
+        </div>
+        <div data-role="popup" id="storeInstructions" data-theme="a" class="ui-content editPopup">
+            <h3>Store Instructions</h3>
+
+            <p>To add a story, simply click on it. It will be removed from the Store and added to your Library.
+                Click on the "User" tab to view stories
+                you have authored.  Click on the "Library" tab to view the stories you
+                have placed in your PolyXpress library.</p>
+            <a href="" data-role="button" data-rel="back">Cancel</a>
+        </div>
+    </div>
+
+    <div data-role="footer" data-id="mainBar3" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#libraryView" data-icon="shop" class="ui-btn-active ui-state-persist">Store</a></li>
+                <li><a href="#notificationView" data-icon="info">Notifications</a></li>
+                <li><a href="#mainView" data-icon="home">Library</a></li>
+                <li><a href="#friendsView" data-icon="user">Friends</a></li>
+                <li><a href="#publicView" data-icon="location">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Friends View -->
+<div data-role="page" id="friendsView" data-theme="a" class="ui-alt-icon">
+
+    <div data-role="header" data-position="fixed">
+        <a href="http://mhaungs.github.io/PolyXpress/" rel="external" data-role="button" id="userNameHdr">PX Home</a>
+        <h1>Friends</h1>
+    </div>
+
+    <div data-role="content">
+        <h3> Friends Feed</h3>
+        <ul id="friendsFeed" data-role="listview" data-inset="true"></ul>
+        <div data-role="popup" id="addStoryFromFeedPopup" data-overlay-theme="a" data-theme="a" class="ui-corner-all ui-popup ui-body-a ui-overlay-shadow">
+            <div role="main" class="ui-corner-bottom ui-content">
+                <h3 class="ui-title">Add story to Reading List? </h3>
+                <a href="#" id="addStoryYesButton" data-role="button" data-inline="true" data-rel="back" data-theme="a" class="ui-link ui-btn ui-btn-a ui-btn-inline ui-shadow ui-corner-all" role="button">YES</a>
+                <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="a" class="ui-link ui-btn ui-btn-a ui-btn-inline ui-shadow ui-corner-all" role="button">NO</a>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="footer" data-id="mainBar4" data-position="fixed" class="nav-big-icon">
+        <div data-role="navbar" data-grid="d" class="nav-big-icon"> 
+            <ul>
+                <li><a href="#libraryView" data-icon="shop">Store</a></li>
+                <li><a href="#notificationView" data-icon="info">Notifications</a></li>
+                <li><a href="#mainView" data-icon="home">Library</a></li>
+                <li><a href="#friendsView" data-icon="user" class="ui-btn-active ui-state-persist">Friends</a></li>
+                <li><a href="#publicView" data-icon="location">Nearby</a></li>
+            </ul>
+        </div>
+    </div>            
+</div>
+
+<!-- Nearby View --> 
+<div data-role="page" id="publicView" data-theme="a" class="ui-alt-icon">
+
+    <div data-role="header" data-position="fixed">
+        <a href="http://mhaungs.github.io/PolyXpress/" rel="external" data-role="button" id="userNameHdr">PX Home</a>
+        <h1>Nearby</h1>
+    </div>
+
+    <div data-role="content">
+        <h3>Nearby Feed</h3>
+        <ul id="publicFeed" data-role="listview" data-inset="true"></ul>
+        <div data-role="popup" id="addStoryFromFeedPopup" data-overlay-theme="a" data-theme="a" class="ui-corner-all ui-popup ui-body-a ui-overlay-shadow">
+            <div role="main" class="ui-corner-bottom ui-content">
+                <h3 class="ui-title">Add story to Reading List? </h3>
+                <a href="#" id="addStoryYesButton" data-role="button" data-inline="true" data-rel="back" data-theme="a" class="ui-link ui-btn ui-btn-a ui-btn-inline ui-shadow ui-corner-all" role="button">YES</a>
+                <a href="#" data-role="button" data-inline="true" data-rel="back" data-theme="a" class="ui-link ui-btn ui-btn-a ui-btn-inline ui-shadow ui-corner-all" role="button">NO</a>
+            </div>
+        </div>
+    </div>
+
+    <div data-role="footer" data-id="mainBar5" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#libraryView" data-icon="shop">Store</a></li>
+                <li><a href="#notificationView" data-icon="info">Notifications</a></li>
+                <li><a href="#mainView" data-icon="home">Library</a></li>
+                <li><a href="#friendsView" data-icon="user">Friends</a></li>
+                <li><a href="#publicView" data-icon="location" class="ui-btn-active ui-state-persist">Nearby</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Story Overview View -->
+<div data-role="page" id="overviewStory" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed"><a href="#mainView" data-icon="back">Back</a>
+
+        <h1 id="overviewStoryTitle">PolyXpress</h1>
+    </div>
+    <div data-role="content">
+        <a id="overviewStoryBtn" href="#mapViewChapters" data-role="button">Continue...</a>
+
+        <div class="highlight">
+            <div class="overview" id="overviewStoryImage">No Image.</div>
+        </div>
+        <div class="highlight">
+            <p id="overviewStoryText"></p>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed"></div>
+</div>
+
+
+<!-- Chapter View -->
+<div data-role="page" id="mapViewChapters" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <!--a href="#overviewStory" rel="back"  data-icon="back">Back</a-->
+        <h1 id="chapterViewTitle">PolyXpress</h1>
+        <!--a id="homeButton" href="#mainView" class="ui-btn-right" data-iconpos="notext" data-icon="home">Home</a-->
+        <a id="homeButtonChapters" href="#mainView" data-role="button" data-icon="home"
+           class="ui-btn-right">Stories</a>
+    </div>
+    <div data-role="content">
+        <a href="#chaptersPanel" data-icon="bars" data-role="button">Open Chapters Panel</a>
+        <div data-role="panel" data-display="overlay" id="chaptersPanel">
+            <!-- panel content goes here -->
+            <h2>Chapters</h2>
+            <ul id="chapterList" data-role="listview" data-inset="true">
+            </ul>
+            <br>
+            <hr>
+            <h2>Viewed Chapters</h2>
+            <ul id="viewedChapterList" data-role="listview" data-inset="true">
+                <li><a href="">None</a></li>
+            </ul>
+        </div>
+        <!-- /panel -->
+        <div data-role="content" id="content">
+            <div id="map_canvas" style="height:100%">
+                <br><br>
+
+                <h3>Please wait for the map to load...</h3>
+            </div>
+        </div>
+        <div data-role="popup" id="chapterInstructions" data-theme="a" class="ui-content editPopup">
+            <h3>Chapter Instructions</h3>
+
+            <p>On the map are the locations of all the chapter starting points. Walk to a chapter's starting
+                location
+                and then
+                click the chapter in the "Chapters" list to proceed.
+            </p>
+            <a href="" data-role="button" data-rel="back">Cancel</a>
+        </div>
+        <div data-role="popup" id="newChapterNotification" data-theme="a" class="ui-content notificationPopup">
+            <h3>A Chapter is in Range!<br>You can click it now.</h3>
+            <a href="" data-role="button" data-rel="back">Ok</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#chapterInstructions" data-role="button" data-position-to="window" data-rel="popup"
+                       data-transition="pop" data-icon="info">Instructions</a></li>
+                <li><a id="chaptersYourLocationButton" href="#" data-icon="search" data-role="button">Your
+                    Location</a>
+                </li>
+                <li><a id="chaptersChapterLocationButton" href="#" data-icon="search" data-role="button">Chapter
+                    Locations</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Overview View -->
+<div data-role="page" id="overviewChapter" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed"><a href="#mapViewChapters" data-icon="back">Back</a>
+
+        <h1 id="overviewChapterTitle">PolyXpress</h1>
+    </div>
+    <div data-role="content">
+        <a id="overviewChapterBtn" href="#mapViewEvents" data-role="button">Continue...</a>
+
+        <div class="highlight">
+            <div class="overview" id="overviewChapterImage">No Image.</div>
+        </div>
+        <div class="highlight">
+            <p id="overviewChapterText"></p>
+        </div>
+        <div class="commentContainer">
+            <p id="spoilerAlert">Spoiler Alert! Turning on discussion could give away story details and plot</p>
+            <label for="showCommentsSwitch">Discussion</label>
+            <select name="showCommentsSwitch" id="showCommentsSwitch" data-role="slider">
+                <option selected="selected" value="off">Off</option>
+                <option value="on">On</option>
+            </select>
+
+            <ul id="commentList" data-role="listview" data-inset="true" data-split-theme="a" data-split-icon="delete" class="hide">
+
+            </ul>
+            <a id="sendCommentButton" href="" data-role="button" class="hide">Leave Comment</a>
+        </div>
+        <div data-role="popup" id="removeComment" data-theme="a" class="ui-content editPopup">
+            <h3>Remove Comment?</h3>
+            <div data-role="controlgroup">
+                <a href="commentList" id="removeCommentButton" data-role="button" data-rel="back"
+                   data-icon="delete">Remove</a>
+                <a href="" data-role="button" data-rel="back">Cancel</a>
+            </div>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed"></div>
+</div>
+
+<!-- Events View -->
+<div data-role="page" id="mapViewEvents" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <!--a href="#overviewChapter" rel="back"  data-icon="back">Back</a-->
+        <div id="accuracyLabel">GPS</div>
+        <h1><span id="eventViewTitle">PolyXpress</span></h1>
+        <a id="homeButtonEvents" href="#mapViewChapters" data-role="button" data-icon="home" class="ui-btn-right">Chapters</a>
+    </div>
+
+    <div data-role="content">
+        <!--a href="#pagesPanel" data-icon="bars" data-role="button">Open Pages Panel</a-->
+        <div data-role="panel" data-display="overlay" id="pagesPanel">
+            <!-- panel content goes here -->
+            <h2>Pages</h2>
+            <ul id="eventList" data-role="listview" data-inset="true">
+            </ul>
+            <br>
+            <hr>
+            <h2>Viewed Pages</h2>
+            <ul id="viewedEventList" data-role="listview" data-inset="true">
+                <li><a href="">None</a></li>
+            </ul>
+        </div>
+        <!-- /panel -->
+
+        <!--div class="ui-bar-c ui-corner-all ui-shadow mapContainer"-->
+        <!--div id="map_canvas2" style="width:device-width;height:300px;"></div--> <!--width:device-width;-->
+        <!--/div-->
+        <div data-role="content" id="content">
+            <div id="map_canvas2" style="height:100%">
+                <br><br>
+
+                <h3>Please wait for the map to load...</h3>
+            </div>
+        </div>
+        <div data-role="popup" id="eventInstructions" data-theme="a" class="ui-content editPopup">
+            <h3>Page Instructions</h3>
+
+            <p>Pick one of the locations on the map and start moving towards it. As you get closer, you'll unlock
+                pages.
+                Click on the pages in the "Pages" list to read that page.
+            </p>
+            <a href="" data-role="button" data-rel="back">Cancel</a>
+        </div>
+        <div data-role="popup" id="newEventNotification" data-theme="a" class="ui-content notificationPopup">
+            <h3>A Page is in Range!<br>You can click it now.</h3>
+            <a href="" data-role="button" data-rel="back">Ok</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#eventInstructions" data-role="button" data-position-to="window" data-rel="popup"
+                       data-transition="pop" data-icon="info">Instructions</a></li>
+                <li><a href="#" id="eventsYourLocationButton" data-icon="search" data-role="button">Your
+                    Location</a>
+                </li>
+                <li><a href="#" id="eventsEventLocationButton" data-icon="search" data-role="button">Page
+                    Locations</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Scrapbook View -->
+<div data-role="page" id="scrapbookView" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed">
+        <a href="#mapViewEvents" id="backToMapViewButton" rel="back" data-icon="back">Back</a>
+        <h1 id="scrapbookViewTitle">PolyXpress</h1>
+    </div>
+    <div data-role="content">
+        <!--a id="pageBackBtn" href="#mapViewEvents" data-role="button">Back...</a-->
+        <div id="scrapbookViewAssets" data-role="controlgroup"> 
+        </div>
+
+
+        <a href="#chooseFriendPopup" data-role="button" data-rel="popup" id="newMessageButton">New Message</a> 
+
+        <div id="messageContainer">
+            <label for="conversationsList">Messages</label>
+            <ul id="conversationsList" data-role="listview" data-inset="true" data-theme="a">
+            </ul>
+        </div>
+
+
+        <div data-role="popup" id="chooseFriendPopup" data-overlay-theme="a" data-theme="a">
+            <div data-role="header" data-theme="a" class="ui-corner-top">
+                <h1>Send a message to:</h1>
+            </div>
+            <div data-role="content" data-theme="a" class="ui-corner-bottom ui-content">
+                <ul id="friendList" data-theme="a" data-role="listview" data-inset="true" data-filter="true">
+                </ul>
+            </div>
+        </div> <!-- end friends popup -->
+
+        <div data-role="popup" id="conversationPopup" data-overlay-theme="a" data-theme="a" data-split-icon="mail" style="width:400px">
+            <div data-role="header" data-theme="a" class='ui-corner-top' align="center">
+                <hi id="conversationTitle"></h1>
+            </div>
+            <div data-role="content" data-theme="a" class="ui-corner-bottom ui-content">
+                <ul id="messageList" data-theme="a" data-role="listview" data-inset="true">
+                </ul>
+            </div>
+        </div> <!-- end conversation popup -->
+
+        <div id="newMessageContainer" class="hide">
+            <label for="textarea" id="messageTextAreaLabel"></label>
+            <textarea cols="40" rows="8" name="textarea" id="messageTextarea"></textarea>
+            <div data-role="controlgroup" data-type="horizontal" align="center">
+                <a href="#" id="sendMessageButton" data-role="button" data-rel="action">Send</a>
+                <a href="#" id="cancelSendMessageButton" data-role="button">Cancel</a>
+            </div>
+        </div> <!-- end new message container -->
+
+    </div>
+
+</div>
+
+<!-- Error View -->
+<div data-role="page" id="notFunctional" data-theme="a" class="ui-alt-icon">
+    <div data-role="header" data-position="fixed" data-backbtn="false">
+        <h1>PolyXpress Player</h1>
+        <a id="errorHomeButton" href="#mainView" data-role="button" data-icon="home" class="ui-btn-right">Home</a>
+    </div>
+    <div data-role="content">
+        <h2>Welcome to <br>PolyXpress Player</h2>
+        <center>
+            <p>PolyXpress player allows you to experience PolyXpress stories on your mobile device.</p>
+
+            <h3>Application Error:</h3>
+
+            <p id="errorPage"></p>
+        </center>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+<!--Error Popup -->
+<!-- Not presently used:  need to use this to show   $("#mapErrorNotification").popup("open", {positionTo: "window", transition: "pop"}); -->
+<!-- Only use *in* a page -->
+<!--div data-role="popup" id="mapErrorNotification" data-theme="e" data-overlay-theme="a" class="ui-content notificationPopup">
+    <h1>Map Error!</h1>
+    <h3 id="mapError"></h3>
+    <a href="" data-role="button" data-rel="back">Ok</a>
+</div-->
+
+</body>
+</html>

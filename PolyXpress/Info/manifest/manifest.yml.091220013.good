@@ -1,0 +1,15 @@
+---
+applications:
+- name: pxDev
+  memory: 256M
+  instances: 1
+  host: pxDev
+  domain: cfapps.io
+  path: .
+  services:
+    peDevDB:
+      label: mongolab
+      provider: mongolab
+      version: n/a
+      plan: sandbox
+  command: node app.js

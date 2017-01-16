@@ -1,0 +1,80 @@
+mhlog: [Sun Apr 19 2015 15:44:24 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun Apr 19 2015 15:44:24 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun Apr 19 2015 15:44:24 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Apr 19 2015 15:44:24 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Apr 19 2015 15:44:24 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m60.118 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m24.837 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m22.840 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m24.189 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m26.922 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m24.260 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m31.988 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m27.640 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m11.621 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:43 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m14.254 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m32.709 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m32.421 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m11.470 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m11.104 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m8.976 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m6.332 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m6.008 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m4.108 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m10.758 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/user/self [36m304 [0m7.154 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Sun Apr 19 2015 15:44:44 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m19.772 ms - -[0m
+mhlog: [Sun Apr 19 2015 15:44:47 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Sun Apr 19 2015 15:44:47 GMT-0700 (PDT)] Message: feed found: []
+
+/Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:28
+		                sendAndDisplayError(res, err);
+		                ^
+ReferenceError: sendAndDisplayError is not defined
+    at /Users/dcreel121/Thesis3/PolyXpress/routes/routesSocial.js:28:19
+    at handleError (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/document.js:988:5)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/document.js:979:20
+    at ObjectId.SchemaType.doValidate (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/schematype.js:603:22)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/document.js:970:9
+    at process._tickCallback (node.js:442:13)

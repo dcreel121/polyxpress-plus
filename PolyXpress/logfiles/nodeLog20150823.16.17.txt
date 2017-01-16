@@ -1,0 +1,300 @@
+mhlog: [Sun Aug 23 2015 20:38:09 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun Aug 23 2015 20:38:09 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun Aug 23 2015 20:38:09 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Aug 23 2015 20:38:09 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Aug 23 2015 20:38:09 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sun Aug 23 2015 20:38:21 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m67.342 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m54.127 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m56.840 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m48.619 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m50.694 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m48.035 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m45.730 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m10.644 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m6.853 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:22 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m6.891 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:23 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:23 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m8.975 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m8.382 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [36m304 [0m10.934 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m51.104 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m54.388 ms - -[0m
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m57.156 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m95.468 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m97.665 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m10.444 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m11.570 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m12.322 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m12.094 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.min.js [36m304 [0m6.165 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.min.js [36m304 [0m11.546 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.min.js [36m304 [0m10.212 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.min.js [36m304 [0m15.376 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.min.js [36m304 [0m15.163 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m12.775 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m6.359 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m18.268 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m21.009 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m23.409 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m13.184 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m6.678 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:38:26 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.899 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:47:02 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [32m200 [0m10.130 ms - 22446[0m
+mhlog: [Sun Aug 23 2015 20:47:02 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:02 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:02 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:02 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:02 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m26.690 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m23.909 ms - -[0m
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m74.199 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m70.506 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m70.903 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [32m200 [0m13.709 ms - 4032[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [32m200 [0m7.291 ms - 4095[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [32m200 [0m7.963 ms - 63761[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [32m200 [0m5.398 ms - 20004[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [32m200 [0m3.712 ms - 5582[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m6.011 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:47:03 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m5.120 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:47:04 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:04 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:47:04 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m15.038 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:47:04 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m11.088 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:47:04 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m4.087 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:23 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [36m304 [0m9.385 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m4.832 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m27.150 ms - -[0m
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m28.493 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m30.722 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m32.057 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m14.586 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [36m304 [0m14.407 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [36m304 [0m10.311 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [36m304 [0m13.687 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [36m304 [0m13.632 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m13.753 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m6.283 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m9.326 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m16.158 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m9.087 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m10.234 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:40 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [36m304 [0m4.462 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:40 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:40 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m8.056 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m9.718 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:40 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:40 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:40 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m10.266 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m24.583 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m24.936 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:41 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [36m304 [0m10.117 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [36m304 [0m7.247 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [36m304 [0m6.893 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [36m304 [0m9.439 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m7.648 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m5.233 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m4.667 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m5.448 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m8.485 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m8.371 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:49:42 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m7.310 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:00 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [36m304 [0m4.682 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:00 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:00 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:00 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m30.725 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m27.432 ms - -[0m
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m27.469 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:00 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:00 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m8.422 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m6.215 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [36m304 [0m12.649 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [36m304 [0m7.308 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [36m304 [0m6.812 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [36m304 [0m5.655 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m5.220 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m3.865 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m4.507 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m7.643 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m7.562 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m7.741 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:01 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m6.980 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:09 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [36m304 [0m4.999 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:09 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:09 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:09 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m15.944 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m14.400 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:09 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:09 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m29.155 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m28.784 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m21.703 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [36m304 [0m7.912 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [36m304 [0m15.776 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [36m304 [0m17.371 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [36m304 [0m14.628 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m9.417 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m4.553 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m7.024 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:10 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m9.322 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:11 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:11 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:50:11 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m7.819 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:11 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m7.670 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:50:11 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m15.134 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:13 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/peDesignerMain.html [36m304 [0m7.064 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [36m304 [0m29.268 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m32.146 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [36m304 [0m43.218 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/customSettings.js [36m304 [0m25.604 ms - -[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [36m304 [0m21.199 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m7.127 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:14 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [36m304 [0m5.499 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [36m304 [0m32.943 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [32m200 [0m41.409 ms - 63777[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [36m304 [0m12.722 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m12.572 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m23.852 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m5.727 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m7.159 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: author = 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: stories = 
+[0mGET /peAPI/story/id/55da035bb73c5d857b3e8026 [36m304 [0m5.425 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/chapter/id/55da035bb73c5d857b3e8026 [36m304 [0m11.662 ms - -[0m
+mhlog: [Sun Aug 23 2015 21:01:15 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/event/id/55da035bb73c5d857b3e8026 [36m304 [0m9.158 ms - -[0m

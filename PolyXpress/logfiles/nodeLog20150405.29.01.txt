@@ -1,0 +1,137 @@
+mhlog: [Sun Apr 05 2015 21:24:54 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun Apr 05 2015 21:24:54 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun Apr 05 2015 21:24:54 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Apr 05 2015 21:24:54 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Apr 05 2015 21:24:54 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m65.666 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m33.388 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m23.412 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m39.174 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m36.667 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m38.485 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m41.613 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m12.471 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m4.096 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m3.717 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m4.649 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:10 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m5.166 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m14.726 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m12.988 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m12.283 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m11.614 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m11.110 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m10.560 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m7.580 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m7.331 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m4.183 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m19.359 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:25:11 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /peAPI/user/self [36m304 [0m7.662 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /unlink/facebook [36m302 [0m24.944 ms - 136[0m
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m6.404 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m21.186 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m23.218 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m28.195 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m28.255 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m32.900 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m32.339 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m13.031 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m9.606 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:37 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m7.541 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m11.393 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m11.781 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m15.253 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m14.790 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m12.224 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m6.469 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m6.465 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m9.016 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m5.520 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:38 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /peAPI/user/self [32m200 [0m8.985 ms - 578[0m
+mhlog: [Sun Apr 05 2015 21:26:42 GMT-0700 (PDT)] Message: Inside deserialize: 54f40350760fa6bf27fbd875
+[0mGET /player/logout [36m302 [0m6.435 ms - 120[0m
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m2.083 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m10.636 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m14.707 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m18.041 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m12.136 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m15.956 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m15.178 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m2.331 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m4.691 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m5.982 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m4.756 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m4.488 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m4.339 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m5.128 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m4.213 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m3.699 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m3.219 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m5.762 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:26:42 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [32m200 [0m4.490 ms - 18[0m
+[0mGET /player/auth/facebook [36m302 [0m9.957 ms - 0[0m
+mhlog: [Sun Apr 05 2015 21:26:53 GMT-0700 (PDT)] Message: In Passport code
+CAAEUG6fesQEBAE3DKZByMi2wu5FN9Het9y3CEAfwTiPgmfZC2ymE6oejqCwZC4naQZC96dLIKclfZB2ne9MFVdTmlJACqrogzuaPYy7cZBln9zXZBQwbrXfZBat24kjbPz8CgZClqedxq1IK0huFJMM4N6FpBUEVFHpxUXNvmrTh7aJfaTXQhgGTAvW1v3EYklgu2c2ZCTMhXZBvaCLKwRYK0DQ undefined
+mhlog: [Sun Apr 05 2015 21:26:53 GMT-0700 (PDT)] Message: Facebook User Data:  {"id":"100006983192490","displayName":"Bob Jones","name":{"familyName":"Jones","givenName":"Bob"},"gender":"male","profileUrl":"https://www.facebook.com/profile.php?id=100006983192490","emails":[{"value":"desireestest1@gmail.com"}],"provider":"facebook","_raw":"{\"id\":\"100006983192490\",\"email\":\"desireestest1\\u0040gmail.com\",\"first_name\":\"Bob\",\"gender\":\"male\",\"hometown\":{\"id\":\"106224666074625\",\"name\":\"Austin, Texas\"},\"last_name\":\"Jones\",\"link\":\"https:\\/\\/www.facebook.com\\/profile.php?id=100006983192490\",\"location\":{\"id\":\"108233179205482\",\"name\":\"Richardson, Texas\"},\"locale\":\"en_US\",\"name\":\"Bob Jones\",\"timezone\":-7,\"updated_time\":\"2014-01-14T22:38:17+0000\",\"verified\":true}","_json":{"id":"100006983192490","email":"desireestest1@gmail.com","first_name":"Bob","gender":"male","hometown":{"id":"106224666074625","name":"Austin, Texas"},"last_name":"Jones","link":"https://www.facebook.com/profile.php?id=100006983192490","location":{"id":"108233179205482","name":"Richardson, Texas"},"locale":"en_US","name":"Bob Jones","timezone":-7,"updated_time":"2014-01-14T22:38:17+0000","verified":true}}
+mhlog: [Sun Apr 05 2015 21:26:53 GMT-0700 (PDT)] Message: Facebook: User already not logged in
+mhlog: [Sun Apr 05 2015 21:26:53 GMT-0700 (PDT)] Message: Facebook: found user..was there a token?
+mhlog: [Sun Apr 05 2015 21:26:53 GMT-0700 (PDT)] Message: About to make call for friends
+mhlog: [Sun Apr 05 2015 21:26:53 GMT-0700 (PDT)] Message: Friends: [{"installed":true,"id":"100000167469642"},{"installed":true,"id":"100007067161861"}]
+
+TypeError: Cannot read property 'friends' of undefined
+    at /Users/dcreel121/Thesis3/PolyXpress/configs/passport.js:149:81
+    at Array.map (native)
+    at Graph.callback (/Users/dcreel121/Thesis3/PolyXpress/configs/passport.js:149:47)
+    at Graph.end (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/lib/graph.js:170:8)
+    at Request._callback (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/lib/graph.js:198:10)
+    at Request.self.callback (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/node_modules/request/request.js:123:22)
+    at Request.emit (events.js:98:17)
+    at Request.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/node_modules/request/request.js:1047:14)
+    at Request.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/node_modules/request/request.js:998:12)

@@ -1,0 +1,20 @@
+mhlog: [Thu Apr 02 2015 21:50:55 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Thu Apr 02 2015 21:50:56 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Thu Apr 02 2015 21:50:56 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Thu Apr 02 2015 21:50:56 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Thu Apr 02 2015 21:50:56 GMT-0700 (PDT)] Message: Running on port: 3500
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at EventEmitter.app.listen (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/application.js:559:24)
+    at Object.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/app.js:50:5)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)

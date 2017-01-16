@@ -1,0 +1,99 @@
+mhlog: [Sun Feb 15 2015 21:44:17 GMT-0800 (PST)] Message: Running locally
+mhlog: [Sun Feb 15 2015 21:44:17 GMT-0800 (PST)] Message: fbAppId = 303583989772545
+mhlog: [Sun Feb 15 2015 21:44:17 GMT-0800 (PST)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Feb 15 2015 21:44:17 GMT-0800 (PST)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Feb 15 2015 21:44:17 GMT-0800 (PST)] Message: Running on port: 3500
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m13.600 ms - -[0m
+Error: Error getting collection: sessions
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:160:19
+    at Db.collection (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/db.js:501:27)
+    at MongoStore._get_collection (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:158:17)
+    at MongoStore.set (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:274:12)
+    at Session.save (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express-session/session/session.js:71:25)
+    at Session.save (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express-session/index.js:315:15)
+    at ServerResponse.end (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express-session/index.js:273:21)
+    at SendStream.notModified (/Users/dcreel121/Thesis3/PolyXpress/node_modules/serve-static/node_modules/send/index.js:303:7)
+    at SendStream.send (/Users/dcreel121/Thesis3/PolyXpress/node_modules/serve-static/node_modules/send/index.js:509:17)
+    at onstat (/Users/dcreel121/Thesis3/PolyXpress/node_modules/serve-static/node_modules/send/index.js:585:10)
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/connection/server.js:777:12)
+    at Server.checkoutReader (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/connection/server.js:791:16)
+    at Cursor.nextObject (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/cursor.js:734:48)
+    at Collection.findOne (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/collection/query.js:162:10)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:223:18
+    at MongoStore._get_collection (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:156:21)
+    at MongoStore.get (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express-session/index.js:392:11)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:302:13)
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/connection/server.js:777:12)
+    at Server.checkoutReader (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/connection/server.js:791:16)
+    at Cursor.nextObject (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/cursor.js:734:48)
+    at Collection.findOne (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/collection/query.js:162:10)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:223:18
+    at MongoStore._get_collection (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:156:21)
+    at MongoStore.get (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express-session/index.js:392:11)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:302:13)
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/connection/server.js:777:12)
+    at Server.checkoutReader (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/connection/server.js:791:16)
+    at Cursor.nextObject (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/cursor.js:734:48)
+    at Collection.findOne (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongodb/lib/mongodb/collection/query.js:162:10)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:223:18
+    at MongoStore._get_collection (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:156:21)
+    at MongoStore.get (/Users/dcreel121/Thesis3/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express-session/index.js:392:11)
+    at Layer.handle [as handle_request] (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/layer.js:82:5)
+    at trim_prefix (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/router/index.js:302:13)
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [31m500 [0m16.830 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [31m500 [0m21.721 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [31m500 [0m32.894 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m72.817 ms - -[0m
+[0mGET /player/auth/facebook [36m302 [0m7.996 ms - 0[0m
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: In Passport code
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Facebook User Data:  {"id":"100000167469642","username":"DesireeMCreel","displayName":"Desiree Creel","name":{"familyName":"Creel","givenName":"Desiree"},"gender":"female","profileUrl":"https://www.facebook.com/DesireeMCreel","emails":[{"value":"dcreel121@gmail.com"}],"provider":"facebook","_raw":"{\"id\":\"100000167469642\",\"education\":[{\"school\":{\"id\":\"112274695465046\",\"name\":\"Freedom High School\"},\"type\":\"High School\",\"year\":{\"id\":\"141778012509913\",\"name\":\"2008\"}},{\"concentration\":[{\"id\":\"104076956295773\",\"name\":\"Computer Science\"}],\"school\":{\"id\":\"106143222757423\",\"name\":\"KTH\"},\"type\":\"College\",\"year\":{\"id\":\"118118634930920\",\"name\":\"2012\"}}],\"email\":\"dcreel121\\u0040gmail.com\",\"first_name\":\"Desiree\",\"gender\":\"female\",\"hometown\":{\"id\":\"108573349166846\",\"name\":\"Oakley, California\"},\"last_name\":\"Creel\",\"link\":\"https:\\/\\/www.facebook.com\\/DesireeMCreel\",\"location\":{\"id\":\"108212625870265\",\"name\":\"Mountain View, California\"},\"locale\":\"en_US\",\"name\":\"Desiree Creel\",\"timezone\":-8,\"updated_time\":\"2015-01-02T19:28:01+0000\",\"username\":\"DesireeMCreel\",\"verified\":true,\"work\":[{\"end_date\":\"2012-08-17\",\"employer\":{\"id\":\"221454954539213\",\"name\":\"Amazon A2z Development Center\"},\"location\":{\"id\":\"114952118516947\",\"name\":\"San Francisco, California\"},\"position\":{\"id\":\"138006806239610\",\"name\":\"Software Engineering Intern\"},\"start_date\":\"2012-06-11\"},{\"end_date\":\"2011-09-01\",\"employer\":{\"id\":\"106030819427920\",\"name\":\"NetApp\"},\"position\":{\"id\":\"149458478397750\",\"name\":\"Software Engineer Intern\"},\"start_date\":\"2011-06-01\"}]}","_json":{"id":"100000167469642","education":[{"school":{"id":"112274695465046","name":"Freedom High School"},"type":"High School","year":{"id":"141778012509913","name":"2008"}},{"concentration":[{"id":"104076956295773","name":"Computer Science"}],"school":{"id":"106143222757423","name":"KTH"},"type":"College","year":{"id":"118118634930920","name":"2012"}}],"email":"dcreel121@gmail.com","first_name":"Desiree","gender":"female","hometown":{"id":"108573349166846","name":"Oakley, California"},"last_name":"Creel","link":"https://www.facebook.com/DesireeMCreel","location":{"id":"108212625870265","name":"Mountain View, California"},"locale":"en_US","name":"Desiree Creel","timezone":-8,"updated_time":"2015-01-02T19:28:01+0000","username":"DesireeMCreel","verified":true,"work":[{"end_date":"2012-08-17","employer":{"id":"221454954539213","name":"Amazon A2z Development Center"},"location":{"id":"114952118516947","name":"San Francisco, California"},"position":{"id":"138006806239610","name":"Software Engineering Intern"},"start_date":"2012-06-11"},{"end_date":"2011-09-01","employer":{"id":"106030819427920","name":"NetApp"},"position":{"id":"149458478397750","name":"Software Engineer Intern"},"start_date":"2011-06-01"}]}}
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Facebook: User already not logged in
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Facebook: Creating new user!
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Did the scope thing work? https://www.facebook.com/DesireeMCreel
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside serialize: {"__v":0,"name":"Desiree Creel","_id":"54e183dac89a22a718de351d","modified":"2015-02-16T05:44:58.302Z","created":"2015-02-16T05:44:58.302Z","eventCompletedList":[],"chapterCompletedList":[],"storyCompletedList":[],"readingList":[],"authorList":[],"friends":[],"facebook":{"email":"","username":"DesireeMCreel","token":"CAAEUG6fesQEBADFiToInZAax2NZASoHzK3MyGFJtjGk4DZBt4DobndX7ymFyZC1ZC7KUzlwsuNr3fBXYD4PEPfIDjl72Qap5ay4BL4v4yZBzm2agtZAPoVnZCeYuwCW2HxSRpScgcVF9VnMFNcFzyFopBsjzu8MAAeh3cIWXWWnlnuZByxlG3XX2ejZCTNQSxrJRDaOe0rJ7EZBZB2WSXtcsuDLN","id":100000167469642}}
+[0mGET /player/auth/facebook/callback?code=AQDSRft2mcjwNfnwMkTUFX7aH3xLhonxs8frNlxaCD8b_Q50OQiw-gFX8XKthY2A__6vwfAQlBm-fPGSa-TfESW9fE9aci0iNJ732bYdoEeIJ0NU-QW-UCv6pWGEu9wQd9EBexJCk9EKMwZH0ydFMEzQTKfRSaacHN4kzwV8lphfqnOnvj1IK7WeZ-o6onVkMN4EGU30sziFxAWwfas6VtFdwpXTeJLKMMP-nbk5Or0xHgpH6fnpaYwUg6VVkyFnf6uZiBFm3LsbkbfAwR5zM4yDnpiKTTPDRhlM3ka40foLQo_O_W0OdTxN9y0sCqTW7UXEbanRDRPiXb9wIne59cOn [36m302 [0m484.288 ms - 120[0m
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m7.187 ms - -[0m
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m23.881 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m18.546 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m21.759 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m27.972 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m31.129 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m30.550 ms - -[0m
+mhlog: [Sun Feb 15 2015 21:44:58 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m9.057 ms - -[0m
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m7.404 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m8.746 ms - -[0m
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [32m200 [0m20.873 ms - 9100[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [32m200 [0m20.359 ms - 20915[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [32m200 [0m19.900 ms - 9100[0m
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m7.862 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m7.818 ms - -[0m
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m4.839 ms - -[0m
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [32m200 [0m9.372 ms - 17[0m
+mhlog: [Sun Feb 15 2015 21:44:59 GMT-0800 (PST)] Message: Inside deserialize: 54e183dac89a22a718de351d
+[0mGET /peAPI/user/self [32m200 [0m10.619 ms - 564[0m

@@ -1,0 +1,44 @@
+mhlog: [Fri Aug 21 2015 22:01:51 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Fri Aug 21 2015 22:01:51 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Fri Aug 21 2015 22:01:51 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Fri Aug 21 2015 22:01:51 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Fri Aug 21 2015 22:01:52 GMT-0700 (PDT)] Message: Running on port: 3500
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m39.134 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m25.837 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m23.708 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m23.336 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m23.201 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m18.996 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m23.080 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m4.768 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m2.891 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m3.465 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m6.128 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m7.220 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m7.591 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m7.176 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m6.530 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m3.830 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m3.909 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m2.394 ms - -[0m
+mhlog: [Fri Aug 21 2015 22:02:20 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m7.280 ms - -[0m
+[0mGET /player/auth/facebook [36m302 [0m7.347 ms - 0[0m
+mhlog: [Fri Aug 21 2015 22:02:23 GMT-0700 (PDT)] Message: In Passport code
+CAAEUG6fesQEBAEuwtRAIc0iB1LL78cPrZBfDUAiGwRZCYQp1PLQceP1F56essw4BqfFZBL8qR2e9LdOcSNKdyuSjuJBM5L7oB6tiKLggT5RMAnCHfb0CwNE2IssyILpCp6ZAvO6YYewEqDKBdmHDAnl5FScz0METqtxf7fJGO0oMEfFsA8oZAqPTGfjKFwuOkExltgwG9BQZDZD undefined
+mhlog: [Fri Aug 21 2015 22:02:23 GMT-0700 (PDT)] Message: Facebook User Data:  {"id":"100006983192490","displayName":"Bob Jones","name":{"familyName":"Jones","givenName":"Bob"},"gender":"male","profileUrl":"http://www.facebook.com/100006983192490","emails":[{"value":"desireestest1@gmail.com"}],"provider":"facebook","_raw":"{\"id\":\"100006983192490\",\"email\":\"desireestest1\\u0040gmail.com\",\"first_name\":\"Bob\",\"gender\":\"male\",\"last_name\":\"Jones\",\"link\":\"http:\\/\\/www.facebook.com\\/100006983192490\",\"locale\":\"en_US\",\"name\":\"Bob Jones\",\"timezone\":-7,\"updated_time\":\"2014-01-14T22:38:17+0000\",\"verified\":true}","_json":{"id":"100006983192490","email":"desireestest1@gmail.com","first_name":"Bob","gender":"male","last_name":"Jones","link":"http://www.facebook.com/100006983192490","locale":"en_US","name":"Bob Jones","timezone":-7,"updated_time":"2014-01-14T22:38:17+0000","verified":true}}
+mhlog: [Fri Aug 21 2015 22:02:23 GMT-0700 (PDT)] Message: Facebook: User already not logged in
+mhlog: [Fri Aug 21 2015 22:02:23 GMT-0700 (PDT)] Message: Facebook: Creating new user!
+
+/Users/dcreel121/Thesis3/PolyXpress/configs/passport.js:175
+                      newUser.facebook.location = profile._json.location.name;
+                                                                        ^
+TypeError: Cannot read property 'name' of undefined
+    at Promise.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/configs/passport.js:175:79)
+    at Promise.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mpromise/lib/promise.js:177:8)
+    at Promise.emit (events.js:95:17)
+    at Promise.emit (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mpromise/lib/promise.js:84:38)
+    at Promise.fulfill (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mpromise/lib/promise.js:97:20)
+    at Object.cb (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/query.js:1150:30)
+    at Object._onImmediate (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/mquery/lib/utils.js:137:16)
+    at processImmediate [as _immediateCallback] (timers.js:354:15)

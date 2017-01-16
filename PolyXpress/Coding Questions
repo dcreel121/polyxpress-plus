@@ -1,0 +1,33 @@
+TODO: 
+
+- Need to create message model DONE
+- Need to hook up saving message button. DONE
+- Need to get messages for event and display in conversation format between users.
+- Need to consider if there's aready a conversation for the selected person to just use that instead.
+
+- Get Nearby Feeds from server.
+	- X Will need to save lat/lng in Feed object first.
+	- Get feeds from server. Will need to calculate distance in meters, 30 closest stories USE MONGO $near
+   	  that are within 32000 meters (~10 miles);
+   	- Display the results on the Nearby Feeds page.
+
+
+Get rid of weird spinny thing when "remove from list" thing is pressed. 
+Fix point finder for story creation. 
+Figure out how to get current location and use when retreiving nearby feeds. Currently using user's city. 
+
+
+Design Feed database.
+	- When user starts story create new feed. 
+	- When user completes story update feed item to say completed instead of started. 
+
+
+
+Questions: 
+	What exactly happens when you were previously logged in to PolyXpress, but then closed the app and restarted it. It still has the cookie so it automatically signs you in, but where is that in the code. I would maybe like to recheck the users facebook friends at that time. Right now I can only seem to find the part in the code if the user's account is unlinked. What exactly does unlinked mean? 
+
+	Where in the code is a story declared as fininshed? (Once all chapters are completed?) Need to change feed to completed at this point in the code.
+
+	http://localhost:3500/PolyXpress/Author/peDesignerMain.html#mainMenu
+
+               

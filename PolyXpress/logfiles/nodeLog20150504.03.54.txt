@@ -1,0 +1,211 @@
+mhlog: [Mon May 04 2015 21:54:33 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Mon May 04 2015 21:54:33 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Mon May 04 2015 21:54:33 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Mon May 04 2015 21:54:33 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Mon May 04 2015 21:54:33 GMT-0700 (PDT)] Message: Running on port: 3500
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m50.586 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m62.601 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m29.312 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m66.426 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m32.694 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m32.055 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m18.892 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m7.159 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m6.351 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m3.676 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m4.004 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m3.693 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m9.775 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m10.557 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [32m200 [0m14.780 ms - 10177[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m4.366 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m4.140 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m2.102 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:36 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [32m200 [0m6.393 ms - 18[0m
+[0mGET /player/auth/facebook [36m302 [0m8.406 ms - 0[0m
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: In Passport code
+CAAEUG6fesQEBAHmTyvZBHVp8JsZB1sZAdwBfaHCPMIhStZCyP739RsrNgXLS5Gv4h56V4K1CbQLQaZCmpw78ZASMHZButmCrsGZA6mw0vlVyrhSVgbDtfKQPuUcnj2iJ2wITfBB7w0gl299NVusMxJSJ52WyXIPI88vomaxgjg5jUN4sIFw4OjOuXaM1gjFnwjUYk2X7WUIPpdHM5fKtZCK7v undefined
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Facebook User Data:  {"id":"100000167469642","displayName":"Desiree Creel","name":{"familyName":"Creel","givenName":"Desiree"},"gender":"female","profileUrl":"http://www.facebook.com/100000167469642","emails":[{"value":"dcreel121@gmail.com"}],"provider":"facebook","_raw":"{\"id\":\"100000167469642\",\"email\":\"dcreel121\\u0040gmail.com\",\"first_name\":\"Desiree\",\"gender\":\"female\",\"last_name\":\"Creel\",\"link\":\"http:\\/\\/www.facebook.com\\/100000167469642\",\"locale\":\"en_US\",\"name\":\"Desiree Creel\",\"timezone\":-7,\"updated_time\":\"2015-01-02T19:28:01+0000\",\"verified\":true}","_json":{"id":"100000167469642","email":"dcreel121@gmail.com","first_name":"Desiree","gender":"female","last_name":"Creel","link":"http://www.facebook.com/100000167469642","locale":"en_US","name":"Desiree Creel","timezone":-7,"updated_time":"2015-01-02T19:28:01+0000","verified":true}}
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Facebook: User already not logged in
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Facebook: found user..was there a token?
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside serialize: {"__v":5,"_id":"551e282ff847328172a43bf8","name":"Desiree Creel","modified":"2015-05-02T21:46:02.271Z","created":"2015-04-03T05:42:07.864Z","eventCompletedList":[],"chapterCompletedList":[],"storyCompletedList":[],"readingList":["552999a3fd12da1504d490fd"],"authorList":[],"facebook":{"picture":"https://fbcdn-profile-a.akamaihd.net/hprofile-ak-xpa1/v/t1.0-1/p50x50/10885303_1018736321475274_912253483682574643_n.jpg?oh=fca2e1d5ef73b7d9785919455465aecf&oe=55A35883&__gda__=1437711007_85c22628625d9b03a965083f024aea84","email":"","location":"Mountain View, California","username":"DesireeMCreel","token":"CAAEUG6fesQEBAALWBZBjnZAvWhF9hpFLbCQPgguZCpWMkdkDeXZAYhMIpvR5ElTznUTI3zjsreoBuQU9ZAZCDEKCjw9PJbQG5TZB16ixDhaOzvtJ1rnBVB5TlQZA4471DnUiwNVmBuek0Yra8GdzTYoWwuSdiELQ6ZCL1rLxrnukT2pRyhlUZBNzKKOhTfMZBYylvO6fRDayCJWGzFdQRcMTwIZB","id":100000167469642,"friends":["100006983192490","100007067161861"]}}
+[0mGET /player/auth/facebook/callback?code=AQBvyiXuj80ZHgtUkbfXJzoW3xvJb-uylBvwOg6qOFjBwpq6yvbTdyqo444Lx0_fzuB9P2S4qPjlvQ-P59dAiJqM844A11L_k7QKHfpm9fknmcO4ughlp-TeBAxResj0liu49aZX6O_nvdXfizOT0Yb-sFs7-TTTsz-E5VwEB_jn0oH-Ran6v_xTOWDxW8l5xxQXP1p1RvloHPqKhAaqqT6RqZYKUNN5kxecwEUoLtEwl8pu9V1t148KXV7iNiJScgp85RxlkF2W90MowkGJcbfRxodPYbjrSey5hiMUM0baeTpGdhoCsMlNjkR_vII8e7RGJgRNuhlUfyCHPn7wu0ZM [36m302 [0m374.185 ms - 120[0m
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m7.370 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m29.715 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m53.676 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m57.208 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m68.530 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m71.862 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m72.574 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m48.580 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m11.742 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m11.959 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m12.219 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m15.460 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m14.211 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m13.392 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m7.866 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m6.859 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.717 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:40 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:41 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [32m200 [0m8.040 ms - 17[0m
+mhlog: [Mon May 04 2015 21:54:41 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/user/self [32m200 [0m8.801 ms - 897[0m
+mhlog: [Mon May 04 2015 21:54:41 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Mon May 04 2015 21:54:41 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Mon May 04 2015 21:54:41 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m37.041 ms - -[0m
+mhlog: [Mon May 04 2015 21:54:45 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:45 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+mhlog: [Mon May 04 2015 21:54:45 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+[0mPOST /peAPI/feed [32m200 [0m85.844 ms - 171[0m
+mhlog: [Mon May 04 2015 21:54:50 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:54:50 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m81.903 ms - 871[0m
+mhlog: [Mon May 04 2015 21:54:58 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/story/recent [36m304 [0m31.218 ms - -[0m
+mhlog: [Mon May 04 2015 21:55:01 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:55:01 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:55:01 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:55:01 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Mon May 04 2015 21:55:01 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Mon May 04 2015 21:55:01 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m58.829 ms - 897[0m
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m54.963 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m39.943 ms - -[0m
+mhlog: [Mon May 04 2015 21:56:01 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:56:01 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+mhlog: [Mon May 04 2015 21:56:01 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+[0mPOST /peAPI/feed [32m200 [0m13.858 ms - 171[0m
+mhlog: [Mon May 04 2015 21:57:25 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/story/recent [36m304 [0m6.328 ms - -[0m
+mhlog: [Mon May 04 2015 21:57:32 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:57:32 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+mhlog: [Mon May 04 2015 21:57:32 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+[0mPOST /peAPI/feed [32m200 [0m15.004 ms - 171[0m
+mhlog: [Mon May 04 2015 21:57:34 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:57:34 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:57:34 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+[0mPOST /peAPI/feed [32m200 [0m35.285 ms - 173[0m
+mhlog: [Mon May 04 2015 21:57:35 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+mhlog: [Mon May 04 2015 21:57:35 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m47.474 ms - 871[0m
+mhlog: [Mon May 04 2015 21:57:39 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/story/recent [36m304 [0m10.479 ms - -[0m
+mhlog: [Mon May 04 2015 21:57:42 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:57:42 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:57:42 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Mon May 04 2015 21:57:42 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Mon May 04 2015 21:57:42 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+mhlog: [Mon May 04 2015 21:57:42 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m55.753 ms - -[0m
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m65.135 ms - 897[0m
+[0mGET /peAPI/story/recent [36m304 [0m48.414 ms - -[0m
+mhlog: [Mon May 04 2015 21:58:16 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:16 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"completed","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+[0mPOST /peAPI/feed [32m200 [0m58.337 ms - 171[0m
+mhlog: [Mon May 04 2015 21:58:17 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+mhlog: [Mon May 04 2015 21:58:18 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:18 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+mhlog: [Mon May 04 2015 21:58:18 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+[0mPOST /peAPI/feed [32m200 [0m13.763 ms - 171[0m
+mhlog: [Mon May 04 2015 21:58:20 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:20 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m17.540 ms - 872[0m
+mhlog: [Mon May 04 2015 21:58:21 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+[0mGET /peAPI/story/recent [36m304 [0m15.940 ms - -[0m
+mhlog: [Mon May 04 2015 21:58:24 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:24 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:24 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:24 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+Error: null
+Story: { __v: 0,
+  _id: 552999a3fd12da1504d490fd,
+  image: '',
+  overview: 'This story is just a test. Thats it and that\'s all man.',
+  title: 'Test Story',
+  lock: false,
+  modified: Sat Apr 11 2015 15:04:10 GMT-0700 (PDT),
+  created: Sat Apr 11 2015 15:01:07 GMT-0700 (PDT),
+  chapterList: [ 55299934fd12da1504d490fc ],
+  keywords: [ 'teststory' ],
+  test: false,
+  publish: true,
+  authors: [ 54f40350760fa6bf27fbd875 ] }
+mhlog: [Mon May 04 2015 21:58:24 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd found
+mhlog: [Mon May 04 2015 21:58:24 GMT-0700 (PDT)] Message: Story 552999a3fd12da1504d490fd published
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m79.300 ms - 898[0m
+[0mGET /peAPI/story/552999a3fd12da1504d490fd [36m304 [0m78.143 ms - -[0m
+[0mGET /peAPI/story/recent [36m304 [0m70.879 ms - -[0m
+mhlog: [Mon May 04 2015 21:58:32 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:32 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+mhlog: [Mon May 04 2015 21:58:32 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+[0mPOST /peAPI/feed [32m200 [0m30.313 ms - 171[0m
+mhlog: [Mon May 04 2015 21:58:33 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:33 GMT-0700 (PDT)] Message: Inside deserialize: 551e282ff847328172a43bf8
+mhlog: [Mon May 04 2015 21:58:33 GMT-0700 (PDT)] Message: feed found: [{"__v":0,"_id":"55343167820e06042d561d3d","action":"started","created":"2015-04-19T22:51:19.625Z","storyId":"552999a3fd12da1504d490fd","userId":"551e282ff847328172a43bf8"}]
+[0mPOST /peAPI/feed [32m200 [0m39.418 ms - 173[0m
+mhlog: [Mon May 04 2015 21:58:33 GMT-0700 (PDT)] Message: Feed userId:551e282ff847328172a43bf8 & storyId: 552999a3fd12da1504d490fd created
+mhlog: [Mon May 04 2015 21:58:33 GMT-0700 (PDT)] Message: User 551e282ff847328172a43bf8 updated
+[0mPUT /peAPI/user/551e282ff847328172a43bf8 [32m200 [0m71.349 ms - 872[0m

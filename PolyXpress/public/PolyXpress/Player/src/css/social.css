@@ -1,0 +1,66 @@
+/*
+ * social
+ *
+ * Description: styles for social networking features.
+ *
+ * Copyright: 2012
+ * License: MIT
+ *
+ * Initial Author: Desiree Creel
+ */
+
+.clear {
+    clear:both;
+}
+
+.comment {
+    font-size: 14px;
+    width: 99%;
+    height: 5em;
+    padding-left: 10px;
+}
+
+.containedList {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    border: #ddd;
+    width: 90%;
+    height: 200px;
+    overflow: scroll;
+}
+
+.delBtn {
+    width:2%;
+    margin-left:5px;
+    text-align:center;
+    color:black;
+}
+
+.profile-picture {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+.textwrap {
+    white-space: normal;
+}
+
+.userinfo-container {
+    height: 100px;
+    float: left;
+}
+
+.username-display {
+    font-family: Helvetic Neue Light;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.userlocation-display {
+    font-family: Helvietic Neue Light;
+    font-size: 14px;
+    margin-left: 15px;
+

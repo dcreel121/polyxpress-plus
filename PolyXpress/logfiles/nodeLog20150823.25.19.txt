@@ -1,0 +1,63 @@
+mhlog: [Sun Aug 23 2015 20:12:46 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun Aug 23 2015 20:12:46 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun Aug 23 2015 20:12:46 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Aug 23 2015 20:12:46 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Aug 23 2015 20:12:46 GMT-0700 (PDT)] Message: Running on port: 3500
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m60.136 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m18.635 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m17.432 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m15.881 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m14.783 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m10.134 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m6.739 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:24 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m11.564 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:25 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m8.006 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:26 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m6.308 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:34 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:34 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m12.169 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m11.157 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:34 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:34 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:34 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m11.251 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m12.271 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m21.072 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:35 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:35 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m8.064 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m7.717 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:36 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m17.325 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:37 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:13:37 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = True.
+[0mGET /peAPI/user/checkAuth [36m304 [0m8.546 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:13:37 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+[0mGET /peAPI/user/self [36m304 [0m8.931 ms - -[0m
+mhlog: [Sun Aug 23 2015 20:17:05 GMT-0700 (PDT)] Message: Inside deserialize: 55da035bb73c5d857b3e8026
+mhlog: [Sun Aug 23 2015 20:17:05 GMT-0700 (PDT)] Message: ValidationError: Path `proximity` is required.
+
+http.js:690
+    throw new Error('Can\'t set headers after they are sent.');
+          ^
+Error: Can't set headers after they are sent.
+    at ServerResponse.OutgoingMessage.setHeader (http.js:690:11)
+    at ServerResponse.header (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/response.js:695:10)
+    at ServerResponse.send (/Users/dcreel121/Thesis3/PolyXpress/node_modules/express/lib/response.js:146:12)
+    at sendAndDisplayError (/Users/dcreel121/Thesis3/PolyXpress/routes/routesCRUD.js:725:20)
+    at /Users/dcreel121/Thesis3/PolyXpress/routes/routesCRUD.js:190:17
+    at handleError (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/hooks/hooks.js:92:18)
+    at _next (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/hooks/hooks.js:34:22)
+    at fnWrapper (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/node_modules/hooks/hooks.js:159:8)
+    at complete (/Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/document.js:988:5)
+    at /Users/dcreel121/Thesis3/PolyXpress/node_modules/mongoose/lib/document.js:979:20

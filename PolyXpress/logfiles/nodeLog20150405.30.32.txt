@@ -1,0 +1,45 @@
+mhlog: [Sun Apr 05 2015 21:29:12 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun Apr 05 2015 21:29:12 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun Apr 05 2015 21:29:12 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Apr 05 2015 21:29:12 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Apr 05 2015 21:29:12 GMT-0700 (PDT)] Message: Running on port: 3500
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m48.080 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m18.251 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m22.774 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m19.403 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m15.598 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m21.198 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m22.903 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m4.759 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m3.952 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m4.282 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m10.254 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m9.873 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m6.099 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m5.840 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m6.099 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m23.641 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m24.318 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m3.381 ms - -[0m
+mhlog: [Sun Apr 05 2015 21:29:23 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m7.474 ms - -[0m
+[0mGET /player/auth/facebook [36m302 [0m7.762 ms - 0[0m
+mhlog: [Sun Apr 05 2015 21:29:25 GMT-0700 (PDT)] Message: In Passport code
+CAAEUG6fesQEBAFKOAVsc894qNv4a612WuZBI74Pn7eyVRZCWmhZCkCgZBxLrQehUFGHueyC7R4GPJuLP8L50UjhVMVbyJimSZAB3zGdjNKh0vlCWKs2byXVgA3Pz6va9U0V3kCvQw3P3TwwvcBaZBzEc78QkSRYu40hMjBHpDCa0GS9KxpOpUSgHIj1VLY88jlMVZAcmSeuPoyM6NjqfBnq undefined
+mhlog: [Sun Apr 05 2015 21:29:25 GMT-0700 (PDT)] Message: Facebook User Data:  {"id":"100006983192490","displayName":"Bob Jones","name":{"familyName":"Jones","givenName":"Bob"},"gender":"male","profileUrl":"https://www.facebook.com/profile.php?id=100006983192490","emails":[{"value":"desireestest1@gmail.com"}],"provider":"facebook","_raw":"{\"id\":\"100006983192490\",\"email\":\"desireestest1\\u0040gmail.com\",\"first_name\":\"Bob\",\"gender\":\"male\",\"hometown\":{\"id\":\"106224666074625\",\"name\":\"Austin, Texas\"},\"last_name\":\"Jones\",\"link\":\"https:\\/\\/www.facebook.com\\/profile.php?id=100006983192490\",\"location\":{\"id\":\"108233179205482\",\"name\":\"Richardson, Texas\"},\"locale\":\"en_US\",\"name\":\"Bob Jones\",\"timezone\":-7,\"updated_time\":\"2014-01-14T22:38:17+0000\",\"verified\":true}","_json":{"id":"100006983192490","email":"desireestest1@gmail.com","first_name":"Bob","gender":"male","hometown":{"id":"106224666074625","name":"Austin, Texas"},"last_name":"Jones","link":"https://www.facebook.com/profile.php?id=100006983192490","location":{"id":"108233179205482","name":"Richardson, Texas"},"locale":"en_US","name":"Bob Jones","timezone":-7,"updated_time":"2014-01-14T22:38:17+0000","verified":true}}
+mhlog: [Sun Apr 05 2015 21:29:25 GMT-0700 (PDT)] Message: Facebook: User already not logged in
+mhlog: [Sun Apr 05 2015 21:29:25 GMT-0700 (PDT)] Message: Facebook: found user..was there a token?
+mhlog: [Sun Apr 05 2015 21:29:25 GMT-0700 (PDT)] Message: About to make call for friends
+mhlog: [Sun Apr 05 2015 21:29:26 GMT-0700 (PDT)] Message: Friends: [{"installed":true,"id":"100000167469642"},{"installed":true,"id":"100007067161861"}]
+
+TypeError: Cannot read property 'friends' of undefined
+    at /Users/dcreel121/Thesis3/PolyXpress/configs/passport.js:151:81
+    at Array.map (native)
+    at Graph.callback (/Users/dcreel121/Thesis3/PolyXpress/configs/passport.js:151:47)
+    at Graph.end (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/lib/graph.js:170:8)
+    at Request._callback (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/lib/graph.js:198:10)
+    at Request.self.callback (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/node_modules/request/request.js:123:22)
+    at Request.emit (events.js:98:17)
+    at Request.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/node_modules/request/request.js:1047:14)
+    at Request.emit (events.js:117:20)
+    at IncomingMessage.<anonymous> (/Users/dcreel121/Thesis3/PolyXpress/node_modules/fbgraph/node_modules/request/request.js:998:12)
