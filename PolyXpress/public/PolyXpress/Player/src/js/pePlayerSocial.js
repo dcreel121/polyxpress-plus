@@ -51,6 +51,16 @@
         function populateNotificationFeed(messages) {
             mhLog.log(mhLog.LEVEL.DEBUG, "Populating notifications feed");
             console.log("Notifications:", messages.length);
+
+            var title = "";
+            if (messages.length == 1) {
+                title = "You have 1 notification.";
+            }
+            else {
+                title = "You have " + messages.length + " notifications.";
+            }
+            $("#notificationTitle").html(title);
+
             var list = $("#notificationFeed").listview();
             list.empty();
 

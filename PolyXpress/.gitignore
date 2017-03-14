@@ -1,7 +1,7 @@
 # File from https://github.com/github/gitignore/blob/master/Node.gitignore
 # Logs
 logs
-logfiles/
+logfiles/*
 
 *.log
 npm-debug.log*
