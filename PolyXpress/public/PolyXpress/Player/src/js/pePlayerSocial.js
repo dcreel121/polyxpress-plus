@@ -492,11 +492,12 @@
             cleanStr = cleanStr.replace(/\s+/gm," "); // Removes excessive new lines and whitespace
             cleanStr = cleanStr.replace(/<.+?>/gm, "");  // Removes html tags
             p_text.innerHTML = cleanStr;
-            //p_text.className = 'ui-li-desc textwrap';
+            p_text.style = 'white-space:normal;margin:1em 0;'; // override jquery ui-listview class style
 
             var date = new Date(message.created);
             p_date.innerHTML = date.toLocaleString();
             p_date.className = 'ui-li-aside';
+            p_date.style = "font-size:x-small;margin:-.5em;";
 
             li.appendChild(img);
             li.appendChild(p_text);
