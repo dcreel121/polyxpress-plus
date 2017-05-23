@@ -240,6 +240,30 @@ module.exports = function (app, models) {
  
     });
 
+    // Message Collection:  Update a single message as seen.
+    app.put('/peAPI/message/seen/:id', function (req, res) {
+
+        return models.MessageModel.findById(req.params.id, function (err, message) {
+            if (!err) {
+                message.seen = true;
+                return message.save(function (err) {
+                    if (!err) {
+                        app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Message " + message._id + " updated as seen");
+                    }
+                    else {
+                        sendAndDisplayError(res, err);
+                    }
+                    return res.send(message);
+                });
+            }
+            else {
+                sendAndDisplayError(res, err);
+
+            }
+        });
+    });
+
+
 };
 
 

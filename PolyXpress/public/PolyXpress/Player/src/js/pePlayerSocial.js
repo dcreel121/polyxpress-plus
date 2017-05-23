@@ -165,6 +165,11 @@
                     pePC.showStoryOverview(storyId);
                 }
             });
+
+            //$("markMessageSeenButton").on("click", function() {
+            //    pePS.updateMessageAsSeen(messageId);
+            //});
+
         }
 
         function addStoryToReadingList(storyId, next) {
@@ -354,7 +359,11 @@
             list.empty();
             for (var i = 0; i < messages.length; i++) {
                 var message = messages[i];
-                mhLog.log(mhLog.LEVEL.DEBUG, "creating list item for user " + message._id);
+                mhLog.log(mhLog.LEVEL.DEBUG, "creating with message item: " + message._id);
+                if (message.receiver.name == pePC.getAuthorData().name) {
+                    mhLog.log(mhLog.LEVEL.DEBUG, "Marking message as seen: " + message._id);
+                    pePS.updateMessageAsSeen(message._id);
+                }
                 list.append(createMessageListItem(message));
             }
             

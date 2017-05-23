@@ -670,6 +670,26 @@
             request.send(null);            
         };
 
+        pePlayerServer.updateMessageAsSeen = function(messageId, displayCallback) {
+
+            var request = new XMLHttpRequest();
+            request.onload = function () {
+
+                if (request.status === 200) {
+                    mhLog.log(mhLog.LEVEL.DEBUG, "Message updated successfully");
+                    if (displayCallback) {
+                        displayCallback();
+                    }
+                }
+                else {
+                    mhLog.log(mhLog.LEVEL.PRODUCTION, "Error updating message as seen");
+                }
+            };
+            request.open("PUT", "/peAPI/message/seen/" + messageId);
+            request.setRequestHeader("Content-Type", "application/json");
+            request.send(null);
+        }
+
         /*
          ********** Notification **********
          */
