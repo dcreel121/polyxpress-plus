@@ -90,7 +90,7 @@
                 
                 var a = createLinkDOM(hrefLink, null, null, 
                                       'The story \" ' + item.story.title + '\" has a comment waiting for you from ' + item.sender.name + '.',
-                                       [{'key':'data-rel', 'value':'popup'}]);
+                                       [{'key':'data-rel', 'value':'popup'}, {'key':'style', 'value':'white-space:normal'}]);
                 a.appendChild(img);
                 li.appendChild(a);
 
