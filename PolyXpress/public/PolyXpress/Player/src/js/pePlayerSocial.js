@@ -122,6 +122,14 @@
                     pePC.showScrapbookView(message.event._id);
                 }
             });
+            // If user clicks button mark the message as read.
+            $('#markMessageSeenButton').on("click", function() {
+                console.log("updaing message as seen button clicked");
+                pePS.updateMessageAsSeen(message._id);
+                // refresh messages.
+                pePlayerSocial.showNotificationView();
+                pePC.stopSpinner();
+            });
 
          }
 
@@ -165,10 +173,6 @@
                     pePC.showStoryOverview(storyId);
                 }
             });
-
-            //$("markMessageSeenButton").on("click", function() {
-            //    pePS.updateMessageAsSeen(messageId);
-            //});
 
         }
 
