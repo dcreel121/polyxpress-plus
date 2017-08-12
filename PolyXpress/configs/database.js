@@ -22,9 +22,10 @@ module.exports = function (app) {
             // Configure MongoDB Service URL
             myDBConfig.vcapServices = JSON.parse(process.env.VCAP_SERVICES);
             myDBConfig.vcapApplication = JSON.parse(process.env.VCAP_APPLICATION);
-            myDBConfig.mongourl = myDBConfig.vcapServices.mongolab[0].credentials.uri;
-            myDBConfig.mongodb = myDBConfig.vcapServices.mongolab[0].name;
+            myDBConfig.mongourl = myDBConfig.vcapServices.mlab[0].credentials.uri;
+            myDBConfig.mongodb = myDBConfig.vcapServices.mlab[0].name;
             app.mhLog.log(app.mhLog.LEVEL.PRODUCTION, "Space = " + myDBConfig.vcapApplication.space_name);
+
         }
         else {
             // Configure MongoDB Service URL

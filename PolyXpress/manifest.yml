@@ -1,0 +1,9 @@
+---
+applications:
+- name: polyxpressplus
+  command: node app.js
+  memory: 768M
+  instances: 1
+  services:
+  - pxp-db
+
