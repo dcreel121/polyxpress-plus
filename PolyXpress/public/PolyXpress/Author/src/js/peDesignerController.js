@@ -267,7 +267,7 @@
 
         // mapView page
         $(document).on("pageshow", "#mapView", function () {
-            mhLog.log(mhLog.LEVEL.DEBUG, "PageShow:  mapViewChapters");
+            mhLog.log(mhLog.LEVEL.DEBUG, "PageShow:  mapView");
             google.maps.event.trigger(document.getElementById("map_canvas"), 'resize');
         });
 
