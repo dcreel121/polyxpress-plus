@@ -99,13 +99,13 @@
          * @returns {undefined}
          */
         pePlayerServer.getAuthorData = function (setAuthorCallback, setDisplayCallback) {
-            /*getAuthorInformation(setAuthorCallback,
+            getAuthorInformation(setAuthorCallback,
                                  getAllStories.bind(undefined,
                                                     getAllChapters.bind(undefined,
                                                                         getAllEvents.bind(undefined,
-                                                                                          setDisplayCallback))));*/
+                                                                                          setDisplayCallback))));
             // useAuthorData, populateStoryList
-            getAuthorInformation(setAuthorCallback, getAllStories.bind(undefined, setDisplayCallback));
+           // getAuthorInformation(setAuthorCallback, getAllStories.bind(undefined, setDisplayCallback));
         };
 
         /**
