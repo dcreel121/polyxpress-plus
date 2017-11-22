@@ -320,17 +320,29 @@
 
             mhLog.log(mhLog.LEVEL.DEBUG, "populating friends popup");
 
-            var list = $('#friendList').listview();
-            list.empty();
-            for (var i = 0; i < friends.length; i++) {
-                var user = friends[i];
+            if (friends.length > 0) {
 
-                mhLog.log(mhLog.LEVEL.DEBUG, "creating list item for user " + user.name);
-                list.append(createFriendListItem(user));
+                var list = $('#friendList').listview();
+                list.empty();
+                for (var i = 0; i < friends.length; i++) {
+                    var user = friends[i];
+
+                    mhLog.log(mhLog.LEVEL.DEBUG, "creating list item for user " + user.name);
+                    list.append(createFriendListItem(user));
+                }
+                $("#friendList").listview("refresh");
+                $("#newMessageButton").toggleClass("hide"); // hides
+                $("#chooseFriendPopup").popup("open");
             }
-            $("#friendList").listview("refresh");
-            $("#newMessageButton").toggleClass("hide"); // hides
-            $("#chooseFriendPopup").popup("open");
+            else {
+                mhLog.log(mhLog.LEVEL.DEBUG, "No friends found that use PolyXpress+.");
+                $("#chooseFriendPopup").popup("close");
+                $("#inviteFriendsPopup").popup();
+                setTimeout(function () {
+                    $("#inviteFriendsPopup").popup("open");
+                }, 100);
+                pePC.stopSpinner();
+            }
         }
 
         /*
