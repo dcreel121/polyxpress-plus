@@ -153,6 +153,13 @@
             pePS.getMessages(authorData._id, pePlayerController.getCurrentEventID(), peSocial.refreshConversations);
         });
 
+        // event for capturing choose friend popup closing
+        $(document).on("click", "#chooseFriendPopup-screen", function () {
+            mhLog.log(mhLog.LEVEL.DEBUG, "popup screen closing: chooseFriendPopup");
+            $("#newMessageButton").toggleClass("hide");
+        });
+
+
         /*
          ************ Initialization *************
          */
