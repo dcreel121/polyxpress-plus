@@ -721,12 +721,14 @@
             for (var i = 0; i < feeds.length; i++) {
                 var o = feeds[i];
                  
-                var li = $('<li class="ui-li ui-li-static ui-btn-up-a ui-li-has-thumb">\n\
-                                <img src="https://graph.facebook.com/' + o.facebookId + '/picture?width=75&height=75" class="ui-li-thumb">\n\
-                                <h3 class="ui-li-heading">' + o.user.name + '</h3>\n\
-                                <p class="ui-li-desc textwrap">' + o.action + ' a story called ' + o.story.title + ' in ' + o.city + '.</p></li>');
-                li.on("click", listHelper(o.story._id, openAddStoryFromFeedPopup));
-                list.append(li);
+                if (o.facebookId != null && o.user != null && o.action != null && o.story != null && o.city != null) {
+                    var li = $('<li class="ui-li ui-li-static ui-btn-up-a ui-li-has-thumb">\n\
+                                    <img src="https://graph.facebook.com/' + o.facebookId + '/picture?width=75&height=75" class="ui-li-thumb">\n\
+                                    <h3 class="ui-li-heading">' + o.user.name + '</h3>\n\
+                                    <p class="ui-li-desc textwrap">' + o.action + ' a story called ' + o.story.title + ' in ' + o.city + '.</p></li>');
+                    li.on("click", listHelper(o.story._id, openAddStoryFromFeedPopup));
+                    list.append(li);
+                }
             }
 
             $("#friendsFeed").listview("refresh");
@@ -741,12 +743,14 @@
             for (var i = 0; i < feeds.length; i++) {
                 var o = feeds[i];
                  
-                var li = $('<li class="ui-li ui-li-static ui-btn-up-a ui-li-has-thumb">\n\
-                                <img src="https://graph.facebook.com/' + o.facebookId + '/picture?width=75&height=75" class="ui-li-thumb">\n\
-                                <h3 class="ui-li-heading">' + o.user.name + '</h3>\n\
-                                <p class="ui-li-desc textwrap">' + o.action + ' a story called ' + o.story.title + ' in ' + o.city + '.</p></li>');
-                li.on("click", listHelper(o.story._id, openAddStoryFromFeedPopup));
-                list.append(li);
+                if (o.facebookId != null && o.user != null && o.action != null && o.story != null && o.city != null) {
+                    var li = $('<li class="ui-li ui-li-static ui-btn-up-a ui-li-has-thumb">\n\
+                                    <img src="https://graph.facebook.com/' + o.facebookId + '/picture?width=75&height=75" class="ui-li-thumb">\n\
+                                    <h3 class="ui-li-heading">' + o.user.name + '</h3>\n\
+                                    <p class="ui-li-desc textwrap">' + o.action + ' a story called ' + o.story.title + ' in ' + o.city + '.</p></li>');
+                    li.on("click", listHelper(o.story._id, openAddStoryFromFeedPopup));
+                    list.append(li);
+                }
             }
 
             $("#publicFeed").listview("refresh");
