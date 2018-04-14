@@ -88,7 +88,7 @@
                 averageAccuracy = 100;  // start with mediocre accuracy
                 averageDistanceMoved = 0;
                 wrappedHandler = __locationEventHandler.bind(this, locationEventHandler); // Curry handler
-                watchPointId = navigator.geolocation.watchPosition(wrappedHandler, displayError, geoOptions);
+                watchPointId = navigator.geolocation.watchPosition(wrappedHandler, displayError);
             } else {
                 mhLog.log(mhLog.LEVEL.PRODUCTION, "startWatch Error: watchPosition already called");
             }

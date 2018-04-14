@@ -193,7 +193,7 @@
          * @returns {undefined}
          */
         pePlayerController.viewAccountData = function () {
-            var accountName, accountID, linkFB, linkTW, linkG;
+            var accountName, accountID, linkFB;
 
             accountName = document.getElementById("accountDisplay_fname");
             accountName.innerHTML = authorData.name;
@@ -209,26 +209,6 @@
                 linkFB = document.getElementById("linkFBButton");
                 linkFB.href = "/connect/facebook";
                 linkFB.innerHTML = "Link Facebook Account";
-            }
-
-            if (authorData.twitter && authorData.twitter.id && authorData.twitter.token) {
-                linkTW = document.getElementById("linkTWButton");
-                linkTW.href = "/unlink/twitter";
-                linkTW.innerHTML = "Unlink Twitter Account";
-            } else {
-                linkTW = document.getElementById("linkTWButton");
-                linkTW.href = "/connect/twitter";
-                linkTW.innerHTML = "Link Twitter Account";
-            }
-
-            if (authorData.google && authorData.google.id && authorData.google.token) {
-                linkG = document.getElementById("linkGButton");
-                linkG.href = "/unlink/google";
-                linkG.innerHTML = "Unlink Google Account";
-            } else {
-                linkG = document.getElementById("linkGButton");
-                linkG.href = "/connect/google";
-                linkG.innerHTML = "Link Google Account";
             }
         };
 
