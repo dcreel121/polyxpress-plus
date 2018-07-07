@@ -627,6 +627,7 @@
 
                 }
             }
+            mhLog.log(mhLog.LEVEL.PRODUCTION, "/peAPI/user/facebook/friends/" + friendIds);
             request.open("GET", "/peAPI/user/facebook/friends/" + friendIds);
             request.send(null);
         };

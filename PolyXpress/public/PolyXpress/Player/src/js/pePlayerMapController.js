@@ -199,6 +199,7 @@
          * @returns {undefined}
          */
         function initChapterMap(position) {
+            mhLog.log(mhLog.LEVEL.DEBUG, "initChapterMap");
             var currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
             chapterMap.updateLocation(currentLocation);
             var story = pePM.findStoryByID(pePC.getCurrentStoryID());
@@ -213,6 +214,7 @@
          * @returns {undefined}
          */
         function initEventMap(position) {
+            mhLog.log(mhLog.LEVEL.DEBUG, "initEventMap");
             var currentLocation = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
             eventMap.updateLocation(currentLocation);
             var chapter = pePM.findChapterByID(pePC.getCurrentChapterID());

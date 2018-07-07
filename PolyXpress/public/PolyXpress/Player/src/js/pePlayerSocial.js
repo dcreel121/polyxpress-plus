@@ -198,9 +198,16 @@
          * @returns {undefined}
          */
         pePlayerSocial.showChooseFriendsPopup = function() {
-            mhLog.log(mhLog.LEVEL.DEBUG, "retrieving friends for popup");
+            mhLog.log(mhLog.LEVEL.DEBUG, "retrieving friends for popup for user: " + pePC.getAuthorData());
+            mhLog.log(mhLog.LEVEL.DEBUG, "retrieving friends for popup for facebook friends: " + pePC.getAuthorData().facebook.friends);
             pePC.startSpinner();
-            pePS.getUserFacebookFriends(pePC.getAuthorData().facebook.friends, populateFriendsPopup);
+            var friends = pePC.getAuthorData().facebook.friends;
+            if (friends.length == 0) {
+                populateFriendsPopup(friends);
+            }
+            else {
+                pePS.getUserFacebookFriends(friends, populateFriendsPopup);
+            }
         }
 
         /*
@@ -330,17 +337,14 @@
                     mhLog.log(mhLog.LEVEL.DEBUG, "creating list item for user " + user.name);
                     list.append(createFriendListItem(user));
                 }
+
                 $("#friendList").listview("refresh");
                 $("#newMessageButton").toggleClass("hide"); // hides
                 $("#chooseFriendPopup").popup("open");
             }
             else {
                 mhLog.log(mhLog.LEVEL.DEBUG, "No friends found that use PolyXpress+.");
-                $("#chooseFriendPopup").popup("close");
-                $("#inviteFriendsPopup").popup();
-                setTimeout(function () {
-                    $("#inviteFriendsPopup").popup("open");
-                }, 100);
+                $("#inviteFriendsPopup").popup("open");
                 pePC.stopSpinner();
             }
         }
