@@ -516,17 +516,20 @@
             img.onload = pePC.stopSpinner; // When image loads, stop spinner
             img.src = 'https://graph.facebook.com/' + message.sender.facebook.id + '/picture?width=75&height=75';
             img.className = 'ui-li-thumb';
-            
+
             cleanStr = message.text;
             cleanStr = cleanStr.replace(/\s+/gm," "); // Removes excessive new lines and whitespace
             cleanStr = cleanStr.replace(/<.+?>/gm, "");  // Removes html tags
             p_text.innerHTML = cleanStr;
-            p_text.style = 'white-space:normal;margin:1em 0;'; // override jquery ui-listview class style
+            p_text.className = 'ui-li-desc textwrap';
+            p_text.style = 'white-space:normal;padding-top:1.5em;';
 
             var date = new Date(message.created);
-            p_date.innerHTML = date.toLocaleString();
+            var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour:'numeric', minute:'numeric'};
+
+            p_date.innerHTML = date.toLocaleDateString('en-US', options);
             p_date.className = 'ui-li-aside';
-            p_date.style = "font-size:x-small;margin:-.5em;";
+            p_date.style = "font-size:x-small;";
 
             li.appendChild(img);
             li.appendChild(p_text);
@@ -629,7 +632,8 @@
             // Clear the new comment area.
             $("#commentTextarea").val('');
         
-            pePC.stopSpinner();
+            pePC.s
+            topSpinner();
         }
         
         /**
@@ -657,8 +661,12 @@
             cleanStr = cleanStr.replace(/<.+?>/gm, "");  // Removes html tags
             p_text.innerHTML = cleanStr;
             p_text.className = 'ui-li-desc textwrap';
+            p_text.style = 'white-space:normal;padding-top:1.5em;';
 
-            p_date.innerHTML = comment.created;
+            var date = new Date(comment.created);
+            var options = { year: 'numeric', month: 'numeric', day: 'numeric', hour:'numeric', minute:'numeric'};
+
+            p_date.innerHTML = date.toLocaleDateString('en-US', options);
             p_date.className = 'ui-li-aside';
 
             a = createLinkDOM('#', null, null, null, null);
