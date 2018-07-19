@@ -1,0 +1,15 @@
+2018-03-26T21:27:21.630-0700 I CONTROL  [initandlisten] MongoDB starting : pid=18227 port=27017 dbpath=/data/db 64-bit host=Desirees-MacBook-Pro.local
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] db version v3.4.1
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] git version: 5e103c4f5583e2566a45d740225dc250baacfbd7
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 0.9.8zh 14 Jan 2016
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] allocator: system
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] modules: none
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] build environment:
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-03-26T21:27:21.631-0700 I CONTROL  [initandlisten] options: {}
+2018-03-26T21:27:21.634-0700 I STORAGE  [initandlisten] exception in initAndListen: 98 Unable to lock file: /data/db/mongod.lock Resource temporarily unavailable. Is a mongod instance already running?, terminating
+2018-03-26T21:27:21.634-0700 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2018-03-26T21:27:21.634-0700 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2018-03-26T21:27:21.635-0700 I CONTROL  [initandlisten] now exiting
+2018-03-26T21:27:21.635-0700 I CONTROL  [initandlisten] shutting down with code:100

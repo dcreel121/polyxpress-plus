@@ -1,0 +1,9 @@
+Getting files for app [1;36mpx[0m in org [1;36mmhaungs-org[0m / space [1;36mdevelopment[0m as [1;36mmhaungs@calpoly.edu[0m...
+[1;32mOK[0m
+
+mhlog: Message: Running in cloud.
+mhlog: Message: mongourl = mongodb://CloudFoundry_htjv95vu_eek7ulbf_k791pjae:JH4SpmC7Dj3_uKv_KdmVybNyMoGVuGMg@ds031618.mongolab.com:31618/CloudFoundry_htjv95vu_eek7ulbf
+mhlog: Message: mongodb = peDevDB
+mhlog: Message: Space = development
+mhlog: Message: Production
+

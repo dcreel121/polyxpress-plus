@@ -1,0 +1,184 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>PolyXpress</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Le styles -->
+        <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="stylesheets/carousel.css" rel="stylesheet">
+        <style>
+        </style>
+
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]-->
+        <!--script src="../assets/js/html5shiv.js"></script-->
+        <!--[endif]-->
+
+        <!-- Fav and touch icons -->
+        <!--link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+          <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+                        <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+                                       <link rel="shortcut icon" href="../assets/ico/favicon.png"-->
+    </head>
+
+    <body>
+
+        <!-- NAVBAR
+        ================================================== -->
+        <div class="navbar-wrapper">
+            <!-- Wrap the .navbar in .container to center it within the absolutely positioned parent. -->
+            <div class="container">
+
+                <div class="navbar navbar-inverse">
+                    <div class="navbar-inner">
+                        <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
+                        <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="brand" href="#">PolyXpress</a>
+                        <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
+                        <div class="nav-collapse collapse">
+                            <ul class="nav">
+                                <!-- Read about Bootstrap dropdowns at http://twitter.github.com/bootstrap/javascript.html#dropdowns -->
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Navigation<b class="caret"></b></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="#Player">Player</a></li>
+                                        <li><a href="#Designer">Designer</a></li>
+                                        <li><a href="#PointFinder">PointFinder</a></li>
+                                        <!--li class="divider"></li>
+                                        <li class="nav-header">Nav header</li>
+                                        <li><a href="#">Separated link</a></li>
+                                        <li><a href="#">One more separated link</a></li-->
+                                    </ul>
+                                </li>
+                                <li><a href="peGuide.html">Documentation</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </div><!--/.nav-collapse -->
+                    </div><!-- /.navbar-inner -->
+                </div><!-- /.navbar -->
+
+            </div> <!-- /.container -->
+        </div><!-- /.navbar-wrapper -->
+
+
+
+        <!-- Carousel
+        ================================================== -->
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <img src="images/mountain-mist_jpm.jpg" alt="Misty Mountains" height="800">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>Welcome to PolyXpress!</h1>
+                            <p class="lead hidden-phone">A novel platform for sharing interactive, location-based stories.</p>
+                            <p class="visible-phone">A novel platform for sharing interactive, location-based stories.</p>
+                            <a class="btn btn-large btn-primary hidden-phone" href="peGuide.html">Learn more</a>
+                            <a class="btn btn-primary visible-phone" href="peGuide.html">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/city_jpm.jpg" alt="City Landscape" height="800">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>PolyXpress Player</h1>
+                            <p class="lead hidden-phone">The player serves as a personal guide on your explorations.</p>
+                            <p class="visible-phone">The player serves as a personal guide on your explorations.</p>
+                            <!--a class="btn btn-large btn-primary" href="PolyXpress/Player/pePlayer.html">Try it now</a-->
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/downtown_jpm.jpg" alt="Downtown Atlanta" height="800">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <h1>PolyXpress Mobile Designer</h1>
+                            <p class="lead hidden-phone">Create your stories on location.</p>
+                            <p class="visible-phone">Create your stories on location.</p>
+                            <!--a class="btn btn-large btn-primary" href="PolyXpress/Author/peDesignerMain.html">Start designing</a-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div><!-- /.carousel -->
+
+
+
+        <!-- Marketing messaging and featurettes
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+
+        <div class="container marketing">
+
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="span4">
+                    <img class="img-circle" data-src="holder.js/140x140">
+                    <h2 id="Player">PolyXpress Player</h2>
+                    <p>The PolyXpress player is a web application that allows you to experience location-based stories on all of
+                        your iOS and android devices.   It takes you on a journey through
+                        real-world locations where you interact with your environment as a multimedia story unfolds.</p>
+                    <p><a class="btn" href="/PolyXpress/Player/pePlayer.html">Release Version &raquo;</a></p>
+                    <p><a class="btn" href="/PolyXpress/Player/pePlayer.html#mainView">Development Version &raquo;</a></p>
+                </div><!-- /.span4 -->
+                <div class="span4">
+                    <!--img class="img-circle" data-src="holder.js/140x140"-->
+                    <h2 id="Designer">PolyXpress Mobile Designer</h2>
+                    <p>PolyXpress Mobile Designer allows you to create PolyXpress, location-based stories.  Once you have everything
+                        just right, you can publish your story and share it with PolyXpress users around the world.  <em>(The full desktop
+                            browser designer tool will be released soon.)</em></p>
+                    <p><a class="btn" href="/PolyXpress/Author/peDesignerMain.html">Release Version &raquo;</a></p>
+                    <p><a class="btn" href="/PolyXpress/Author/peDesignerMain.html">Development Version &raquo;</a></p>
+                </div><!-- /.span4 -->
+                <div class="span4">
+                    <!--img class="img-circle" data-src="holder.js/140x140"-->
+                    <h2 id="PointFinder">PolyXpress PointFinder</h2>
+                    <p>This field tool provides the means to determine the GPS coordinates for your present location and
+                        also associate short notes.  As you build your story, it will help you record points of interest.</p>
+                    <p><a class="btn" href="/PolyXpress/PointFinder/pointFinder.html">Release Version &raquo;</a></p>
+                    <p><a class="btn" href="/PolyXpress/PointFinder/pointFinder.html">Development Version &raquo;</a></p>
+                </div><!-- /.span4 -->
+            </div><!-- /.row -->
+
+
+            <!-- FOOTER -->
+            <footer>
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>&copy; 2011-2014 PolyXpress, Inc. &middot; <!--a href="#">Privacy</a> &middot; <a href="#">Terms</a--></p>
+            </footer>
+
+        </div><!-- /.container -->
+
+
+
+        <!-- Le javascript
+        ================================================== -->
+        <script type="text/javascript" src="javascripts/jquery-1.8.2.min.js"></script>
+        <script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+
+        <script>
+            !function($) {
+                $(function() {
+                    // carousel demo
+                    $('#myCarousel').carousel()
+                })
+            }(window.jQuery)
+        </script>
+        <!--script src="../assets/js/holder/holder.js"></script-->
+    </body>
+</html>

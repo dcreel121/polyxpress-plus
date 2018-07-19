@@ -1,0 +1,49 @@
+2018-03-26T21:40:03.779-0700 I CONTROL  [initandlisten] MongoDB starting : pid=18342 port=27017 dbpath=/data/db 64-bit host=Desirees-MacBook-Pro.local
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] db version v3.4.1
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] git version: 5e103c4f5583e2566a45d740225dc250baacfbd7
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 0.9.8zh 14 Jan 2016
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] allocator: system
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] modules: none
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] build environment:
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-03-26T21:40:03.780-0700 I CONTROL  [initandlisten] options: {}
+2018-03-26T21:40:03.780-0700 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-03-26T21:40:03.781-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-03-26T21:40:04.079-0700 I CONTROL  [initandlisten] 
+2018-03-26T21:40:04.079-0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-03-26T21:40:04.079-0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-03-26T21:40:04.079-0700 I CONTROL  [initandlisten] 
+2018-03-26T21:40:04.083-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2018-03-26T21:40:04.084-0700 I NETWORK  [thread1] waiting for connections on port 27017
+2018-03-26T21:40:12.486-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53526 #1 (1 connection now open)
+2018-03-26T21:40:12.486-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53527 #2 (2 connections now open)
+2018-03-26T21:40:12.492-0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:53526 conn1: { driver: { name: "nodejs", version: "2.2.30" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.4.0" }, platform: "Node.js v7.7.2, LE, mongodb-core: 2.1.14" }
+2018-03-26T21:40:12.496-0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:53527 conn2: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.4.0" }, platform: "Node.js v7.7.2, LE, mongodb-core: 2.1.11" }
+2018-03-26T21:40:22.522-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53574 #3 (3 connections now open)
+2018-03-26T21:40:22.526-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53575 #4 (4 connections now open)
+2018-03-26T21:40:22.531-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53576 #5 (5 connections now open)
+2018-03-26T21:40:22.541-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53577 #6 (6 connections now open)
+2018-03-26T21:40:22.547-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53578 #7 (7 connections now open)
+2018-03-26T21:40:29.589-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53612 #8 (8 connections now open)
+2018-03-26T21:41:00.511-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:53754 #9 (9 connections now open)
+2018-03-26T21:42:42.954-0700 I CONTROL  [signalProcessingThread] got signal 15 (Terminated: 15), will terminate after current cmd ends
+2018-03-26T21:42:42.954-0700 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2018-03-26T21:42:42.954-0700 I NETWORK  [signalProcessingThread] closing listening socket: 6
+2018-03-26T21:42:42.954-0700 I NETWORK  [signalProcessingThread] closing listening socket: 7
+2018-03-26T21:42:42.954-0700 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2018-03-26T21:42:42.954-0700 I NETWORK  [signalProcessingThread] shutdown: going to flush diaglog...
+2018-03-26T21:42:42.954-0700 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2018-03-26T21:42:42.956-0700 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2018-03-26T21:42:42.974-0700 I -        [conn9] end connection 127.0.0.1:53754 (9 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn8] end connection 127.0.0.1:53612 (8 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn7] end connection 127.0.0.1:53578 (8 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn5] end connection 127.0.0.1:53576 (6 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn6] end connection 127.0.0.1:53577 (6 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn3] end connection 127.0.0.1:53574 (6 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn2] end connection 127.0.0.1:53527 (5 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn4] end connection 127.0.0.1:53575 (5 connections now open)
+2018-03-26T21:42:42.974-0700 I -        [conn1] end connection 127.0.0.1:53526 (5 connections now open)
+2018-03-26T21:42:43.055-0700 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2018-03-26T21:42:43.056-0700 I CONTROL  [signalProcessingThread] now exiting
+2018-03-26T21:42:43.056-0700 I CONTROL  [signalProcessingThread] shutting down with code:0

@@ -1,0 +1,126 @@
+mhlog: [Sun Aug 27 2017 20:38:29 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Sun Aug 27 2017 20:38:30 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Sun Aug 27 2017 20:38:30 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Sun Aug 27 2017 20:38:30 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Sun Aug 27 2017 20:38:30 GMT-0700 (PDT)] Message: Running on port: 3500
+(node:10693) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+[0mGET / [32m200 [0m11.554 ms - 10537[0m
+[0mGET /bootstrap/css/bootstrap.css [32m200 [0m14.307 ms - 127343[0m
+[0mGET /stylesheets/carousel.css [33m404 [0m14.732 ms - 163[0m
+[0mGET /bootstrap/css/bootstrap-responsive.css [32m200 [0m22.325 ms - 22102[0m
+[0mGET /javascripts/jquery-1.8.2.min.js [32m200 [0m4.247 ms - 93436[0m
+[0mGET /bootstrap/js/bootstrap.js [32m200 [0m1.517 ms - 61884[0m
+[0mGET /images/mountain-mist_jpm.jpg [33m404 [0m1.470 ms - 167[0m
+[0mGET /images/city_jpm.jpg [33m404 [0m1.439 ms - 158[0m
+[0mGET /images/downtown_jpm.jpg [33m404 [0m4.118 ms - 162[0m
+[0mGET /favicon.ico [32m200 [0m3.854 ms - 1406[0m
+[0mGET /PolyXpress/Player/pePlayer.html [32m200 [0m7.502 ms - 29741[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [32m200 [0m24.621 ms - 5151[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [32m200 [0m36.166 ms - 25791[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [32m200 [0m18.646 ms - 3959[0m
+[0mGET /PolyXpress/Player/src/css/social.css [32m200 [0m30.189 ms - 937[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [32m200 [0m20.726 ms - 718[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [32m200 [0m29.161 ms - 127053[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [32m200 [0m10.979 ms - 51430[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [32m200 [0m10.703 ms - 6242[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [32m200 [0m4.073 ms - 2247[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [32m200 [0m6.120 ms - 4095[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [32m200 [0m6.992 ms - 61325[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [32m200 [0m8.606 ms - 10388[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [32m200 [0m8.605 ms - 29468[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [32m200 [0m7.558 ms - 30227[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [32m200 [0m8.630 ms - 9100[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [32m200 [0m2.236 ms - 16341[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [32m200 [0m3.383 ms - 8612[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [32m200 [0m1.937 ms - 32042[0m
+mhlog: [Sun Aug 27 2017 20:41:33 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [32m200 [0m3.115 ms - 18[0m
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m3.527 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m83.202 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m113.375 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m121.307 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m124.100 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m107.033 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m107.711 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m6.259 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m5.399 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m4.736 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m2.953 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m3.710 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m20.862 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m19.979 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m19.620 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m17.764 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m3.830 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m3.162 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m1.924 ms - -[0m
+mhlog: [Sun Aug 27 2017 20:41:39 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m2.627 ms - -[0m
+[0mGET /player/logout [36m302 [0m9.755 ms - 108[0m
+[0mGET /PolyXpress/Player/pePlayer.html [36m304 [0m1.852 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/pxSky.css [36m304 [0m35.249 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/jquery.mobile.icons.min.css [36m304 [0m47.950 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/pePlayer.css [36m304 [0m25.748 ms - -[0m
+[0mGET /PolyXpress/Player/src/css/social.css [36m304 [0m8.525 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/customSettings.js [36m304 [0m8.862 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/jquery.ui.map.full.min.js [36m304 [0m2.840 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/inject/inject.min.js [36m304 [0m2.751 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/css/themes/images/ajax-loader.gif [36m304 [0m1.860 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMain.js [36m304 [0m4.902 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m2.327 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m2.068 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m7.887 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m10.592 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m13.080 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m13.440 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m5.697 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m2.833 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m2.057 ms - -[0m
+mhlog: [Sun Aug 27 2017 20:41:41 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m1.213 ms - -[0m
+[0mGET /player/auth/facebook [36m302 [0m6.555 ms - 0[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m2.050 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m1.838 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m4.325 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m6.439 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m6.502 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m3.455 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m2.004 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m1.780 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m4.219 ms - -[0m
+mhlog: [Sun Aug 27 2017 20:41:54 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m1.288 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhLog/mhlog.js [36m304 [0m7.407 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerController.js [36m304 [0m6.414 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerModel.js [36m304 [0m12.727 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerServer.js [36m304 [0m12.584 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapController.js [36m304 [0m6.650 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerSocial.js [36m304 [0m6.507 ms - -[0m
+[0mGET /PolyXpress/Player/src/lib/mhGeo/mhGeo.js [36m304 [0m2.629 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/pePlayerMapFactory.js [36m304 [0m2.283 ms - -[0m
+[0mGET /PolyXpress/Player/src/js/markerWithLabel.js [36m304 [0m2.397 ms - -[0m
+mhlog: [Sun Aug 27 2017 20:41:55 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m1.292 ms - -[0m
+[0mGET /PolyXpress/Author/peDesignerMain.html [32m200 [0m2.723 ms - 22443[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/pxSky.css [32m200 [0m75.042 ms - 25791[0m
+[0mGET /PolyXpress/Author/src/js/customSettings.js [32m200 [0m40.572 ms - 502[0m
+[0mGET /PolyXpress/Author/src/css/peDesigner.css [32m200 [0m41.328 ms - 880[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/jquery.mobile.icons.min.css [32m200 [0m41.540 ms - 127053[0m
+[0mGET /PolyXpress/Author/src/lib/inject/inject.min.js [32m200 [0m10.077 ms - 51430[0m
+[0mGET /PolyXpress/Author/src/lib/css/themes/images/ajax-loader.gif [32m200 [0m4.301 ms - 6242[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerMain.js [32m200 [0m6.550 ms - 4032[0m
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [32m200 [0m2.182 ms - 4095[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [32m200 [0m1.446 ms - 63982[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [32m200 [0m1.869 ms - 20004[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [32m200 [0m1.696 ms - 5582[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m1.525 ms - -[0m
+mhlog: [Sun Aug 27 2017 20:42:28 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m1.404 ms - -[0m
+[0mGET /designer/auth/facebook [36m302 [0m5.306 ms - 0[0m
+[0mGET /PolyXpress/Author/src/lib/mhLog/mhlog.js [36m304 [0m2.657 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerController.js [36m304 [0m1.622 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerServer.js [36m304 [0m1.849 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m1.608 ms - -[0m
+[0mGET /PolyXpress/Author/src/js/peDesignerModel.js [36m304 [0m1.678 ms - -[0m
+mhlog: [Sun Aug 27 2017 20:42:39 GMT-0700 (PDT)] Message: Inside /peAPI/user/checkAuth...sending loggedIn = False.
+[0mGET /peAPI/user/checkAuth [36m304 [0m1.338 ms - -[0m

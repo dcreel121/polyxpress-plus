@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1, user-scalable=no">
+    <title>PolyXpress Designer (alpha)</title>
+
+    <link rel="stylesheet" href="src/lib/css/themes/pxSky.css"/>
+    <link rel="stylesheet" href="src/lib/css/themes/jquery.mobile.icons.min.css"/>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.4/jquery.mobile.structure-1.4.4.min.css"/>
+    <link rel="stylesheet" href="src/css/peDesigner.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-te/1.4.0/jquery-te.min.css"/>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7aqd40pUwp_8oWUrkXNtP4AoOE3YMeY8"
+            type="text/javascript"></script>
+
+    <!-- Add references for JQuery Mobile -->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="src/js/customSettings.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-te/1.4.0/jquery-te.min.js"></script>
+
+    <!-- Add Jquery Mobile/Google map support -->
+    <!--script src="src/lib/jquery.ui.map.full.min.js" type="text/javascript"></script-->
+
+    <script type="text/javascript" src="src/lib/inject/inject.min.js"></script>
+    <script type="text/javascript">
+        // automate transition between development and production environments
+        var config = {
+            production: false,  // make sure run "uglify" before setting to true!!!
+            mhLog: null
+        };
+
+        if( config.production) {
+            Inject.setExpires(86400);  /* one day in seconds */
+        } else {
+            Inject.reset();
+            Inject.setExpires(-1);
+        }
+        Inject.setModuleRoot(".");
+
+        Inject.addFileRule(/.*/, function(path) {
+            if( config.production ) {
+                return path + ".min";
+            } else {
+                return path;
+            }
+        }, { weight: 0 });
+
+        window.addEventListener('load', function () {
+            require.run('src/js/peDesignerMain');
+        });
+    </script>
+
+</head>
+<body>
+
+<div data-role="page" id="login">
+    <div data-role="header" data-backbtn="false" data-position="fixed">
+        <h1>PolyXpress Mobile Designer (beta)</h1>
+    </div>
+    <div data-role="content">
+        <h2>Welcome to <br>PolyXpress Designer (beta)</h2>
+        <center>
+            <p>PolyXpress Designer allows you to create PolyXpress stories on your mobile device.</p>
+
+            <p>Please login using your Facebook account.</p>
+            <a id="loginButton" href="/designer/auth/facebook" rel="external"
+               data-role="button">Facebook Login</a>
+            <p><i>(PolyXpress only uses your account for verification and will
+                not access or distribute any private data.)</i></p>
+        </center>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+<div data-role="page" id="mainMenu">
+    <div data-role="header" data-backbtn="false" data-position="fixed">
+        <a href="/" rel="external" data-role="button" id="userNameHdr">PX Home</a>
+        <!--a id="accountButton" href="#account" data-role="button" class="ui-btn-left">Account</a-->
+
+        <h1>PolyXpress Designer (beta)</h1>
+        <a id="logoutButton" href="/designer/logout" rel="external" class="ui-btn-right">Logout</a>
+    </div>
+    <div data-role="content">
+        <h2>PolyXpress Designer (beta)</h2>
+
+        <p id="userGreeting"></p><br>
+
+        <div align="center" data-role="controlgroup" data-type="vertical">
+            <a id="storyManagerButton" href="#storyManager" data-role="button">Stories</a>
+            <a id="chapterManagerButton" href="#chapterManager" data-role="button">Chapters</a>
+            <a id="eventManagerButton" href="#eventManager" data-role="button">Events</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+<div data-role="page" id="storyManager">
+    <div data-role="header" data-backbtn="true" data-position="fixed">
+        <h1>PolyXpress Designer (alpha)</h1>
+        <a id="smHomeBtn" href="#mainMenu" class="ui-btn-right">Home</a>
+    </div>
+    <div data-role="content">
+        <h2>Stories</h2>
+        <h4>Create a New Story</h4>
+
+        <div align="center" data-role="controlgroup" data-type="vertical">
+            <a id="storyDataButton" href="#storyData" data-role="button">Create a New Story</a>
+        </div>
+        <h4>Existing Stories</h4>
+
+        <div class="containedList">
+            <ul id="existingStoryList" data-role="listview" data-inset="true" data-filter="true">
+            </ul>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+<div data-role="page" id="chapterManager">
+    <div data-role="header" data-backbtn="true" data-position="fixed">
+        <h1>PolyXpress Designer (alpha)</h1>
+        <a id="cmHomeBtn" href="#mainMenu" class="ui-btn-right">Home</a>
+    </div>
+    <div data-role="content">
+        <h2>Chapters</h2>
+        <h4>Create a New Chapter</h4>
+
+        <div align="center" data-role="controlgroup" data-type="vertical">
+            <a id="chapterDataButton" href="#chapterData" data-role="button">Create a New Chapter</a>
+        </div>
+        <h4>Existing Chapters</h4>
+
+        <div class="containedList">
+            <ul id="existingChapterList" data-role="listview" data-inset="true" data-filter="true">
+            </ul>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+<div data-role="page" id="eventManager">
+    <div data-role="header" data-backbtn="true" data-position="fixed">
+        <h1>PolyXpress Designer (alpha)</h1>
+        <a id="emHomeBtn" href="#mainMenu" class="ui-btn-right">Home</a>
+    </div>
+    <div data-role="content">
+        <h2>Events</h2>
+        <h4>Create a New Event</h4>
+
+        <div align="center" data-role="controlgroup" data-type="vertical">
+            <a id="eventDataButton" href="#eventData" data-role="button">Create a New Event</a>
+        </div>
+
+        <h4>Existing Events</h4>
+
+        <div class="containedList">
+            <ul id="existingEventList" data-role="listview" data-inset="true" data-filter="true">
+            </ul>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <h4>An Expressive Technologies Initiative</h4>
+    </div>
+</div>
+
+
+<div data-role="page" id="storyData">
+    <div data-role="header" data-backbtn="false" data-position="fixed">
+        <h1>PolyXpress Designer (beta)</h1>
+    </div>
+    <div data-role="content">
+        <h2 id="storyDataTitle">Story Data</h2>
+
+        <form name="createStory">
+            <hr>
+            <h3>Administration</h3>
+            <a id="storyAuthorManagement" href="#authorView" data-role="button" data-rel="dialog">Author Management</a>
+            <label for="authors">Authors:</label>
+            <input type="text" id="authors" readonly/>
+            <label for="keywords">Keywords:</label>
+            <input type="text" id="keywords" maxlength="100" required/>
+
+            <div data-role="fieldcontain">
+                <fieldset data-role="controlgroup">
+                    <legend>Publish?</legend>
+                    <label for="publish">Click if the story is ready to share with the world.</label>
+                    <input type="radio" name="publishChoice" id="publish" value="publish"/>
+                    <label for="test">Click if you would like to test the story in PolyXpress Player.</label>
+                    <input type="radio" name="publishChoice" id="test" value="test"/>
+                </fieldset>
+            </div>
+
+            <br>
+            <hr>
+            <h3>Context</h3>
+            <label for="title">Title:</label>
+            <input type="text" id="title" maxlength="100" required/>
+            <label for="overview">Overview:</label>
+            <textarea id="overview" maxlength="4000" class="rteOverview"></textarea>
+            <label for="image">Image:</label>
+            <input type="url" id="image" placeholder="Use a url." maxlength="200"/>
+
+            <br>
+            <hr>
+
+            <h3>Geographic Location Information</h3>
+            <a id="openMapViewStory" href="#mapView" data-role="button" data-rel="dialog">Open Map View</a>
+            <label id="slatLabel" for="slat">Latitude:</label>
+            <input type="number" min="-90.0000000" max="90.0000000" step="0.0000001" id="slat" name="slat" required/>
+            <label id="slngLabel" for="slng">Longitude:</label>
+            <input type="number" min="-180.0000000" max="180.0000000" step="0.0000001" id="slng" name="slng" required/>
+            <label id="srangeLabel" for="srange">Range(km):</label>
+            <input type="number" min="0.025" max="1000" step="0.025" id="srange" name="srange" required/>
+            <!--/fieldset-->
+            <!--/div-->
+            <br>
+            <hr>
+
+            <h3>Chapter Management</h3>
+            <label for="chapters">Chapters:</label>
+            <input type="text" id="chapters" readonly/>
+
+            <div data-role="fieldcontain">
+                <fieldset data-role="controlgroup">
+                    <legend>Existing Chapters:</legend>
+                    <div id='chapterCheckboxes' class="contained">
+                        <p>You have no existing chapters</p>
+                    </div>
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" id='storyDataFooter'>
+            <ul>
+                <li><a id="submitStoryButton" data-role="button" data-direction="reverse">Save</a></li>
+                <!--li><a id='deleteStoryBtn' href="#storyManager" data-role="button" data-direction="reverse">Delete</a></li-->
+                <li><a id='deleteStoryBtn' data-role="button">Delete</a></li>
+                <li><a id="cancelStoryButton" href="#storyManager" data-role="button"
+                       data-direction="reverse">Cancel</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="chapterData">
+    <div data-role="header" data-backbtn="false" data-position="fixed">
+        <h1>PolyXpress Designer (beta)</h1>
+    </div>
+    <div data-role="content">
+        <h2 id='chapterDataTitle'>Chapter Data</h2>
+
+        <form name="createChapter">
+            <hr>
+            <h3>Administration</h3>
+            <a id="chapterAuthorManagement" href="#authorView" data-role="button" data-rel="dialog">Author
+                Management</a>
+            <label for="cauthors">Authors:</label>
+            <input type="text" id="cauthors" readonly/>
+            <label for="ckeywords">Keywords:</label>
+            <input type="text" id="ckeywords" maxlength="100"/>
+
+            <br>
+            <hr>
+            <h3>Context</h3>
+            <label for="ctitle">Title:</label>
+            <input type="text" id="ctitle" required maxlength="100"/>
+            <label for="cteaser">Teaser:</label>
+            <input type="text" id="cteaser" required maxlength="200"/>
+            <label for="coverview">Overview:</label>
+            <textarea id="coverview" maxlength="4000" class="rteCoverview"></textarea>
+            <label for="cimage">Image:</label>
+            <input type="url" id="cimage" placeholder="Use a url." maxlength="200"/>
+
+            <br>
+            <hr>
+            <h3>Geographic Location Information</h3>
+            <a id="openMapViewChapter" href="#mapView" data-role="button" data-rel="dialog">Open Map View</a>
+            <!--div class="ui-field-contain"-->
+            <!--fieldset data-role="controlgroup"-->
+            <!-- legend>Geographic<br>Location<br>Information</legend-->
+            <label id="clatLabel" for="clat">Latitude:</label>
+            <input type="number" min="-90.0000000" max="90.0000000" step="0.0000001" id="clat" name="clat" required/>
+            <label id="clngLabel" for="clng">Longitude:</label>
+            <input type="number" min="-180.0000000" max="180.0000000" step="0.0000001" id="clng" name="clng" required/>
+            <label id="crangeLabel" for="crange">Range(km):</label>
+            <input type="number" min="0.025" max="1000" step="0.025" id="crange" name="crange" required/>
+            <!--/fieldset-->
+            <!--/div-->
+            <br>
+            <hr>
+            <h3>Event Management</h3>
+            <label for="cevents">Events:</label>
+            <input type="text" id="cevents" readonly/>
+
+            <div data-role="fieldcontain">
+                <fieldset data-role="controlgroup">
+                    <legend>Existing Events:</legend>
+                    <div id='eventCheckboxes' class="contained">
+                        <p>You have no existing events</p>
+                    </div>
+                </fieldset>
+            </div>
+
+        </form>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" id='chapterDataFooter'>
+            <ul>
+                <li><a id='submitChapterButton' data-role="button" data-direction="reverse">Save</a></li>
+                <li><a id='deleteChapterBtn' data-role="button">Delete</a></li>
+                <li><a id='cancelChapterButton' href="#chapterManager" data-role="button" data-direction="reverse">Cancel</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="eventData">
+    <div data-role="header" data-backbtn="false" data-position="fixed">
+        <h1>PolyXpress Designer (alpha)</h1>
+    </div>
+    <div data-role="content">
+        <h2 id='eventDataTitle'>Event Data</h2>
+
+        <form name="createEvent">
+            <hr>
+            <h3>Administration</h3>
+            <a id="eventAuthorManagement" href="#authorView" data-role="button" data-rel="dialog">Author Management</a>
+            <label for="eauthors">Authors:</label>
+            <input type="text" id="eauthors" readonly/>
+            <label for="ekeywords">Keywords:</label>
+            <input type="text" id="ekeywords" maxlength="100"/>
+
+            <br>
+            <hr>
+            <h3>Context</h3>
+            <label for="etitle">Title:</label>
+            <input type="text" id="etitle" required maxlength="100"/>
+            <label for="eteaser">Teaser:</label>
+            <input type="text" id="eteaser" required maxlength="200"/>
+
+            <br>
+            <hr>
+            <h3>Geographic Location Information</h3>
+            <a id="openMapViewEvent" href="#mapView" data-role="button" data-rel="dialog">Open Map View</a>
+            <label id="elatLabel" for="elat">Latitude:</label>
+            <input type="number" min="-90.0000000" max="90.0000000" step="0.0000001" id="elat" required/>
+            <label id="elngLabel" for="elng">Longitude:</label>
+            <input type="number" min="-180.000000" max="180.0000000" step="0.0000001" id="elng" required/>
+            <label for="erange">Range(km):</label>
+            <input type="number" id="erange" min="0.005" max="1000" step="0.005" required/>
+        </form>
+
+        <br>
+        <hr>
+        <h3>Asset Management</h3>
+        <label>Assets: </label>
+        <a id="addAssetButton" href="#assetEditor" data-role="button"
+           data-rel="popup" data-position-to="window">Add Asset</a>
+        <ul id="eassetList" data-split-icon="edit" data-role="listview" data-inset="true">
+        </ul>
+        <div data-role="popup" id="editAsset" class="ui-content" style="max-width:340px; padding-bottom:2em;">
+            <h3>Edit Asset?</h3>
+
+            <div data-role="controlgroup">
+                <!-- with jQuery Mobile 1.4 you can't chain popups.  Using setTimeout -->
+                <a href="#assetEditor" id="editAssetButton" data-role="button" data-icon="edit">Edit</a>
+                <a href="#eventView" id="deleteAssetButton" data-role="button" data-rel="back"
+                   data-icon="delete">Delete</a>
+                <a href="" data-role="button" data-rel="back">Cancel</a>
+            </div>
+        </div>
+
+        <div data-role="popup" id="assetEditor" class="ui-content">
+            <h3 id="assetEditorTitle">Asset Editor</h3>
+
+            <form name="editAssetPopup">
+                <label for="assetOrderSelect">Order</label>
+                <input type="range" min="0" max="20" name="assetOrderSelect" id="assetOrderSelect">
+                <label for="assetTypeSelect" class="select">Type</label>
+                <select name="assetTypeSelect" id="assetTypeSelect">
+                    <option value="text">text</option>
+                    <option value="imageURL">image URL</option>
+                    <option value="imageEmbed">embedded image</option>
+                    <option value="audio">audio</option>
+                    <option value="video">video</option>
+                </select>
+                <label for="assetDATA">DATA:</label>
+                <textarea name="assetDATA" id="assetDATA" maxlength="4000" cols="80" class="rteAssetData"></textarea>
+            </form>
+            <a id="assetEditorSubmitButton" href="" data-role="button" data-inline="true" data-rel="back">Submit</a>
+            <a href="" data-role="button" data-inline="true" data-rel="back">Cancel</a>
+        </div>
+
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar" id='eventDataFooter'>
+            <ul>
+                <li><a id='submitEventButton' data-role="button" data-direction="reverse">Save</a></li>
+                <li><a id='deleteEventBtn' data-role="button">Delete</a></li>
+                <li><a id='cancelEventButton' href="#eventManager" data-role="button"
+                       data-direction="reverse">Cancel</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div data-role="page" id="account">
+    <div data-role="header" data-backbtn="false" data-position="fixed">
+        <h1>PolyXpress Designer (alpha)</h1>
+    </div>
+    <div data-role="content" id="accountDisplayContainer">
+        <h2>View Account Data</h2>
+
+        <!--div id="accountDisplay">Account Data Unavailable.</div-->
+        <p>PolyXpress ID: <span id="accountDisplay_peid">No PolyXpress ID</span></p>
+
+        <p>Full Name: <span id="accountDisplay_fname"></span></p>
+
+        <p>Username: <span id="accountDisplay_uname"></span></p>
+
+        <p>Email: <span id="accountDisplay_email"></span></p>
+
+        <p>Stories Authored: <span id="accountDisplay_noStories"></span></p>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#mainMenu" data-role="button" data-direction="reverse">Done</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- Author View -->
+<div data-role="page" id="authorView">
+    <div data-role="header" data-position="fixed">
+        <h1>Author Management</h1>
+        <a href="#authorViewInstructions" data-role="button" class="ui-btn-right" data-position-to="window"
+           data-rel="popup" data-transition="pop" data-icon="info" data-iconpos="notext">Instructions</a>
+    </div>
+    <div data-role="content">
+        <label for="authorSearch">Enter the last name of the Author:</label>
+        <input type="text" id="authorSearch"
+               placeholder="Hit 'Enter' to start the search..." data-clear-btn-text="Clear Keyword"/>
+        <label>Author Search Results:</label>
+        <ul id="potentialAuthors" data-role="listview" data-inset="true" data-split-icon="plus">
+        </ul>
+        <br>
+        <label>Current Authors:</label>
+        <ul id="currentAuthors" data-role="listview" data-inset="true" data-split-icon="delete">
+        </ul>
+        <div data-role="popup" id="authorViewInstructions" class="ui-content">
+            <h3>Author Management Instructions</h3>
+
+            <p>In the search field, type the last name of the PolyXpress user you want to add as an
+                author. Hit the "Enter" or "Return" key to start the search.</p>
+
+            <p><i> Note: You cannot remove the last author even if it is you. In this case, just "Delete" the content.
+            </i></p><br>
+            <a href="" data-role="button" data-rel="back">Cancel</a>
+        </div>
+    </div>
+</div>
+
+<!-- Map View -->
+<div data-role="page" id="mapView">
+    <div data-role="header" data-position="fixed">
+        <h1>Map View</h1>
+    </div>
+    <div data-role="content">
+        <div class="ui-bar-c ui-corner-all ui-shadow mapContainer">
+            <div id="map_canvas" style="width:auto;height:300px;"></div>
+            <br>
+
+            <div class="eventtext">
+                <div>Lattitude: <span id="latspan"></span></div>
+                <div>Longitude: <span id="lngspan"></span></div>
+                <br>
+                <!--div>Lat Lng on click: <input type="text" id="latlongclicked" style="width:300px; border:1px inset gray;"/></div-->
+            </div>
+        </div>
+        <div data-role="popup" id="mapViewInstructions" class="ui-content editPopup">
+            <h3>Map View Instructions</h3>
+
+            <p>Click on the map to get GPS point information.
+            </p>
+            <a href="" data-role="button" data-rel="back">Cancel</a>
+        </div>
+    </div>
+    <div data-role="footer" data-position="fixed">
+        <div data-role="navbar">
+            <ul>
+                <li><a href="#mapViewInstructions" data-role="button" data-position-to="window" data-rel="popup"
+                       data-transition="pop" data-icon="info">Instructions</a></li>
+                <li><a id="useLocationButton" href="" data-icon="check" data-role="button" data-rel="back">Save</a></li>
+                <li><a href="" data-icon="delete" data-role="button" data-rel="back">Cancel</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

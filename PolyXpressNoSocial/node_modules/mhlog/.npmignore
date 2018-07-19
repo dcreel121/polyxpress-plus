@@ -1,0 +1,10 @@
+.git*
+bower.json
+bower_components
+src
+node_modules
+README.txt
+gruntfile.js
+testMhlog.html
+nbproject
+tarball

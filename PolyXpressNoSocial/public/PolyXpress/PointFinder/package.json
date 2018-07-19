@@ -1,0 +1,13 @@
+{
+  "name": "PointFinder",
+  "version": "0.1.2",
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-uglify": "latest",
+    "grunt-contrib-jshint": "latest",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-copy": "latest",
+    "grunt-contrib-concat": "latest",
+    "grunt-shell": "latest"
+  }
+}

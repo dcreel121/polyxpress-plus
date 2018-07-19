@@ -1,0 +1,13 @@
+{
+  "name": "PolyXpressServerTest",
+  "version": "0.1.0",
+  "description": "Server tests for PolyXpress",
+  "private": "true",
+  "author": "Michael Haungs",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "supertest": "^0.14.0",
+    "xmlhttprequest": "^1.6.0"
+  }
+}

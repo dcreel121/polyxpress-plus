@@ -1,0 +1,25 @@
+mhlog: [Mon Mar 26 2018 21:27:31 GMT-0700 (PDT)] Message: Running locally
+mhlog: [Mon Mar 26 2018 21:27:31 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Mon Mar 26 2018 21:27:31 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Mon Mar 26 2018 21:27:31 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Mon Mar 26 2018 21:27:31 GMT-0700 (PDT)] Message: Running on port: 3500
+(node:18233) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+
+/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/mongodb/lib/mongo_client.js:417
+          throw err
+          ^
+MongoError: failed to connect to server [localhost:27017] on first connect [MongoError: connect ECONNREFUSED 127.0.0.1:27017]
+    at Pool.<anonymous> (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/mongodb-core/lib/topologies/server.js:329:35)
+    at emitOne (events.js:96:13)
+    at Pool.emit (events.js:191:7)
+    at Connection.<anonymous> (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/mongodb-core/lib/connection/pool.js:280:12)
+    at Object.onceWrapper (events.js:293:19)
+    at emitTwo (events.js:106:13)
+    at Connection.emit (events.js:194:7)
+    at Socket.<anonymous> (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/mongodb-core/lib/connection/connection.js:187:49)
+    at Object.onceWrapper (events.js:293:19)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at emitErrorNT (net.js:1295:8)
+    at _combinedTickCallback (internal/process/next_tick.js:80:11)
+    at process._tickCallback (internal/process/next_tick.js:104:9)

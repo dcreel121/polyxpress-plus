@@ -1,0 +1,40 @@
+2018-07-16T21:52:40.957-0700 I CONTROL  [initandlisten] MongoDB starting : pid=14690 port=27017 dbpath=/data/db 64-bit host=Desirees-MacBook-Pro.local
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] db version v3.4.1
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] git version: 5e103c4f5583e2566a45d740225dc250baacfbd7
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 0.9.8zh 14 Jan 2016
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] allocator: system
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] modules: none
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] build environment:
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten]     distarch: x86_64
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten]     target_arch: x86_64
+2018-07-16T21:52:40.958-0700 I CONTROL  [initandlisten] options: {}
+2018-07-16T21:52:40.962-0700 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2018-07-16T21:52:40.962-0700 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7680M,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2018-07-16T21:52:41.261-0700 I CONTROL  [initandlisten] 
+2018-07-16T21:52:41.261-0700 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2018-07-16T21:52:41.261-0700 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2018-07-16T21:52:41.261-0700 I CONTROL  [initandlisten] 
+2018-07-16T21:52:41.271-0700 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2018-07-16T21:52:41.271-0700 I NETWORK  [thread1] waiting for connections on port 27017
+2018-07-16T21:52:49.615-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61134 #1 (1 connection now open)
+2018-07-16T21:52:49.615-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61135 #2 (2 connections now open)
+2018-07-16T21:52:49.623-0700 I NETWORK  [conn1] received client metadata from 127.0.0.1:61134 conn1: { driver: { name: "nodejs", version: "2.2.30" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.6.0" }, platform: "Node.js v7.7.2, LE, mongodb-core: 2.1.14" }
+2018-07-16T21:52:49.626-0700 I NETWORK  [conn2] received client metadata from 127.0.0.1:61135 conn2: { driver: { name: "nodejs", version: "2.2.27" }, os: { type: "Darwin", name: "darwin", architecture: "x64", version: "17.6.0" }, platform: "Node.js v7.7.2, LE, mongodb-core: 2.1.11" }
+2018-07-16T21:52:56.040-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61166 #3 (3 connections now open)
+2018-07-16T21:52:56.053-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61167 #4 (4 connections now open)
+2018-07-16T21:52:56.061-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61168 #5 (5 connections now open)
+2018-07-16T21:52:56.075-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61169 #6 (6 connections now open)
+2018-07-16T21:52:56.828-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:61174 #7 (7 connections now open)
+2018-07-16T21:58:20.847-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:62306 #8 (8 connections now open)
+2018-07-16T21:58:20.864-0700 I NETWORK  [thread1] connection accepted from 127.0.0.1:62309 #9 (9 connections now open)
+2018-07-17T00:50:41.836-0700 I -        [conn6] end connection 127.0.0.1:61169 (9 connections now open)
+2018-07-17T00:50:41.836-0700 I -        [conn9] end connection 127.0.0.1:62309 (9 connections now open)
+2018-07-17T00:50:44.880-0700 I -        [conn2] end connection 127.0.0.1:61135 (7 connections now open)
+2018-07-18T07:50:39.720-0700 I COMMAND  [ftdc] serverStatus was very slow: { after basic: 0, after asserts: 0, after backgroundFlushing: 0, after connections: 0, after dur: 0, after extra_info: 0, after globalLock: 0, after locks: 0, after network: 0, after opLatencies: 3520306, after opcounters: 3520306, after opcountersRepl: 3520306, after repl: 3520306, after security: 3520306, after storageEngine: 3520306, after wiredTiger: 3520320, at end: 3520320 }
+2018-07-18T11:21:13.871-0700 I COMMAND  [ftdc] serverStatus was very slow: { after basic: 0, after asserts: 0, after backgroundFlushing: 2755672, after connections: 2755672, after dur: 2755672, after extra_info: 2755672, after globalLock: 2755672, after locks: 2755672, after network: 2755672, after opLatencies: 2755672, after opcounters: 2755672, after opcountersRepl: 2755672, after repl: 2755672, after security: 2755672, after storageEngine: 2755672, after wiredTiger: 2755672, at end: 2755698 }
+2018-07-18T18:51:57.152-0700 I -        [conn8] end connection 127.0.0.1:62306 (6 connections now open)
+2018-07-18T18:51:57.152-0700 I -        [conn1] end connection 127.0.0.1:61134 (6 connections now open)
+2018-07-18T18:51:57.152-0700 I -        [conn4] end connection 127.0.0.1:61167 (6 connections now open)
+2018-07-18T18:51:57.152-0700 I -        [conn7] end connection 127.0.0.1:61174 (6 connections now open)
+2018-07-18T18:51:57.152-0700 I -        [conn5] end connection 127.0.0.1:61168 (6 connections now open)
+2018-07-18T18:51:57.152-0700 I -        [conn3] end connection 127.0.0.1:61166 (6 connections now open)

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PolyXPress PointFinder</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/css/pointFinder.css">
+
+        <!-- Typically, add javascript at end of body, but this app is not critical to display quickly -->
+        <script src="https://code.jquery.com/jquery-2.0.2.min.js"></script>
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB7aqd40pUwp_8oWUrkXNtP4AoOE3YMeY8"></script>
+
+        <script type="text/javascript" src="src/lib/inject/inject.min.js"></script>
+        <script type="text/javascript">
+            Inject.reset();
+            Inject.setModuleRoot(".");
+            Inject.setExpires(0);
+            window.addEventListener('load', function() {
+                require.run('src/js/pointFinder');
+            });
+        </script>
+
+    </head>
+
+    <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container-fluid">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <a class="brand" href="#">Home</a>
+                    <div class="nav-collapse collapse">
+                        <!--p class="navbar-text pull-right">
+                          Logged in as <a href="#" class="navbar-link">Username</a>
+                        </p-->
+                        <ul class="nav">
+                            <li><a href="#currentLocation">Current Location</a></li>
+                            <li><a href="#accuracyTest">Accuracy</a></li>
+                            <li><a href="#settings">Settings</a></li>
+                            <li><a href="#errorMsg">Errors</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid">
+            <h1>PolyXpress PointFinder</h1>
+            <hr>
+            <h2>Instructions</h2>
+            <p>PolyXpress PointFinder is a field tool that allows PolyXpress authors to accurately capture GPS location
+                points for their stories.  The tool includes an accuracy test to get detailed information on how accurate
+                the geolocation information is allowing authors to pick appropriate event ranges.  Last, the author can save points
+                of interest along with short notes for later use.</p>
+            <p><i>Be sure to "start tracking" before capturing points.</i></p>
+            <hr>
+            <h2 id="currentLocation">Current Location</h2>
+            <div id="mapview" style="width:device-width;height:300px;"></div>
+            <form>
+                <input type="button" style="width:200px; font-size:24px" id="startTracking" value="Start Tracking">
+                <input type="button" style="width:200px; font-size:24px" id="stopTracking" value="Stop Tracking">
+            </form>
+            <h3>Tracking Information</h3>
+            <div id="pointDisplay">Click "Start Tracking" to get your present location.</div>
+            <div id="accuracyDisplay">Click "Start Tracking" to get accuracy information.</div>
+            <br>
+
+            <form>
+                <input type="button" style="width:200px; font-size:24px" id="addPoint" value="Add Point">
+                <input type="text" id="pointNote" size="50" placeholder="Add note to saved point.">
+            </form>
+            <h3>Saved Points</h3>
+            <ul id="pointList">
+            </ul>
+
+            <hr>
+
+            <h2 id="accuracyTest">Accuracy Test</h2>
+            <form>
+                <input type="button" style="width:200px; font-size:24px" id="watch" value="Start Test">
+                <input type="button" style="width:200px; font-size:24px" id="clearWatch" value="Stop Test">
+            </form>
+            <div id="progress">Progress:  </div>
+            <h3>Output</h3>
+            <div id="testDisplay">Test Results.</div>
+
+            <hr>
+            <h2 id="settings">Settings</h2>
+            <form>
+                <input name="timeout" type="text" id="timeout" value="60000">
+                <label for="timeout">Location timeout (milliseconds)</label>
+                <input name="maximumAge" type="text" id="maximumAge" value="30000">
+                <label for="timeout">Location maximumAge (milliseconds)</label>
+                <input type="checkbox" name="highAccuracy" id="highAccuracy" value="highAccuracy">
+                <label for="highAccuracy">Enable High Accuracy</label>
+            </form>
+
+            <hr>
+
+            <h2>Error messages</h2>
+            <div id="errorMsg">No Errors.</div>
+        </div>
+    </body>
+</html>

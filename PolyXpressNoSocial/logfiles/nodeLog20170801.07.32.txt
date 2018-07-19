@@ -1,0 +1,96 @@
+mhlog: [Tue Aug 01 2017 21:03:32 GMT-0700 (PDT)] Message: Running locally
+{ Error: Cannot find module '../build/Release/bson'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/bson/ext/index.js:15:10)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/bson/lib/bson/index.js:3:24)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32) code: 'MODULE_NOT_FOUND' }
+js-bson: Failed to load c++ bson extension, using pure JS version
+mhlog: [Tue Aug 01 2017 21:03:32 GMT-0700 (PDT)] Message: fbAppId = 303583989772545
+mhlog: [Tue Aug 01 2017 21:03:32 GMT-0700 (PDT)] Message: twAppId = x2Ze9sSdkMscV1KkMXLiUwJLF
+mhlog: [Tue Aug 01 2017 21:03:32 GMT-0700 (PDT)] Message: gAppId = 84453235164-cbffj609lhqphholm06mpq1emkhmirr5.apps.googleusercontent.com
+mhlog: [Tue Aug 01 2017 21:03:32 GMT-0700 (PDT)] Message: Running on port: 3500
+(node:59242) DeprecationWarning: `open()` is deprecated in mongoose >= 4.11.0, use `openUri()` instead, or set the `useMongoClient` option if using `connect()` or `createConnection()`. See http://mongoosejs.com/docs/connections.html#use-mongo-client
+Error: Error getting collection: sessions
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:160:19
+    at Db.collection (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/db.js:526:27)
+    at MongoStore._get_collection (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:158:17)
+    at MongoStore.get (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/cookie-parser/index.js:70:5)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:275:10)
+[0mGET /bootstrap/css/bootstrap-responsive.css [31m500 [0m1.557 ms - -[0m
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:779:12)
+    at Server.checkoutReader (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:793:16)
+    at Cursor.nextObject (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:748:48)
+    at Collection.findOne (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:162:10)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:223:18
+    at MongoStore._get_collection (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:156:21)
+    at MongoStore.get (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/cookie-parser/index.js:70:5)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+[0mGET /bootstrap/js/bootstrap.js [31m500 [0m0.745 ms - -[0m
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:779:12)
+    at Server.checkoutReader (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:793:16)
+    at Cursor.nextObject (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:748:48)
+    at Collection.findOne (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:162:10)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:223:18
+    at MongoStore._get_collection (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:156:21)
+    at MongoStore.get (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/cookie-parser/index.js:70:5)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+[0mGET /javascripts/jquery-1.8.2.min.js [31m500 [0m0.680 ms - -[0m
+Error: Cannot determine state of server
+    at canCheckoutReader (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:779:12)
+    at Server.checkoutReader (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/connection/server.js:793:16)
+    at Cursor.nextObject (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/cursor.js:748:48)
+    at Collection.findOne (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/node_modules/mongodb/lib/mongodb/collection/query.js:162:10)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:223:18
+    at MongoStore._get_collection (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:156:21)
+    at MongoStore.get (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/connect-mongo/lib/connect-mongo.js:222:10)
+    at session (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express-session/index.js:460:11)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+    at /Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:284:7
+    at Function.process_params (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:335:12)
+    at next (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:275:10)
+    at cookieParser (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/cookie-parser/index.js:70:5)
+    at Layer.handle [as handle_request] (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/desireecreel/Workspace/polyxpress-plus/PolyXpress/node_modules/express/lib/router/index.js:317:13)
+[0mGET / [32m200 [0m11.097 ms - 6013[0m
