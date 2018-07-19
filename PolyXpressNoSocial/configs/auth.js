@@ -4,19 +4,19 @@ module.exports = {
     'facebookAuthDev': {
         'clientID'    : '366594520127693', // your App ID
         'clientSecret': '1ba88b7ef838742844ca33e12c0d4c02', // your App Secret
-        'callbackURL' : 'https://pxplus.cfapps.io/' // dynamically changed in code
+        'callbackURL' : 'https://polyxpress.cfapps.io/' // dynamically changed in code
     },
 
     'facebookAuthProd': {
         'clientID'    : '366594520127693', // your App ID
         'clientSecret': '1ba88b7ef838742844ca33e12c0d4c02', // your App Secret
-        'callbackURL' : 'https://pxplus.cfapps.io/' // dynamically changed in code
+        'callbackURL' : 'https://polyxpress.cfapps.io/' // dynamically changed in code
     },
 
     'facebookAuthStage': {  // @todo replace with valid IDs for staging area
         'clientID'    : '366594520127693', // your App ID
         'clientSecret': '1ba88b7ef838742844ca33e12c0d4c02', // your App Secret
-        'callbackURL' : 'https://pxplus.cfapps.io/'
+        'callbackURL' : 'https://polyxpress.cfapps.io/'
     },
 
     'facebookAuthLocal': {

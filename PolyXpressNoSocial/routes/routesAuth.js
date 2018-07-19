@@ -32,7 +32,7 @@ module.exports = function (app, models) {
     app.get('/player/auth/facebook/callback', function (req, res, next) {
         app.passport.authenticate('facebook', {
             callbackURL    : "/player/auth/facebook/callback",
-            successRedirect: "https://pxplus.cfapps.io/PolyXpress/Player/pePlayer.html",
+            successRedirect: "https://polyxpress.cfapps.io/PolyXpress/Player/pePlayer.html",
             failureRedirect: "/PolyXpress/Player/pePlayer.html"
         })
         (req, res, next);
