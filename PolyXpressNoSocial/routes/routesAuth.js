@@ -41,7 +41,7 @@ module.exports = function (app, models) {
     app.get('/designer/auth/facebook/callback', function (req, res, next) {
         app.passport.authenticate('facebook', {
             callbackURL    : "/designer/auth/facebook/callback",
-            successRedirect: "/PolyXpress/Author/peDesignerMain.html",
+            successRedirect: "https://polyxpress.cfapps.io/PolyXpress/Author/peDesignerMain.html",
             failureRedirect: "/PolyXpress/Author/peDesignerMain.html"
         })
         (req, res, next);
