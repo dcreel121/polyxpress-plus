@@ -41,7 +41,7 @@ module.exports = function (app, models) {
     app.get('/designer/auth/facebook/callback', function (req, res, next) {
         app.passport.authenticate('facebook', {
             callbackURL    : "/designer/auth/facebook/callback",
-            successRedirect: "/PolyXpress/Author/peDesignerMain.html",
+            successRedirect: "https://pxplus.cfapps.io/PolyXpress/Author/peDesignerMain.html",
             failureRedirect: "/PolyXpress/Author/peDesignerMain.html"
         })
         (req, res, next);
@@ -62,12 +62,12 @@ module.exports = function (app, models) {
 
     app.get('/player/logout', function (req, res) {
         req.logout();
-        res.redirect("/PolyXpress/Player/pePlayer.html");
+        res.redirect("https://pxplus.cfapps.io/PolyXpress/Player/pePlayer.html");
     });
 
     app.get('/designer/logout', function (req, res) {
         req.logout();
-        res.redirect("/PolyXpress/Author/peDesignerMain.html");
+        res.redirect("https://pxplus.cfapps.io/PolyXpress/Author/peDesignerMain.html");
     });
 
     app.get('/admin/logout', function (req, res) {
