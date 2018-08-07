@@ -92,6 +92,7 @@
                         // new authors....this is a waste of cycles when
                         // there were no author changes.
                         authorData.authorList.push(story._id);
+                        updateAuthorInformation(authorData);
                         storyDisplayCallback(story._id);  /* added id for testing */
                     }
                     else {
