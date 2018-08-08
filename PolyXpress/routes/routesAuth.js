@@ -18,7 +18,7 @@ module.exports = function (app, models) {
     // Authentication routes :: Facebook
     // @todo add scope = email again {scope: "email"}
     app.get('/player/auth/facebook', function (req, res, next) {
-        app.passport.authenticate('facebook', { scope: 'email', callbackURL: "/player/auth/facebook/callback"})(req, res, next);
+        app.passport.authenticate('facebook', { scope: 'email,user_friends', callbackURL: "/player/auth/facebook/callback"})(req, res, next);
     });
 
     app.get('/designer/auth/facebook', function (req, res, next) {
