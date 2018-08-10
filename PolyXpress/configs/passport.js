@@ -88,7 +88,7 @@ module.exports = function (app, models, cloudEnv) {
                             app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: found user..was there a token?");
 
                             // if there is a user id already but no token (user was linked at one point and then removed)
-                            if (!user.facebook.token) {
+
                                 user.facebook.token = token;
                                 user.facebook.username = (profile.username || '');
                                 user.facebook.friends = [];
@@ -122,7 +122,6 @@ module.exports = function (app, models, cloudEnv) {
                                         return done(null, user);
                                     });
                                 });
-                            }
 
                             return done(null, user); // user found, return that user
                         } 
@@ -145,6 +144,9 @@ module.exports = function (app, models, cloudEnv) {
                             // Get extra Facebook info (friends list and profile picture)
                             return app.fb.get('/' + profile.id + '/friends?fields=installed', function(err, res) 
                             {
+                                // Reset friends list
+                                newUser.facebook.friends = [];
+
                                 // Retrieve friends that have the app installed from the Facebook friend list.
                                 var installed = res.data.filter(function (friend) {return friend.installed; });
                                 
@@ -187,6 +189,9 @@ module.exports = function (app, models, cloudEnv) {
                     return app.fb.get('/' + profile.id + '/friends?fields=installed', function(err, res) 
                     {
                         app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Friends: " + JSON.stringify(res.data));
+
+                        // Reset friends list
+                        user.facebook.friends = [];
 
                         // Retrieve friends that have the app installed from the Facebook friend list.
                         var installed = res.data.filter(function (friend) {return friend.installed; });
