@@ -1378,9 +1378,9 @@
                 elemInner.innerHTML = uri;
             }
             else if (type === "video") {
-                elemInner = document.createElement("div");
+                elemInner = document.createElement("iframe");
                 elemInner.setAttribute("class", "contained");
-                elemInner.innerHTML = uri;
+                elemInner.src = uri;
             }
             else if (type === "audio") {
                 elemInner = document.createElement("div");
