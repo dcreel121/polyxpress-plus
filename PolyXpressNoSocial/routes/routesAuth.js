@@ -18,11 +18,23 @@ module.exports = function (app, models) {
     // Authentication routes :: Facebook
     // @todo add scope = email again {scope: "email"}
     app.get('/player/auth/facebook', function (req, res, next) {
-        app.passport.authenticate('facebook', { scope: 'email', callbackURL: "/player/auth/facebook/callback"})(req, res, next);
+        app.passport.authenticate(
+            'facebook', 
+            { 
+                scope: 'email', 
+                callbackURL: "https://polyxpress.cfapps.io/player/auth/facebook/callback"
+            }
+        )(req, res, next);
     });
 
     app.get('/designer/auth/facebook', function (req, res, next) {
-        app.passport.authenticate('facebook', { scope: 'email', callbackURL: "/designer/auth/facebook/callback"})(req, res, next);
+        app.passport.authenticate(
+            'facebook', 
+            { 
+                scope: 'email', 
+                callbackURL: "https://polyxpress.cfapps.io/designer/auth/facebook/callback"
+            }
+        )(req, res, next);
     });
 
     app.get('/admin/auth/facebook', function (req, res, next) {
@@ -31,18 +43,18 @@ module.exports = function (app, models) {
 
     app.get('/player/auth/facebook/callback', function (req, res, next) {
         app.passport.authenticate('facebook', {
-            callbackURL    : "/player/auth/facebook/callback",
+            callbackURL    : "https://polyxpress.cfapps.io/player/auth/facebook/callback",
             successRedirect: "https://polyxpress.cfapps.io/PolyXpress/Player/pePlayer.html",
-            failureRedirect: "/PolyXpress/Player/pePlayer.html"
+            failureRedirect: "https://polyxpress.cfapps.io/PolyXpress/Player/pePlayer.html"
         })
         (req, res, next);
     });
 
     app.get('/designer/auth/facebook/callback', function (req, res, next) {
         app.passport.authenticate('facebook', {
-            callbackURL    : "/designer/auth/facebook/callback",
+            callbackURL    : "https://polyxpress.cfapps.io/designer/auth/facebook/callback",
             successRedirect: "https://polyxpress.cfapps.io/PolyXpress/Author/peDesignerMain.html",
-            failureRedirect: "/PolyXpress/Author/peDesignerMain.html"
+            failureRedirect: "https://polyxpress.cfapps.io/PolyXpress/Author/peDesignerMain.html"
         })
         (req, res, next);
     });

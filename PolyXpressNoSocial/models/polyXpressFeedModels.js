@@ -14,7 +14,7 @@
 	{
 		user		: {type: Schema.Types.ObjectId, ref: 'User', required: true},
 		story		: {type: Schema.Types.ObjectId, ref: 'Story', required: true},
-		facebookId 	: {type: Number, required: true},
+		facebookId 	: {type: String, required: true},
 		action		: {type: String, required: true},
 		city		: {type: String},
         location	: {type: [Number], index:'2d', required: true},

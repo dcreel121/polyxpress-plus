@@ -77,6 +77,7 @@ module.exports = function (app, models, cloudEnv) {
                 if (!req.user) {
                     app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: User already not logged in");
 
+                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Finding user model if facebook id: " + profile.id);
                     models.UserModel.findOne({ 'facebook.id': profile.id }, function (err, user) 
                     {
                         if (err) {
@@ -85,7 +86,7 @@ module.exports = function (app, models, cloudEnv) {
 
                         if (user) {
 
-                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: found user..was there a token?");
+                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Found facebook user with fb id " + user.facebook.id);
 
                             // if there is a user id already but no token (user was linked at one point and then removed)
 
@@ -104,30 +105,30 @@ module.exports = function (app, models, cloudEnv) {
                                 return app.fb.get('/' + profile.id + '/friends?fields=installed', function(err, res) 
                                 {
                                     
-
                                     // Retrieve friends that have the app installed from the Facebook friend list.
                                     var installed = res.data.filter(function (friend) {return friend.installed; });
-                                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Friends: " + JSON.stringify(installed));
+                                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Found Friends: " + JSON.stringify(installed));
                                 
                                     // Save the Facebook ID of the installed friends to look up friends later.
                                     installed.map(function(friend) { user.facebook.friends.push(friend.id); });
 
+                                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "saving user with fb id " + user.facebook.id);
                                     user.save(function (err) {
                                         if (err) {
                                             return done(err);
                                         }
 
                                         app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: linked token.");
-
+                                        app.mhLog.log(app.mhLog.LEVEL.DEBUG, "returning here1");
                                         return done(null, user);
                                     });
                                 });
-
+                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "returning user with fb id " + user.facebook.id);
                             return done(null, user); // user found, return that user
                         } 
                         else {
                             // if there is no user, create them
-                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: Creating new user!");
+                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: Creating new user with fb id " + profile.id);
                             var newUser = new models.UserModel();
 
                             newUser.facebook.id = profile.id;
@@ -142,6 +143,7 @@ module.exports = function (app, models, cloudEnv) {
                             }
 
                             // Get extra Facebook info (friends list and profile picture)
+                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "About to make call for friends 2");
                             return app.fb.get('/' + profile.id + '/friends?fields=installed', function(err, res) 
                             {
                                 // Reset friends list
@@ -158,11 +160,13 @@ module.exports = function (app, models, cloudEnv) {
                                     // Save the Facebook profile picture
                                     newUser.facebook.picture = res.location;
 
+
+                                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "saving new user with fb id " + newUser.facebook.id);
                                     newUser.save(function (err) {
                                         if (err) {
                                             return done(err);
                                         }
-
+                                        app.mhLog.log(app.mhLog.LEVEL.DEBUG, "returning ne user with fb id " + newUser.facebook.id);
                                         return done(null, newUser);
                                     });
                                 });
@@ -172,8 +176,10 @@ module.exports = function (app, models, cloudEnv) {
                 } 
                 else {
                     // user already exists and is logged in, we have to link accounts
-                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: User already already logged in");
+                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: User exists and is already logged in for id " + profile.id);
                     var user = req.user; // pull the user out of the session
+
+                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "updating faceook info? id was " + user.facebook.id + " and is now " + profile.id);
 
                     user.facebook.id = profile.id;
                     user.facebook.token = token;
@@ -185,7 +191,7 @@ module.exports = function (app, models, cloudEnv) {
                         user.facebook.email = '';
                     }
                     // Get extra Facebook info (friends list and profile picture)
-                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "About to make call for friends 2");
+                    app.mhLog.log(app.mhLog.LEVEL.DEBUG, "About to make call for friends 3");
                     return app.fb.get('/' + profile.id + '/friends?fields=installed', function(err, res) 
                     {
                         app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Friends: " + JSON.stringify(res.data));
@@ -205,7 +211,7 @@ module.exports = function (app, models, cloudEnv) {
                                 app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: existing user error: " + err);
                                 return done(err);
                             }
-                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: Saving any changed user info.");
+                            app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Facebook: Saving any changed user info. fb id " + user.facebook.id);
                             return done(null, user);
                         });
                     });

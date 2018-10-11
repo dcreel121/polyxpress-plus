@@ -14,7 +14,7 @@ module.exports = function(mongoose)
     var User = new Schema(
             {
                 facebook : {
-                    id: {type: Number},
+                    id: {type: String},
                     username: {type: String},
                     token: {type: String},
                     email: {type: String},

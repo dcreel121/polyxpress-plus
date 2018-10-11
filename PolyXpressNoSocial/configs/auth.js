@@ -2,26 +2,26 @@
 module.exports = {
 
     'facebookAuthDev': {
-        'clientID'    : '366594520127693', // your App ID
-        'clientSecret': '1ba88b7ef838742844ca33e12c0d4c02', // your App Secret
+        'clientID'    : '962585253855262', // your App ID
+        'clientSecret': 'ca7485550a0a483bdd81031b256746ab', // your App Secret
         'callbackURL' : 'https://polyxpress.cfapps.io/' // dynamically changed in code
     },
 
     'facebookAuthProd': {
-        'clientID'    : '366594520127693', // your App ID
-        'clientSecret': '1ba88b7ef838742844ca33e12c0d4c02', // your App Secret
+        'clientID'    : '962585253855262', // your App ID
+        'clientSecret': 'ca7485550a0a483bdd81031b256746ab', // your App Secret
         'callbackURL' : 'https://polyxpress.cfapps.io/' // dynamically changed in code
     },
 
     'facebookAuthStage': {  // @todo replace with valid IDs for staging area
-        'clientID'    : '366594520127693', // your App ID
-        'clientSecret': '1ba88b7ef838742844ca33e12c0d4c02', // your App Secret
+        'clientID'    : '962585253855262', // your App ID
+        'clientSecret': 'ca7485550a0a483bdd81031b256746ab', // your App Secret
         'callbackURL' : 'https://polyxpress.cfapps.io/'
     },
 
     'facebookAuthLocal': {
-        'clientID'    : '303583989772545', // your App ID
-        'clientSecret': 'f2f1e2644fc2ca95926f53ae4deb1eb4', // your App Secret
+        'clientID'    : '962585253855262', // your App ID
+        'clientSecret': 'ca7485550a0a483bdd81031b256746ab', // your App Secret
         'callbackURL' : 'http://localhost:3500/auth/facebook/callback' // dynamically changed in code
     },
 

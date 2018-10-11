@@ -56,11 +56,12 @@ module.exports = function (app, models) {
         // Find the user with the given facebook id.
         return models.UserModel.findOne({'facebook.id': req.params.id}, function(err, user) {
             if (!err) {
+                app.mhLog.log(app.mhLog.LEVEL.DEBUG, "Looking for feeds with facebookIds: " + user.facebook.friends);
                 // If facebook id is in the found user's facebook friends return the feed. 
                 return models.FeedModel.find({facebookId: {$in: user.facebook.friends}}).limit(50)
                     .populate('story user').exec(function (err, feeds) {
                     if (!err) {
-                        //app.mhLog.log(app.mhLog.LEVEL.DEBUG, "RESULTS*******************: " + JSON.stringify(feeds));
+                        app.mhLog.log(app.mhLog.LEVEL.DEBUG, "RESULTS*******************: " + JSON.stringify(feeds));
                         return res.send(feeds);
                     }
                     else {
